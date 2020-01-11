@@ -10,7 +10,7 @@ In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplo
 
 Prerequisiti
 ============
-Il pacchetto `ggplot2`fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink]).
+Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink]).
 
 {% highlight R %}
 library(tidyverse)
@@ -41,12 +41,14 @@ Primi passi
 ===========
 I primi passi sono
 
-{% highlight R %}
+{% highlight python %}
 #left
 ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)
 {% endhighlight %}
 
+E l'output è il seguente:
+![image-title-here](/_img/output.jpg){:class="img-responsive"}
 
 
 [tidyverselink]: https://www.tidyverse.org/
