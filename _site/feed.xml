@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-11T12:43:23+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">The most important skills of data scientist</title><link href="http://localhost:4000/datascience/the-most-important-skills-of-data-scientist" rel="alternate" type="text/html" title="The most important skills of data scientist" /><published>2020-01-09T00:00:00+01:00</published><updated>2020-01-09T00:00:00+01:00</updated><id>http://localhost:4000/datascience/the-most-important-skills-of-data-scientist</id><content type="html" xml:base="http://localhost:4000/datascience/the-most-important-skills-of-data-scientist">&lt;p&gt;Nei giorni che hanno preceduto l’inizio dell’anno 2020, ho potuto &lt;code class=&quot;highlighter-rouge&quot;&gt;leggere&lt;/code&gt; diverse cose che avevo lasciato da parte e ho potuto guardarmi un po’ di video interessanti. Tra questi segnalo l’ottimo contributo offerto da &lt;a href=&quot;https://www.linkedin.com/in/josemiguelcansado/?originalSubdomain=es&quot;&gt;Jose Miguel Cansado&lt;/a&gt;, che in occasione del &lt;code class=&quot;highlighter-rouge&quot;&gt;TEDx&lt;/code&gt; di Madrid ha tenuto un intervento intitolato &lt;a href=&quot;https://www.youtube.com/watch?v=qrhRfPY4F4w&amp;amp;t=4s&quot;&gt;“The most important skills of data scientists”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Alcune note matematiche:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;0 &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{N}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;a \in \mathbb{N}&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;S(a) \in \mathbb{N}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;a, b \in \mathbb{N}&lt;/script&gt; tali che &lt;script type=&quot;math/tex&quot;&gt;a\neq b&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;S(a)\neq S(b)&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;non esiste alcun &lt;script type=&quot;math/tex&quot;&gt;a \in \mathbb{N}&lt;/script&gt; tale che &lt;script type=&quot;math/tex&quot;&gt;0 = S(a)&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;A\subseteq \mathbb{N}&lt;/script&gt; tale che &lt;script type=&quot;math/tex&quot;&gt;0\in A&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;(a\in A \Rightarrow S(a) \in A)&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;A =
+\mathbb{N}&lt;/script&gt; (&lt;em&gt;assioma di induzione&lt;/em&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tra i passaggi più signficativi riporto alcune frasi finali:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the most important skill of a data scientist is asking the right question to data. (…) Big data needs big brains. Big data needs the curious brain of an artist to make the difference.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;730&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/qrhRfPY4F4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Davvero interessante:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int_x^{x+1} \ln(t) {\rm d}t&lt;/script&gt;
+
+&lt;p&gt;per &lt;script type=&quot;math/tex&quot;&gt;x&gt;0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Nei giorni che hanno preceduto l’inizio dell’anno 2020, ho potuto leggere diverse cose che avevo lasciato da parte e ho potuto guardarmi un po’ di video interessanti. Tra questi segnalo l’ottimo contributo offerto da Jose Miguel Cansado, che in occasione del TEDx di Madrid ha tenuto un intervento intitolato “The most important skills of data scientists”.</summary></entry></feed>

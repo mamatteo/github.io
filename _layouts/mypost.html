@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+  <!--  <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1> -->
+
+    <h1 class="post-title p-name" style="margin-bottom: 2px; itemprop="name headline">{{ page.title | escape }}</h1>
+
+    <p class="post-meta">
+
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Gennaio
+        {% when '2' %}Febbraio
+        {% when '3' %}Marzo
+        {% when '4' %}Aprile
+        {% when '5' %}Maggio
+        {% when '6' %}Giugno
+        {% when '7' %}Luglio
+        {% when '8' %}Agosto
+        {% when '9' %}Settembre
+        {% when '10' %}Ottobre
+        {% when '11' %}Novembre
+        {% when '12' %}Dicembre
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
+
+
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+      {%- endif -%}</p>
+
+      <link href="{{site.baseurl}}/css/mycss.css" rel="stylesheet">
+      {% include share-buttons.html %}
+      <hr>
+
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</article>
