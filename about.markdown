@@ -10,7 +10,7 @@ Ho poi proseguito gli studi con il biennio magistrale, dove mi sono concentrato 
 
 Parallelamente agli studi degli ultimi anni ho lavorato, grazie ad una serie di opportunità che ho ritenuto utili e interessanti da accettare. Ho un’esperienza professionale triennale nel mondo dell’<i>innovazione e della digitalizzazione della pubblica amministrazione.</i>
 
-Da gennaio a dicembre 2019, ho lavorato come consulente nel <i>Team per la Trasformazione Digitale</i>, presso la Presidenza del Consiglio dei Ministri.
+Da gennaio a dicembre 2019, ho lavorato come consulente nel <i>[Team per la Trasformazione Digitale](teamdigitalelink)</i>, presso la Presidenza del Consiglio dei Ministri.
 
 Da novembre 2016 a marzo 2018 ho lavorato come <i>data analyst</i> nella <i>Commissione Parlamentare D’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione</i>, presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato il prof. On. Paolo Coppola, presidente di questa commissione.
 
@@ -21,3 +21,5 @@ A margine del mio percorso di studio e di lavoro, verso la fine del 2014 ho crea
 Nel 2017 ho co-organizzato la prima edizione di <i>TEDx Udine</i>, credendo da sempre, come dice lo slogan di TED, che ci siano un sacco di idee e di storie, che vale la pena diffondere.
 
 Nel 2014 ho ricevuto il premio <i>"Giovane Talento"</i> dal Comune di Casarsa della Delizia.
+
+[teamdigitalelink]: https://teamdigitale.governo.it/
