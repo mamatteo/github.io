@@ -20,10 +20,11 @@ A margine del mio percorso di studio e di lavoro, verso la fine del 2014 ho crea
 
 Nel 2017 ho co-organizzato la prima edizione di <i>[TEDx Udine][tedxudinelink]</i>, credendo da sempre, come dice lo slogan di TED, che ci siano un sacco di idee e di storie, che vale la pena diffondere.
 
-Nel 2014 ho ricevuto il premio <i>"Giovane Talento"</i> dal Comune di Casarsa della Delizia.
+Nel 2014 ho ricevuto il premio <i>"[Giovane Talento][giovanetalentolink]"</i> dal Comune di Casarsa della Delizia.
 
 [informaticauniudlink]: https://www.dmif.uniud.it/
 [teamdigitalelink]: https://teamdigitale.governo.it/
 [commissionedigitalelink]: https://docs.italia.it/italia/relazioni-commissioni-parlamentari/relazionecommissionedigitale-docs/it/bozza/index.html
 [coderdojolink]: http://www.coderdojofvg.it
 [tedxudinelink]: http://www.tedxudine.com
+[giovanetalentolink]: https://procasarsa.org/articoli/cittadino-dellanno-humanitas-giovane-talento-premi-a-bagnarol-troia-e-sas-casarsa/
