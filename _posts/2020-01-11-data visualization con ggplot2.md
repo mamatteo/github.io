@@ -34,12 +34,19 @@ Nel caso in cui, dopo aver eseguito il comando, il sistema restituisce l'errore 
 
 {% highlight R %}
 install.packages("tidyverse")
-library(tidyverse)s
+library(tidyverse)
 {% endhighlight %}
 
 Primi passi
 ===========
 I primi passi sono
+
+{% highlight R %}
+#left
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy)
+{% endhighlight %}
+
 
 
 [tidyverselink]: https://www.tidyverse.org/
