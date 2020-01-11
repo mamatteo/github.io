@@ -25,5 +25,5 @@ Nel 2014 ho ricevuto il premio <i>"Giovane Talento"</i> dal Comune di Casarsa de
 [informaticauniudlink]: https://www.dmif.uniud.it/
 [teamdigitalelink]: https://teamdigitale.governo.it/
 [commissionedigitalelink]: https://docs.italia.it/italia/relazioni-commissioni-parlamentari/relazionecommissionedigitale-docs/it/bozza/index.html
-[coderdojolink]: www.coderdojofvg.it
-[tedxudinelink]: www.tedxudine.com
+[coderdojolink]: http://www.coderdojofvg.it
+[tedxudinelink]: http://www.tedxudine.com
