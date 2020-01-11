@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Mi chiamo Matteo, ho 26 anni e sono uno studente laureando di informatica magistrale, presso l’Università degli Studi di Udine. Ho una laurea triennale in informatica, ottenuta discutendo una tesi intitolata “<i>modelli computazionali per la progressione del cancro</i>“.
+Mi chiamo Matteo, ho 26 anni e sono uno studente laureando di [informatica magistrale, presso l’Università degli Studi di Udine][informaticauniudlink]. Ho una laurea triennale in informatica, ottenuta discutendo una tesi intitolata “<i>modelli computazionali per la progressione del cancro</i>“.
 
 Ho poi proseguito gli studi con il biennio magistrale, dove mi sono concentrato su un percorso di specializzazione intitolato <i>“Algoritmi e ragionamento automatico“</i>, che mi ha avviato al mondo degli <i>algoritmi avanzati</i> (algoritmi di string matching, algoritmi randomizzati, algoritmi paralleli e di compressione dati, teoria della calcolabilità e della complessità), della <i>data science</i> (network science, statistica applicata, analisi dati in R), dell’<i>intelligenza artificiale</i> e del <i>machine learning</i> (principali algoritmi di apprendimento supervisionato e non supervisionato).
 
@@ -22,6 +22,7 @@ Nel 2017 ho co-organizzato la prima edizione di <i>[TEDx Udine][tedxudinelink]</
 
 Nel 2014 ho ricevuto il premio <i>"Giovane Talento"</i> dal Comune di Casarsa della Delizia.
 
+[informaticauniudlink]: https://www.dmif.uniud.it/
 [teamdigitalelink]: https://teamdigitale.governo.it/
 [commissionedigitalelink]: https://docs.italia.it/italia/relazioni-commissioni-parlamentari/relazionecommissionedigitale-docs/it/bozza/index.html
 [coderdojolink]: www.coderdojofvg.it
