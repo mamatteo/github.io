@@ -50,7 +50,7 @@ ggplot(data = mpg) +
 E l'output è il seguente:
 
 ![graph](/media/images/graph.png)
-
+*Output del primo codice*
 
 [tidyverselink]: https://www.tidyverse.org/
 [rstudiolink]: https://rstudio.com/
