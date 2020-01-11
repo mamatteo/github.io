@@ -12,11 +12,11 @@ Prerequisiti
 ============
 Il pacchetto `ggplot2`fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink]).
 
-{% highlight python %}
+{% highlight R %}
 library(tidyverse)
 {% endhighlight %}
 
-
+{% highlight R %}
 #> Loading tidyverse: ggplot2
 #> Loading tidyverse: tibble
 #> Loading tidyverse: tidyr
@@ -26,7 +26,7 @@ library(tidyverse)
 #> Conflicts with tidy packages -------
 #> filter(): dplyr, stats
 #> lag(): dplyr, stats
-
+{% endhighlight %}
 
 Con il solo caricamento della libreria `tidyverse` abbiamo già a nostra disposizione una buona quantità di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. L'esecuzione del comando ci informa anche delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
 
