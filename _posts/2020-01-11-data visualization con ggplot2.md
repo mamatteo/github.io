@@ -6,7 +6,7 @@ categories: R
 permalink: /:categories/:title
 ---
 
-In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplot2`, una delle librerie di `R` più versatili ed eleganti.
+In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplot2`, una delle librerie di R più versatili ed eleganti.
 
 Prerequisiti
 ============
@@ -29,6 +29,17 @@ library(tidyverse)
 {% endhighlight %}
 
 Con il solo caricamento della libreria `tidyverse` abbiamo già a nostra disposizione una buona quantità di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. L'esecuzione del comando ci informa anche delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
+
+Nel caso in cui, dopo aver eseguito il comando, il sistema restituisce l'errore "there is no package called 'tidyverse'", c'è bisogno allora di installarlo, tramite il comando che segue:
+
+{% highlight R %}
+install.packages("tidyverse")
+library(tidyverse)s
+{% endhighlight %}
+
+Primi passi
+===========
+I primi passi sono
 
 
 [tidyverselink]: https://www.tidyverse.org/
