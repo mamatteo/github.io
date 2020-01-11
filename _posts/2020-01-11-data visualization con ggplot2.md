@@ -48,7 +48,7 @@ ggplot(data = mpg) +
 {% endhighlight %}
 
 E l'output è il seguente:
-![image-title-here](/_img/output.jpg){:class="img-responsive"}
+![output1](/_img/output.jpg)
 
 
 [tidyverselink]: https://www.tidyverse.org/
