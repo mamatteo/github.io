@@ -48,6 +48,7 @@ ggplot(data = mpg) +
 {% endhighlight %}
 
 E l'output è il seguente:
+
 ![graph](/media/images/graph.png)
 
 
