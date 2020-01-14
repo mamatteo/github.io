@@ -62,7 +62,14 @@ All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe 
 #> # cty <int>, hwy <int>, fl <chr>, class <chr>
 {% endhighlight %}
 
-E l'output è il seguente:
+Come si può dedurre dalla tabella che R ci stampa in output, `manufacturer`, `model`, `displ`, `year`, `cyl`, `trans` e `drv`, rappresentano le variabili del dataset. Quelle di nostro interesse saranno:
+
+- `displ`: che rappresenta la dimensione del motore di ciascuna auto, in litri.
+- `hwy`: che rappresenta invece il consumo di carburante di ciascuna auto.
+
+Un auto che ha una bassa efficienza nei consumi consumerà più carburante rispetto ad un auto con un'alta efficienza nei consumi, a parità di distanza percorsa.
+
+Ulteriori dettagli sul datasete `mpg` sono consutlabili digitando il comando *?mpg*
 
 ![graph](/media/images/graph.png)
 *Output del primo codice*
