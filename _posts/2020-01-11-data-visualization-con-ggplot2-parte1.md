@@ -36,23 +36,25 @@ library(tidyverse)
 invece, verrà caricato _tidyverse_ nello spazio di lavoro. Siamo ora pronti a sfruttare le sue funzioni.
 
 {% highlight R %}
-─ ─ Attaching packages ─────────────
+Attaching packages
 ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
 ✓ tibble  2.1.3     ✓ dplyr   0.8.3
 ✓ tidyr   1.0.0     ✓ stringr 1.4.0
 ✓ readr   1.3.1     ✓ forcats 0.4.0
-─ ─ Conflicts ──────────────────────────
+Conflicts
 x dplyr::filter() masks stats::filter()
 x dplyr::lag()    masks stats::lag()
 {% endhighlight %}
 
-Con il solo caricamento della libreria `tidyverse` abbiamo già a nostra disposizione una buona quantità di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. L'esecuzione del comando ci informa anche delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
+Il caricamento della libreria `tidyverse` carica a cascata una serie di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. Inoltre, con il caricamento della libreria, veniamo anche informati delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
 
 <hr>
 
 Primi passi
 ===========
-Tramite il primo esempio che facciamo proveremo a risppndere a questa domanda: _è vero che le automobili con un motore grande consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi: _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_
+Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di visualizzazione offerte da R. Ci serviremo di un dataset predefinito, contenuto in _tidyverse_, che prende il nome di [MPG][datasetmpglink]. Il contenuto di MPG viene così descritto: _the dataset contains fuel economy data from 1999 and 2008 for 38 popular models of car_. Avremo a che fare quindi con dati riferiti a delle automobili e alle loro caratteristiche.
+
+Partiamo da una domanda: _è vero che le automobili con una migliore efficienza consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi: _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_
 
 All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
@@ -88,6 +90,7 @@ Per stampare il dataset `mpg`, sarà sufficiente eseguire il seguente frammento 
 ![graph](/media/images/graph.png)
 *Output del primo codice*
 
+[datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
 [linguaggioRlink]: https://cran.r-project.org/
 [RForDataScienceLink]: https://www.oreilly.com/library/view/r-for-data/9781491910382/
 [RForDataScienceLinkOnline]: https://r4ds.had.co.nz/
