@@ -50,10 +50,10 @@ All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe 
 
 {% highlight python %}
 #> # A tibble: 234 x 11
-#>   manufacturer model displ year cyl    trans drv
-#>    <chr> <chr> <dbl> <int> <int>       <chr> <chr>
-#> 1  audi  a4    1:8   1999   4        auto(l5)  f
-#> 2  audi  a4    1:8   1999   4        manual(m5)  f
+#>   manufacturer model displ year cyl    trans       drv
+#>    <chr> <chr> <dbl> <int> <int>       <chr>       <chr>
+#> 1  audi  a4    1:8   1999   4          auto(l5)    f
+#> 2  audi  a4    1:8   1999   4          manual(m5)  f
 #> 3
 #> 4
 #> 5
