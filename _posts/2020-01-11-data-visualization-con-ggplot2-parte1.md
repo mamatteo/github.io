@@ -96,6 +96,7 @@ ggplot(data = mpg) +
 
 ![graph](/media/images/ggplot1.png)
 
+Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile ``hwy`).
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
 [linguaggioRlink]: https://cran.r-project.org/
