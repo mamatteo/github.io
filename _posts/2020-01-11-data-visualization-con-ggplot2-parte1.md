@@ -101,7 +101,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)
 {% endhighlight %}
 
-![graph](/media/images/ggplot1.png)
+![ggplot1](/media/images/ggplot1.png)
 
 Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile `hwy`). Questo risultato lo interpretiamo affermando che ad auto in possesso di un motore grande, corrispondono valori bassi di _fuel efficency_, quindi, queste auto utilizzano più carburante. Viceversa ad automobili dotate di un motore piccolo, corrispondono alti valori di _fuel efficency_, pertanto queste consumano meno carburante.
 
@@ -113,7 +113,7 @@ Abbiamo appena utilizzato `ggplot` per stampare una prima visualizzazione dei da
 
 Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico con un colore. Coloreremo i punti del piano in maniera automatica, in modo che ogni punto venga colorato con il colore della classe di appartenenza. La classe di appartenenza, per quanto riguarda il dataset in esame, rappresenta la tipologia a cui appartiene ciascuna automobile. L'attributo `class` stabilisce la classe di appartenenza.
 
-![graph](/media/images/ggplot2.png)
+![ggplot2](/media/images/ggplot2.png)
 
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
