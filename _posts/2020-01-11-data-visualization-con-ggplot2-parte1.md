@@ -95,7 +95,6 @@ ggplot(data = mpg) +
 {% endhighlight %}
 
 ![graph](/media/images/ggplot1.png)
-*Output del primo codice*
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
