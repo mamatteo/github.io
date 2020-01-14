@@ -8,6 +8,7 @@ permalink: /:categories/:title
 
 In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplot2`, una delle librerie di R più versatili ed eleganti.
 
+Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di Hadley Wickham e Garret Grolemund, edito dalla O'Reilly. Il libro è parzialmente consultabile anche online, [qui][RForDataScienceLinkOnline]
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
 
@@ -66,5 +67,7 @@ E l'output è il seguente:
 ![graph](/media/images/graph.png)
 *Output del primo codice*
 
+[RForDataScienceLink]: https://www.oreilly.com/library/view/r-for-data/9781491910382/
+[RForDataScienceLinkOnline]: https://r4ds.had.co.nz/
 [tidyverselink]: https://www.tidyverse.org/
 [rstudiolink]: https://rstudio.com/
