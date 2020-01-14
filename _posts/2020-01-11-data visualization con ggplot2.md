@@ -69,7 +69,7 @@ Come si può dedurre dalla tabella che R ci stampa in output, `manufacturer`, `m
 
 Un auto che ha una bassa efficienza nei consumi consumerà più carburante rispetto ad un auto con un'alta efficienza nei consumi, a parità di distanza percorsa.
 
-Ulteriori dettagli sul datasete `mpg` sono consutlabili digitando il comando *?mpg*
+Ulteriori dettagli sul datasete `mpg` sono consutlabili digitando il comando **?mpg**
 
 ![graph](/media/images/graph.png)
 *Output del primo codice*
