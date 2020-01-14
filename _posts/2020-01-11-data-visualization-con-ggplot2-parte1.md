@@ -83,7 +83,8 @@ Quelle di nostro interesse però saranno:
 - `displ`: che rappresenta la dimensione del motore di ciascuna auto, in litri.
 - `hwy`: che rappresenta invece il consumo di carburante di ciascuna auto.
 
-Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?mpg`. Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
+Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?mpg`.
+Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
 
 <hr>
 
