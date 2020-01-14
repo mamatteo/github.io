@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title:  "Data visualization con ggplot2"
+title:  "Data visualization con ggplot2 - parte 1"
 date:   2020-01-11
 categories: R
 permalink: /:categories/:title
