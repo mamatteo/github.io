@@ -6,7 +6,7 @@ categories: datascience
 permalink: /:categories/:title
 ---
 
-Nei giorni che hanno preceduto l'inizio dell'anno 2020, ho potuto leggere diverse cose che avevo lasciato da parte e ho potuto guardarmi un po' di video interessanti. Tra questi segnalo l'ottimo contributo offerto da [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato ["The most important skills of data scientists"][TedTalk].
+Nei giorni che hanno preceduto l'inizio dell'anno 2020, mi sono imbattuto nell'ottimo contributo offerto da [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato ["The most important skills of data scientists"][TedTalk].
 
 Alcuni passaggi interessanti:
 
