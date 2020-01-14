@@ -95,12 +95,17 @@ Possiamo a questo punto stampare il dataset `mpg`. Per farlo sarà sufficiente e
 
 {% highlight R %}
 ggplot(data = mpg) +
-  geom_point(mapping = aes(x= displ, y = hwy)
+  geom_point(mapping = aes(x = displ, y = hwy)
 {% endhighlight %}
 
 ![graph](/media/images/ggplot1.png)
 
 Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile `hwy`). Questo risultato lo interpretiamo affermando che ad auto in possesso di un motore grande, corrispondono valori bassi di _fuel efficency_, quindi, queste auto utilizzano più carburante. Viceversa ad automobili dotate di un motore piccolo, corrispondono alti valori di _fuel efficency_, pertanto queste consumano meno carburante.
+
+Abbiamo appena utilizzato `ggplot` per stampare una prima visualizzazione dei dati oggetto del nostro studio. Nel dettaglio:
+- il comando `data = mpg` specifica alla funzione quale dataset utilizzare;
+- il comando `geom_point` permette di stampare lo scatterplot dei dati;
+- il parametro `mapping`, istanziato con `aes(x = displ, y = hwy)`, stabilisce infine quali variabili del dataset vanno inserite nella stampa e come suddividerle lungo gli assi cartesiani.
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
