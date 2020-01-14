@@ -110,6 +110,12 @@ Abbiamo appena utilizzato `ggplot` per stampare una prima visualizzazione dei da
 - il comando `geom_point` permette di stampare lo scatterplot dei dati;
 - il parametro `mapping`, istanziato con `aes(x = displ, y = hwy)`, stabilisce infine quali variabili del dataset vanno inserite nella stampa e come suddividerle lungo gli assi cartesiani.
 
+
+Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico con un colore. Coloreremo i punti del piano in maniera automatica, in modo che ogni punto venga colorato con il colore della classe di appartenenza. La classe di appartenenza, per quanto riguarda il dataset in esame, rappresenta la tipologia a cui appartiene ciascuna automobile. L'attributo `class` stabilisce la classe di appartenenza.
+
+![graph](/media/images/ggplot2.png)
+
+
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
 [linguaggioRlink]: https://cran.r-project.org/
