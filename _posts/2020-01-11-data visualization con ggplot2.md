@@ -13,9 +13,8 @@ Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Scien
 - [Primi passi](#primi-passi)
 - [Visualizzare i dati](#visualizzare-i-dati)
 
-<p>
+<hr>
 
-</p>
 Prerequisiti
 ============
 Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink]).
@@ -45,9 +44,8 @@ install.packages("tidyverse")
 library(tidyverse)
 {% endhighlight %}
 
-<p>
+<hr>
 
-</p>
 Primi passi
 ===========
 Tramite il primo esempio che facciamo proveremo a risppndere a questa domanda: _è vero che le automobili con un motore grande consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi: _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_
@@ -77,9 +75,8 @@ Un auto che ha una bassa efficienza nei consumi consumerà più carburante rispe
 
 Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando '?mpg'.
 
-<p>
+<hr>
 
-</p>
 Visualizzare i dati
 =====================
 Per stampare il dataset `mpg`, sarà sufficiente eseguire il seguente frammento di codice.
