@@ -11,7 +11,6 @@ In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplo
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
 
-----------------------------------
 
 Prerequisiti
 ============
@@ -35,7 +34,7 @@ library(tidyverse)
 
 Con il solo caricamento della libreria `tidyverse` abbiamo già a nostra disposizione una buona quantità di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. L'esecuzione del comando ci informa anche delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
 
-Nel caso in cui, dopo aver eseguito il comando, il sistema restituisce l'errore "there is no package called 'tidyverse'", c'è bisogno allora di installarlo, tramite il comando che segue:
+Nel caso in cui, dopo aver eseguito il comando, il sistema restituisce l'errore "_there is no package called 'tidyverse'_", c'è bisogno allora di installarlo, tramite il comando che segue:
 
 {% highlight R %}
 install.packages("tidyverse")
@@ -44,12 +43,22 @@ library(tidyverse)
 
 Primi passi
 ===========
-I primi passi sono
+Tramite il primo esempio che facciamo proveremo a risppndere a questa domanda: _è vero che le automobili con un motore grande consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_.
+
+All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
 {% highlight python %}
-#left
-ggplot(data = mpg) +
-  geom_point(mapping = aes(x = displ, y = hwy)
+#> # A tibble: 234 x 11
+#>   manufacturer model displ year cyl    trans drv
+#>    <chr> <chr> <dbl> <int> <int>       <chr> <chr>
+#> 1  audi  a4    1:8   1999   4        auto(l5)  f
+#> 2  audi  a4    1:8   1999   4        manual(m5)  f
+#> 3
+#> 4
+#> 5
+#> 6
+#> # ... with 228 more rows, and 4 more variables:
+#> # cty <int>, hwy <int>, fl <chr>, class <chr>
 {% endhighlight %}
 
 E l'output è il seguente:
