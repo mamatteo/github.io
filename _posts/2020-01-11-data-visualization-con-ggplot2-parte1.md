@@ -15,6 +15,7 @@ Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Scien
 
 <hr>
 
+
 Prerequisiti
 ============
 Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink], che dovrete scaricare e installare solo dopo aver installato nel vostro computer [R][linguaggioRlink]).
@@ -49,6 +50,7 @@ x dplyr::lag()    masks stats::lag()
 Il caricamento della libreria `tidyverse` carica a cascata una serie di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. Inoltre, con il caricamento della libreria, veniamo anche informati delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
 
 <hr>
+
 
 Primi passi
 ===========
@@ -88,7 +90,8 @@ Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?m
 Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
 
 <hr>
-<pre>
+
+
 Visualizzare i dati
 =====================
 Possiamo a questo punto stampare il dataset `mpg`. Per farlo sarà sufficiente eseguire il seguente frammento di codice.
