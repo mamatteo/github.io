@@ -11,6 +11,8 @@ In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplo
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
 
+----------------------------------
+
 Prerequisiti
 ============
 Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink]).
