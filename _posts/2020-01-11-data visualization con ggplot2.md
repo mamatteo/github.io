@@ -11,6 +11,7 @@ In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplo
 Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di Hadley Wickham e Garret Grolemund, edito dalla O'Reilly. Il libro è parzialmente consultabile anche online, [qui][RForDataScienceLinkOnline].
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
+- [Visualizzare i dati](#visualizzare-i-dati)
 
 
 Prerequisiti
@@ -44,7 +45,7 @@ library(tidyverse)
 
 Primi passi
 ===========
-Tramite il primo esempio che facciamo proveremo a risppndere a questa domanda: _è vero che le automobili con un motore grande consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_.
+Tramite il primo esempio che facciamo proveremo a risppndere a questa domanda: _è vero che le automobili con un motore grande consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi: _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_
 
 All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
@@ -69,7 +70,11 @@ Come si può dedurre dalla tabella che R ci stampa in output, `manufacturer`, `m
 
 Un auto che ha una bassa efficienza nei consumi consumerà più carburante rispetto ad un auto con un'alta efficienza nei consumi, a parità di distanza percorsa.
 
-Ulteriori dettagli sul datasete `mpg` sono consutlabili digitando il comando **?mpg**
+Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando '?mpg'.
+
+Visualizzare i dati
+=====================
+Per stampare il dataset `mpg`, sarà sufficiente eseguire il seguente frammento di codice.
 
 ![graph](/media/images/graph.png)
 *Output del primo codice*
