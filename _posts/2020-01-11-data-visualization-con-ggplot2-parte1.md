@@ -56,7 +56,7 @@ Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di vi
 
 Avremo a che fare quindi con dati riferiti a delle automobili e alle loro caratteristiche.
 
-Proveremo a servirci di alcune visualizzazioni per rispondere a questa domanda: _è vero che le automobili con una motore grande consumano più delle automobili con un motore piccolo?_ Molto probabilmente conosciamo già la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi, qual è la relazione che intercorre tra la dimensione del motore di un automobile e la sua efficienza dal punto di vista dei consumi.
+Proveremo a servirci di alcune visualizzazioni per rispondere a questa domanda: _è vero che le automobili con un motore grande consumano più delle automobili con un motore piccolo?_ Molto probabilmente conosciamo già la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi, qual è la relazione che intercorre tra la dimensione del motore di un automobile e la sua efficienza dal punto di vista dei consumi.
 
 All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
@@ -84,6 +84,7 @@ Quelle di nostro interesse però saranno:
 - `hwy`: che rappresenta invece il consumo di carburante di ciascuna auto.
 
 Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?mpg`.
+
 Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
 
 <hr>
@@ -99,7 +100,7 @@ ggplot(data = mpg) +
 
 ![graph](/media/images/ggplot1.png)
 
-Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile ``hwy`).
+Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile `hwy`). Questo risultato lo interpretiamo affermando che le auto con un motore grande utilizzano più carburante.
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
