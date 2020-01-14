@@ -54,42 +54,50 @@ Primi passi
 ===========
 Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di visualizzazione offerte da R. Ci serviremo di un dataset predefinito, contenuto in _tidyverse_, che prende il nome di [MPG][datasetmpglink]. Il contenuto di MPG viene così descritto: _the dataset contains fuel economy data from 1999 and 2008 for 38 popular models of car_. Avremo a che fare quindi con dati riferiti a delle automobili e alle loro caratteristiche.
 
-Partiamo da una domanda: _è vero che le automobili con una migliore efficienza consumano di più delle automobili con un motore piccolo?_. Molto probabilmente già conosciamo la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi: _qual è la relazione che intercorre tra il motore di un automobile e il consumo di carburante?_
+Proveremo a servirci di alcune visualizzazioni per rispondere a questa domanda: _è vero che le automobili con una motore grande consumano più delle automobili con un motore piccolo?_. Molto probabilmente conosciamo già la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi, qual è la relazione che intercorre tra la dimensione del motore di un automobile e la sua efficienza dal punto di vista dei consumi.
 
 All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
 {% highlight python %}
-#> # A tibble: 234 x 11
-#>   manufacturer model displ year cyl    trans       drv
-#>    <chr> <chr> <dbl> <int> <int>       <chr>       <chr>
-#> 1  audi  a4    1:8   1999   4          auto(l5)    f
-#> 2  audi  a4    1:8   1999   4          manual(m5)  f
-#> 3
-#> 4
-#> 5
-#> 6
-#> # ... with 228 more rows, and 4 more variables:
-#> # cty <int>, hwy <int>, fl <chr>, class <chr>
+# A tibble: 234 x 11
+   manufacturer model      displ  year   cyl trans      drv     cty   hwy fl    class  
+   <chr>        <chr>      <dbl> <int> <int> <chr>      <chr> <int> <int> <chr> <chr>  
+ 1 audi         a4           1.8  1999     4 auto(l5)   f        18    29 p     compact
+ 2 audi         a4           1.8  1999     4 manual(m5) f        21    29 p     compact
+ 3 audi         a4           2    2008     4 manual(m6) f        20    31 p     compact
+ 4 audi         a4           2    2008     4 auto(av)   f        21    30 p     compact
+ 5 audi         a4           2.8  1999     6 auto(l5)   f        16    26 p     compact
+ 6 audi         a4           2.8  1999     6 manual(m5) f        18    26 p     compact
+ 7 audi         a4           3.1  2008     6 auto(av)   f        18    27 p     compact
+ 8 audi         a4 quattro   1.8  1999     4 manual(m5) 4        18    26 p     compact
+ 9 audi         a4 quattro   1.8  1999     4 auto(l5)   4        16    25 p     compact
+10 audi         a4 quattro   2    2008     4 manual(m6) 4        20    28 p     compact
 {% endhighlight %}
 
-Come si può dedurre dalla tabella che R ci stampa in output, `manufacturer`, `model`, `displ`, `year`, `cyl`, `trans` e `drv`, rappresentano le variabili del dataset. Quelle di nostro interesse saranno:
+Come si può dedurre dalla tabella che R ci stampa in output, `manufacturer`, `model`, `displ`, `year`, `cyl`, `trans`, `drv`, `cty`, `hwy`, `fl` e `class`, rappresentano le variabili del dataset. Ciascuna rappresenta una caratteritica delle automobili riportate sulle righe.
+
+Quelle di nostro interesse però saranno:
 
 - `displ`: che rappresenta la dimensione del motore di ciascuna auto, in litri.
 - `hwy`: che rappresenta invece il consumo di carburante di ciascuna auto.
 
-Un auto che ha una bassa efficienza nei consumi consumerà più carburante rispetto ad un auto con un'alta efficienza nei consumi, a parità di distanza percorsa.
-
-Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando '?mpg'.
+Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?mpg`. Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
 
 <hr>
 
 Visualizzare i dati
 =====================
-Per stampare il dataset `mpg`, sarà sufficiente eseguire il seguente frammento di codice.
+Possiamo a questo punto stampare il dataset `mpg`. Per farlo sarà sufficiente eseguire il seguente frammento di codice.
 
-![graph](/media/images/graph.png)
+{% highlight R %}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x= displ, y = hwy)
+{% endhighlight %}
+
+![graph](/media/images/ggplot1.png)
 *Output del primo codice*
 
+[KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
 [linguaggioRlink]: https://cran.r-project.org/
 [RForDataScienceLink]: https://www.oreilly.com/library/view/r-for-data/9781491910382/
