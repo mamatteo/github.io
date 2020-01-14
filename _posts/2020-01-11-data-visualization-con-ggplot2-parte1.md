@@ -100,7 +100,7 @@ ggplot(data = mpg) +
 
 ![graph](/media/images/ggplot1.png)
 
-Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile `hwy`). Questo risultato lo interpretiamo affermando che le auto con un motore grande utilizzano più carburante.
+Il grafico mostra la relazione negativa che intercorre tra la dimensione del motore di ogni automobile (variabile `displ`) e la sua _fuel efficency_ (variabile `hwy`). Questo risultato lo interpretiamo affermando che ad auto in possesso di un motore grande, corrispondono valori bassi di _fuel efficency_, quindi, queste auto utilizzano più carburante. Viceversa ad automobili dotate di un motore piccolo, corrispondono alti valori di _fuel efficency_, pertanto queste consumano meno carburante.
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
