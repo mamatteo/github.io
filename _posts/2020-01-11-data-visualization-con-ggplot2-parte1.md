@@ -88,7 +88,7 @@ Ulteriori dettagli sul datasete `mpg` sono consultabili digitando il comando `?m
 Per approfondire ulteriormente come è strutturato il dataset si rimanda all'[analisi esplorativa][datasetmpglink] del dataset `mpg`, condotta da [Shailesh Kumar][KumarBioLink], esperto di data science di Google e di altre grandi ed importanti realtà.
 
 <hr>
-
+&nbsp;
 Visualizzare i dati
 =====================
 Possiamo a questo punto stampare il dataset `mpg`. Per farlo sarà sufficiente eseguire il seguente frammento di codice.
