@@ -115,6 +115,8 @@ Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico c
 
 ![ggplot2](/media/images/ggplot2.png)
 
+Lo scatterplot ora appare molto più espressivo. Quello che prima sembrava un caotico agglomerato di punti, ora appare suddiviso in _cluster_ riconoscibili dai colori. 
+
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
