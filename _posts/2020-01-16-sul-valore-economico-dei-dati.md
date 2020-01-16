@@ -8,9 +8,9 @@ permalink: /:categories/:title
 
 Il tema dei dati è oggi centrale per le aziende e per le pubbliche amministrazioni. Non c'è conferenza e non c'è evento di carattere tecnologico che non citi, almeno una volta, il termine dati (o più spesso _big data_), decantandone le potenzialità.
 
-C'è chi sostiene che i dati siano come il petrolio (lo sostiene [Wired][WiredLink], [Il Sole 24 Ore][Sole24OreLink] e tanti altri). Chi invece sostiene che chi è in grado di mettere le mani su queste grandi quantità di dati, i _data scientist_, sappia fare uno dei mestieri più sexy del mondo (lo sostiene addiruttra l'[Harwar Business Review][HBRLink]).
+C'è chi sostiene che i dati siano [come il petrolio][WiredLink]. Chi invece sostiene che chi è in grado di mettere le mani su queste grandi quantità di dati, i _data scientist_, sappia fare uno dei [mestieri più sexy del mondo][HBRLink]).
 
-Poi ci sono quelli che ci ricordano di come oggi disponiamo di una quanità di dati enormemente più grande rispetto al passato (si legga l'interessante articolo)["20 Mind-Boggling Facts Everyone Must Read"][BarnardMarrLink]), contro chi invece ci mette in guardia dai potenziali pericoli che l'attività massiva di raccolta dati da parte delle grandi compagnie tencologiche può generare.
+Poi ci sono quelli che ci ricordano di come oggi disponiamo di una [quanità di dati enormemente più grande rispetto al passato][BarnardMarrLink]), contro chi invece ci mette in guardia dai potenziali pericoli che l'attività massiva di raccolta dati da parte delle grandi compagnie tencologiche può generare.
 
 Ma quanto valgono i dati oggi? L'economia della conoscienza, quanto valore produce? E ipotizzato che questa economia dei dati generi valore, quanto di questo valore viene restituito alla collettività?
 
