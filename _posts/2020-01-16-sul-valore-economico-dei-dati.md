@@ -14,7 +14,7 @@ Poi ci sono quelli che ci ricordano di come oggi disponiamo di una [quanità di 
 
 Ma quanto valgono i dati oggi? L'[economia della conoscenza][EconomiaDellaConoscenzaLink], quanto valore produce? E ipotizzato che questa economia dei dati generi valore, quanto di questo valore viene restituito alla collettività?
 
-Mi è capitato di leggere un articolo scientifico interessante, di [Jan Nolin][JanNolinLink], professore dell'Università di Borås, in Svezia. L'articolo s iintitola ["Data as oil, infrastructure or asset? Three metaphors of data as economic
+Mi è capitato di leggere un articolo scientifico interessante, di [Jan Nolin][JanNolinLink], professore dell'Università di Borås, in Svezia. L'articolo si intitola ["Data as oil, infrastructure or asset? Three metaphors of data as economic
 value"][PaperLink]
 
 [WiredLink]: https://www.wired.it/attualita/tech/2018/04/07/nazionalizziamo-big-data/
