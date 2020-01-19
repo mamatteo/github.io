@@ -18,7 +18,7 @@ Alcuni passaggi interessanti:
 
 [Guarda il video][TedTalk]
 
-<button name="button">Click me</button>
+<button name="button">Guarda il video</button>
 
 
 [TedTalk]: https://www.youtube.com/watch?v=qrhRfPY4F4w&t=4s
