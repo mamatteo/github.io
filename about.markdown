@@ -12,7 +12,7 @@ Parallelamente agli studi degli ultimi anni ho lavorato, grazie ad una serie di 
 
 Da gennaio a dicembre 2019, ho lavorato come consulente nel <i>[Team per la Trasformazione Digitale][teamdigitalelink]</i>, presso la Presidenza del Consiglio dei Ministri.
 
-Da novembre 2016 a marzo 2018 ho lavorato come <i>data analyst</i> nella <i>[Commissione Parlamentare D’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink]</i>, presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato il Prof. On. Paolo Coppola, presidente di questa Commissione.
+Da novembre 2016 a marzo 2018 ho lavorato come <i>data analyst</i> nella <i>[Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink]</i>, presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato il Prof. On. Paolo Coppola, presidente di questa Commissione.
 
 Durante il mio lavoro in Commissione, ho avuto l’opportunità di lavorare e di collaborare con il prof. Paolo Ferragina, professore ordinario di Algoritmi e prorettore per la ricerca applicata e l’innovazione all’Università di Pisa, e con Stefano Gatti, oggi Head of Data & Analytics presso Nexi, all’epoca Head of Innovation & Data Sources presso Cerved spa.
 
