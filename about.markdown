@@ -18,7 +18,7 @@ Durante il mio lavoro in Commissione, ho avuto l’opportunità di lavorare e di
 
 A margine del mio percorso di studio e di lavoro, verso la fine del 2014 ho creato <i>[CoderDojo FVG][coderdojolink]</i> in Friuli Venezia Giulia assieme ad un gruppo di amici appassionati di informatica. CoderDojo FVG è un movimento di volontari che eroga attività gratuite di avvicinamento al coding per bambini e bambine. Negli ultimi anni abbiamo avvicinato al coding centinaia di ragazzi e ragazze di tutta la regione.
 
-Nel 2017 ho co-organizzato la prima edizione di <i>[TEDx Udine][tedxudinelink]</i>, credendo da sempre, come dice lo slogan di TED, che ci siano un sacco di idee e di storie, che vale la pena diffondere.
+Nel 2017 ho co-organizzato la prima edizione di <i>[TEDx Udine][tedxudinelink]</i>, credendo da sempre, come dice lo slogan di TED, che ci siano idee e storie che vale la pena diffondere.
 
 Nel 2014 ho ricevuto il premio <i>"[Giovane Talento][giovanetalentolink]"</i> dal Comune di Casarsa della Delizia.
 
