@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Mi chiamo Matteo, ho 26 anni e sono uno studente laureando di [informatica magistrale, presso l’Università degli Studi di Udine][informaticauniudlink]. Ho una laurea triennale in informatica, ottenuta discutendo una tesi intitolata “<i>modelli computazionali per la progressione del cancro</i>“.
+Mi chiamo Matteo, ho 26 anni e sono uno studente laureando di [informatica magistrale, presso l’Università degli Studi di Udine][informaticauniudlink].
 
-Ho poi proseguito gli studi con il biennio magistrale, dove mi sono concentrato su un percorso di specializzazione intitolato <i>“Algoritmi e ragionamento automatico“</i>, che mi ha avviato al mondo degli <i>algoritmi avanzati</i> (algoritmi di string matching, algoritmi randomizzati, algoritmi paralleli e di compressione dati, teoria della calcolabilità e della complessità), della <i>data science</i> (network science, statistica applicata, analisi dati in R), dell’<i>intelligenza artificiale</i> e del <i>machine learning</i> (principali algoritmi di apprendimento supervisionato e non supervisionato).
+Durante il biennio di studio magistrale mi sono concentrato su un percorso di specializzazione intitolato <i>“Algoritmi e ragionamento automatico“</i>, che mi ha avviato al mondo degli <i>algoritmi avanzati</i> (algoritmi di string matching, algoritmi randomizzati, algoritmi paralleli e di compressione dati, teoria della calcolabilità e della complessità), della <i>data science</i> (network science, statistica applicata, analisi dati in R), dell’<i>intelligenza artificiale</i> e del <i>machine learning</i> (principali algoritmi di apprendimento supervisionato e non supervisionato).
 
-Parallelamente agli studi degli ultimi anni ho lavorato, grazie ad una serie di opportunità che ho ritenuto utili e interessanti da accettare. Ho un’esperienza professionale triennale nel mondo dell’<i>innovazione e della digitalizzazione della pubblica amministrazione.</i>
+Ho una laurea triennale in informatica, ottenuta discutendo una tesi intitolata “<i>modelli computazionali per la progressione del cancro</i>“.
+
+Parallelamente agli studi, ho maturato un’esperienza professionale triennale nel mondo dell’<i>innovazione e della digitalizzazione della pubblica amministrazione.</i>
 
 Da gennaio a dicembre 2019, ho lavorato come consulente nel <i>[Team per la Trasformazione Digitale][teamdigitalelink]</i>, presso la Presidenza del Consiglio dei Ministri.
 
