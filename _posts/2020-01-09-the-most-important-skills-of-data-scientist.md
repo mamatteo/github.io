@@ -6,7 +6,7 @@ categories: datascience
 permalink: /:categories/:title
 ---
 
-Nei giorni che hanno preceduto l'inizio dell'anno 2020, mi sono imbattuto nell'ottimo contributo offerto da [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato ["The most important skills of data scientists"][TedTalk].
+Nei giorni che hanno preceduto l'inizio dell'anno 2020, mi sono imbattuto nell'ottimo contributo offerto da [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato ["The most important skills of data scientists"][TedTalk] (video).
 
 Alcuni passaggi interessanti:
 
@@ -15,10 +15,6 @@ Alcuni passaggi interessanti:
 > We all have accesso to Google with billions of data points in Google, but it's your curiosity what little minds would you learn, would you search, and therefore also would you filter and how do you discover what's relevant to you. Empathy is the key to connect with others and to understand what other people need. Creativity is the key to invent and articulate solutions to solve problem. Communication is the key to persuade, to influence and to spread ideas that create change.
 
 > The most important skill of a data scientist is asking the right question to data. (...) Big data needs big brains. Big data needs the curious brain of an artist to make the difference.
-
-[Guarda il video][TedTalk]
-
-<button name="button">Guarda il video</button>
 
 
 [TedTalk]: https://www.youtube.com/watch?v=qrhRfPY4F4w&t=4s
