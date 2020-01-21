@@ -282,23 +282,5 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
-.share-page {
-    text-align: left;
-    background: $secondary-color;
-    color: $light-color;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin: 1.5 * $spacing-unit 0;
-
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
-
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
-    }
-}
 
 /*# sourceMappingURL=main.css.map */
