@@ -22,7 +22,7 @@ Data Search contiene dati per qualasisi tipo di utente, dallo studente in cerca 
 
 Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è quello degli Stati Uniti: _"the United States leads in the number of open government datasets available, with more than 2 million"_, mentre il formato più diffuso è quello tabellare: "_you can find more than 6 million of them on Dataset Search"_.
 
-All'interno di Dataset Search sono indicizzati anche i dati della Nasa o quelli pubblicati dall'università di Harwardm, che possiede anche uno [specifico portale][DatiHarwardLink] dedicato ai dati.
+All'interno di Dataset Search sono indicizzati anche i dati della Nasa o quelli pubblicati dall'università di Harvard, che possiede anche uno [specifico portale][DatiHarvardLink] dedicato ai dati.
 
 <hr><br>
 
@@ -37,7 +37,7 @@ Fonti
 ======
 - [Leggi la notizia originale][DataSearchNews]
 
-[DatiHarwardLink]: https://dataverse.harvard.edu/
+[DatiHarvardLink]: https://dataverse.harvard.edu/
 [DataSearchLink]: https://datasetsearch.research.google.com/
 [DiscoverDatasetsLink]: https://www.blog.google/products/search/making-it-easier-discover-datasets/
 [MakingEasierLink]: https://blog.google/outreach-initiatives/google-news-initiative/making-it-easier-discover-data-search/
