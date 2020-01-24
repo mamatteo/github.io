@@ -26,13 +26,14 @@ Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è qu
 
 Approfondimenti
 ===============
-[Making it easier to discover datasets][https://www.blog.google/products/search/making-it-easier-discover-datasets/] - di Natasha Noy, _Research Scientist, Google AI_
+[Making it easier to discover datasets][DiscoverDatasetsLink] - di Natasha Noy, _Research Scientist, Google AI_
 
 Fonti
 ======
 [Leggi la notizia originale][DataSearchNews]
 
 [DataSearchLink]: https://datasetsearch.research.google.com/
+[DiscoverDatasetsLink]: https://www.blog.google/products/search/making-it-easier-discover-datasets/
 [SchemaLink]: http://schema.org/
 [GoogleGuideLink]: https://developers.google.com/search/docs/data-types/dataset
 [DataSearchNews]: https://blog-google.cdn.ampproject.org/c/s/blog.google/products/search/discovering-millions-datasets-web/amp/
