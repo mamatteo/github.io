@@ -16,7 +16,7 @@ Grazie al rilascio delle ultima versione di Dataset Search, è ora possibile
 - visualizzare un'anteprima dei dati su una mappa se il dataset individuato riguarda un'area geografica;
 - utilizzare Dataset Search da smartphone;
 
-Inoltre, l'utente può alimentare Dataset Search pubblicando il proprio _set_ di dati in modo che rispetti gli standard dettati da schema.org e [dalle lineee guida di Google][GoogleGuideLink].
+Inoltre, l'utente può alimentare Dataset Search pubblicando il proprio _set_ di dati in modo che rispetti gli standard dettati da [schema.org][SchemaLink] e [dalle lineee guida di Google][GoogleGuideLink].
 
 Data Search contiene dati per qualasisi tipo di utente, dallo studente in cerca di dati per la sua tesi al _data scientist_ professionista, dal ricercatore al giornalista. Ci sono dati per tutti, sostiene Google, aggiungendo che i dati più cercati sulla piattaforma sono: "_education_," "_weather_," "_cancer_," "_crime_," "_soccer_," and, yes, "_dogs_".
 
@@ -24,8 +24,15 @@ Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è qu
 
 <hr>
 <br>
+Approfondimenti
+===============
+[Making it easier to discover datasets][https://www.blog.google/products/search/making-it-easier-discover-datasets/] - di Natasha Noy, _Research Scientist, Google AI_
+
+Fonti
+======
 [Leggi la notizia originale][DataSearchNews]
 
 [DataSearchLink]: https://datasetsearch.research.google.com/
+[SchemaLink]: http://schema.org/
 [GoogleGuideLink]: https://developers.google.com/search/docs/data-types/dataset
 [DataSearchNews]: https://blog-google.cdn.ampproject.org/c/s/blog.google/products/search/discovering-millions-datasets-web/amp/
