@@ -30,7 +30,7 @@ Approfondimenti
 ===============
 - [Making it easier to discover datasets][DiscoverDatasetsLink] - di Natasha Noy, _Research Scientist, Google AI_
 - [Facilitating the discovery of public datasets][FacilitatingLink] - di Natasha Noy, _Google Research_ e Dan Brickley, _Open Source Programs Office_
-- [Making it easier to discover data in Search][MakinEasierLink] - di Simon Rogers, _Data Editor, Google News Lab_
+- [Making it easier to discover data in Search][MakingEasierLink] - di Simon Rogers, _Data Editor, Google News Lab_
 
 
 Fonti
