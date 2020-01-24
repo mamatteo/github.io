@@ -16,7 +16,6 @@ Alcuni passaggi interessanti:
 
 > The most important skill of a data scientist is asking the right question to data. (...) Big data needs big brains. Big data needs the curious brain of an artist to make the difference.
 
-
 [TedTalk]: https://www.youtube.com/watch?v=qrhRfPY4F4w&t=4s
 [TedxMadridLink]: http://www.tedxmadrid.com/
 [JoseCansado]: https://www.linkedin.com/in/josemiguelcansado/?originalSubdomain=es
