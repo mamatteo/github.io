@@ -24,6 +24,10 @@ Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è qu
 
 All'interno di Dataset Search sono indicizzati anche i dati della Nasa o quelli pubblicati dall'università di Harvard, che possiede anche uno [specifico portale][DatiHarvardLink] dedicato ai dati.
 
+L'avvento di Dataset Search è destinato ad imporsi sul mercato al pari di quello che ha fatto [Google Scholar][GoogleScholarLink] per gli articoli accademici.
+
+La potenza di Google farà in modo che tutto ciò che verrà metadatato secondo gli standard ufficiali diventerà estremamente facile da ritrovare con una semplice ricerca sul web, e a quel punto, dipenderà dalla volontà di ciascuno di adeguare i propri dati agli standrd, a meno di non voler condannare i propri dataset all'irrilevanza.
+
 <hr><br>
 
 Approfondimenti
@@ -38,6 +42,7 @@ Fonti
 - [Leggi la notizia originale][DataSearchNews]
 
 [DatiHarvardLink]: https://dataverse.harvard.edu/
+[GoogleScholarLink]: https://it.wikipedia.org/wiki/Google_Scholar
 [DataSearchLink]: https://datasetsearch.research.google.com/
 [DiscoverDatasetsLink]: https://www.blog.google/products/search/making-it-easier-discover-datasets/
 [MakingEasierLink]: https://blog.google/outreach-initiatives/google-news-initiative/making-it-easier-discover-data-search/
