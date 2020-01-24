@@ -32,7 +32,7 @@ Approfondimenti
 
 Fonti
 ======
-[Leggi la notizia originale][DataSearchNews]
+- [Leggi la notizia originale][DataSearchNews]
 
 [DataSearchLink]: https://datasetsearch.research.google.com/
 [DiscoverDatasetsLink]: https://www.blog.google/products/search/making-it-easier-discover-datasets/
