@@ -23,7 +23,7 @@ Data Search contiene dati per qualasisi tipo di utente, dallo studente in cerca 
 Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è quello degli Stati Uniti: _"the United States leads in the number of open government datasets available, with more than 2 million"_, mentre il formato più diffuso è quello tabellare: "_you can find more than 6 million of them on Dataset Search"_.
 
 <hr>
-<br>
+
 Approfondimenti
 ===============
 [Making it easier to discover datasets][https://www.blog.google/products/search/making-it-easier-discover-datasets/] - di Natasha Noy, _Research Scientist, Google AI_
