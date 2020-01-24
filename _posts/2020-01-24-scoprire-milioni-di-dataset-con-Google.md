@@ -30,6 +30,7 @@ Approfondimenti
 ===============
 - [Making it easier to discover datasets][DiscoverDatasetsLink] - di Natasha Noy, _Research Scientist, Google AI_
 - [Facilitating the discovery of public datasets][FacilitatingLink] - di Natasha Noy, _Google Research_ e Dan Brickley, _Open Source Programs Office_
+- [Making it easier to discover data in Search][MakinEasierLink] - di Simon Rogers, _Data Editor, Google News Lab_
 
 
 Fonti
@@ -39,6 +40,7 @@ Fonti
 [DatiHarwardLink]: https://dataverse.harvard.edu/
 [DataSearchLink]: https://datasetsearch.research.google.com/
 [DiscoverDatasetsLink]: https://www.blog.google/products/search/making-it-easier-discover-datasets/
+[MakingEasierLink]: https://blog.google/outreach-initiatives/google-news-initiative/making-it-easier-discover-data-search/
 [FacilitatingLink]: https://ai.googleblog.com/2017/01/facilitating-discovery-of-public.html
 [SchemaLink]: http://schema.org/
 [GoogleGuideLink]: https://developers.google.com/search/docs/data-types/dataset
