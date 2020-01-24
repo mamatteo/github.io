@@ -6,7 +6,7 @@ categories: datascience
 permalink: /:categories/:title
 ---
 
-Qualche giorno fa, Natasha Noy, Research Scientist di Google, ha pubblicato una nota dove informa che Dataset Search è uscito dalla sua fase beta, dopo un lungo periodo di prova e di raccolta di feedback da parte degli utenti.
+Qualche giorno fa, Natasha Noy, Research Scientist di Google, ha pubblicato una nota dove informa che **Dataset Search** è uscito dalla sua fase beta, dopo un lungo periodo di prova e di raccolta di feedback da parte degli utenti.
 
 Dataset Search è uno strumento offerto da Google per cercare dataset all'interno del web. Ad oggi, Data Search ha indicizzato oltre 25 milioni di dataset.
 
@@ -23,6 +23,7 @@ Data Search contiene dati per qualasisi tipo di utente, dallo studente in cerca 
 Inoltre, Google ci fa sapere che il paese che pubblica più dati nel mondo è quello degli Stati Uniti: _"the United States leads in the number of open government datasets available, with more than 2 million"_, mentre il formato più diffuso è quello tabellare: "_you can find more than 6 million of them on Dataset Search"_.
 
 <hr>
+<br>
 [Leggi la notizia originale][DataSearchNews]
 
 [GoogleGuideLink]: https://developers.google.com/search/docs/data-types/dataset
