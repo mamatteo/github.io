@@ -22,7 +22,6 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         > <span class="post_meta">{% for categories in post.categories %}<a href="/{{ categories }}">{{ categories }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}<br>
-          <br>
         <span class="post-meta">{{ post.date | date: "%d/%-m/%Y" }}</span>
 
         <h3>
