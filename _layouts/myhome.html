@@ -26,8 +26,8 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%d/%-m/%Y" }}</span>
 
 
-        keyword: <span class="post_meta">{% for categories in post.categories %}<a href="/categories/#{{ tag }}">{{ categories }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}<br>
-        
+        keyword: <span class="post_meta">{% for categories in post.categories %}<a href="/#{{ categories }}">{{ categories }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}<br>
+
 
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
