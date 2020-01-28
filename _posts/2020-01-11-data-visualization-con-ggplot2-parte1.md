@@ -9,6 +9,7 @@ permalink: /:categories/:title
 In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplot2`, una delle librerie di R più versatili ed eleganti.
 
 Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di Hadley Wickham e Garret Grolemund, edito dalla O'Reilly. Il libro è parzialmente consultabile anche online, [qui][RForDataScienceLinkOnline].
+
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
 - [Visualizzare i dati](#visualizzare-i-dati)
@@ -18,7 +19,9 @@ Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Scien
 
 Prerequisiti
 ============
-Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell'ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare [RStudio][rstudiolink], che dovrete scaricare e installare solo dopo aver installato nel vostro computer [R][linguaggioRlink]).
+Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace i comandi che utilizzeremo in questo tutorial, è utile accertarsi di aver installato nel proprio ambiente di sviluppo la libreria `tidyverse`.
+
+Per quanto rigaurda l'ambiente di sviluppo, il consiglio è quello di usare [RStudio][rstudiolink], che dovrete scaricare e installare solo dopo aver installato nel vostro computer [R][linguaggioRlink]).
 
 Innazitutto è importante assicurarsi che _tidyverse_ sia installato nel proprio ambiente di sviluppo. In caso contrario si deve procedere ad installarlo tramite il comando:
 
@@ -26,7 +29,7 @@ Innazitutto è importante assicurarsi che _tidyverse_ sia installato nel proprio
 install.packages(tidyverse)
 {% endhighlight %}
 
-che dopo qualche minuto di lavoro restituisce il controllo della console.
+che dopo qualche minuto di lavoro ci restituisce il controllo della console.
 
 Con il comando:
 
@@ -115,7 +118,7 @@ Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico c
 
 ![ggplot2](/media/images/ggplot2.png)
 
-Lo scatterplot ora appare molto più espressivo. Quello che prima sembrava un caotico agglomerato di punti, ora appare suddiviso in _cluster_ riconoscibili dai colori. 
+Lo scatterplot ora appare molto più espressivo. Quello che prima sembrava un caotico agglomerato di punti, ora appare suddiviso in _cluster_ riconoscibili dai colori.
 
 
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
