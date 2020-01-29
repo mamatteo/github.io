@@ -6,7 +6,7 @@ categories: R
 permalink: /:categories/:title
 ---
 
-In questo articolo, impareremo a visualizzare dati attraverso la libreria `ggplot2`, una delle librerie di R più versatili ed eleganti.
+In questo tutorial, impareremo a visualizzare dati attraverso `ggplot2`, una delle librerie di R più versatili ed eleganti. Il funzionamento di `ggplot2` si basa sulle linee[^1] guida contenute nel lavoro di Leland Wilkinson, professore di informatica presso l'Università dell'Illinois a Chicago. 
 
 Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di Hadley Wickham e Garret Grolemund, edito dalla O'Reilly. Il libro è parzialmente consultabile anche online, [qui][RForDataScienceLinkOnline].
 
@@ -121,6 +121,13 @@ Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico c
 Lo scatterplot ora appare molto più espressivo. Quello che prima sembrava un caotico agglomerato di punti, ora appare suddiviso in _cluster_ riconoscibili dai colori.
 
 
+
+Approfondimenti
+===============
+[^1]: - [The Grammar of Graphics][TheGrammarOfGraphicsLink] - di [Leland Wilkinson][WilkinsonLink], _informatico americano_
+
+[TheGrammarOfGraphicsLink]: https://www.amazon.com/Grammar-Graphics-Statistics-Computing-ebook-dp-B00HWUVHXK/dp/B00HWUVHXK/ref=mt_kindle?_encoding=UTF8&me=&qid=1477928463
+[WilkinsonLink]: https://en.wikipedia.org/wiki/Leland_Wilkinson
 [KumarBioLink]: https://research.google/people/ShaileshKumar/
 [datasetmpglink]: https://rpubs.com/shailesh/mpg-exploration
 [linguaggioRlink]: https://cran.r-project.org/
