@@ -6,9 +6,9 @@ categories: R
 permalink: /:categories/:title
 ---
 
-In questo tutorial, impareremo a visualizzare dati attraverso `ggplot2`, una delle librerie di R più versatili ed eleganti. Il funzionamento di `ggplot2` si basa sulle linee[^1] guida contenute nel lavoro di Leland Wilkinson, professore di informatica presso l'Università dell'Illinois a Chicago. 
+In questo tutorial, impareremo a visualizzare dati attraverso `ggplot2`, una delle librerie di R più versatili ed eleganti. Il funzionamento di `ggplot2` si basa sulle [linee guida][TheGrammarOfGraphicsLink] contenute nel lavoro di [Leland Wilkinson][WilkinsonLink], professore di informatica presso l'Università dell'Illinois a Chicago.
 
-Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di Hadley Wickham e Garret Grolemund, edito dalla O'Reilly. Il libro è parzialmente consultabile anche online, [qui][RForDataScienceLinkOnline].
+Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Science][RForDataScienceLink] di _Hadley Wickham_ e _Garret Grolemund_, edito dalla O'Reilly. Il libro è consultabile anche online, [qui][RForDataScienceLinkOnline].
 
 - [Prerequisiti](#prerequisiti)
 - [Primi passi](#primi-passi)
@@ -19,17 +19,17 @@ Il testo che segue è una traduzione del capitolo 1 del mauale [R for Data Scien
 
 Prerequisiti
 ============
-Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace i comandi che utilizzeremo in questo tutorial, è utile accertarsi di aver installato nel proprio ambiente di sviluppo la libreria `tidyverse`.
+Il pacchetto `ggplot2` fa parte della libreria [tidyverse][tidyverselink] e ne rappresenta una delle componenti chiave.
 
-Per quanto rigaurda l'ambiente di sviluppo, il consiglio è quello di usare [RStudio][rstudiolink], che dovrete scaricare e installare solo dopo aver installato nel vostro computer [R][linguaggioRlink]).
+Per quanto rigaurda l'ambiente di sviluppo, con cui scrivere ed eseguire codice in R, il consiglio è quello di usare [RStudio][rstudiolink], che dovrete scaricare e installare solo dopo aver installato nel vostro computer [R][linguaggioRlink]).
 
-Innazitutto è importante assicurarsi che _tidyverse_ sia installato nel proprio ambiente di sviluppo. In caso contrario si deve procedere ad installarlo tramite il comando:
+Una volta pronti con RStudio, è opportuno installare _tidyverse_, attraverso il comando:
 
 {% highlight R %}
 install.packages(tidyverse)
 {% endhighlight %}
 
-che dopo qualche minuto di lavoro ci restituisce il controllo della console.
+Dopo qualche minuto di lavoro, RStudio avrà installato il pacchetto e saremo pronti a metterlo al lavoro.
 
 Con il comando:
 
@@ -37,7 +37,7 @@ Con il comando:
 library(tidyverse)
 {% endhighlight %}
 
-invece, verrà caricato _tidyverse_ nello spazio di lavoro. Siamo ora pronti a sfruttare le sue funzioni.
+carichiamo il pacchetto _tidyverse_ appena installato nello spazio di lavoro, in modo da poter utilizzare le sue funzioni.
 
 {% highlight R %}
 Attaching packages
@@ -50,18 +50,17 @@ x dplyr::filter() masks stats::filter()
 x dplyr::lag()    masks stats::lag()
 {% endhighlight %}
 
-Il caricamento della libreria `tidyverse` carica a cascata una serie di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. Inoltre, con il caricamento della libreria, veniamo anche informati delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R.
+Il caricamento della libreria `tidyverse` carica a cascata una serie di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. Inoltre, con il caricamento della libreria, veniamo anche informati delle funzioni di `tidyverse` che vanno in conflitto con le funzioni standard di R. Questo non ci deve preoccupare per il momento.
 
 <hr>
 
-
 Primi passi
 ===========
-Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di visualizzazione offerte da R. Ci serviremo di un dataset predefinito, contenuto in _tidyverse_, che prende il nome di [MPG][datasetmpglink]. Il contenuto di MPG viene così descritto: _the dataset contains fuel economy data from 1999 and 2008 for 38 popular models of car_.
+Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di visualizzazione offerte da R. Ci serviremo di un dataset predefinito, già pronto in _tidyverse_, che prende il nome di [MPG][datasetmpglink]. Il contenuto di MPG viene così descritto: _the dataset contains fuel economy data from 1999 and 2008 for 38 popular models of car_.
 
-Avremo a che fare quindi con dati riferiti a delle automobili e alle loro caratteristiche.
+Avremo quindi a che fare con dati riferiti a una serie di automobili e alle loro caratteristiche.
 
-Proveremo a servirci di alcune visualizzazioni per rispondere a questa domanda: _è vero che le automobili con un motore grande consumano più delle automobili con un motore piccolo?_ Molto probabilmente conosciamo già la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi, qual è la relazione che intercorre tra la dimensione del motore di un automobile e la sua efficienza dal punto di vista dei consumi.
+Proveremo a servirci di alcune _data visualization_ per rispondere a questa domanda: _è vero che le automobili con un motore grande consumano più delle automobili con un motore piccolo?_ Molto probabilmente conosciamo già la risposta, ma proveremo a motivarla attraverso un'analisi precisa. Ci chideremo quindi, qual è la relazione che intercorre tra la dimensione del motore di un automobile e la sua efficienza dal punto di vista dei consumi.
 
 All'interno del pacchetto `ggplot2` che abbiamo caricato, troviamo il dataframe `mpg`, che contiene una serie di dati collezionati dalla _US Envirnoment Protection Agency_. Il dataset raccoglie informazioni su 38 tipologie di automobili. Ci basterà digitare il comando `mpg` per avere una prima rappresentazione del contenuto del dataset.
 
@@ -121,10 +120,6 @@ Decidiamo ora di arricchire la nostra stampa, colorando ogni punto del grafico c
 Lo scatterplot ora appare molto più espressivo. Quello che prima sembrava un caotico agglomerato di punti, ora appare suddiviso in _cluster_ riconoscibili dai colori.
 
 
-
-Approfondimenti
-===============
-[^1]: - [The Grammar of Graphics][TheGrammarOfGraphicsLink] - di [Leland Wilkinson][WilkinsonLink], _informatico americano_
 
 [TheGrammarOfGraphicsLink]: https://www.amazon.com/Grammar-Graphics-Statistics-Computing-ebook-dp-B00HWUVHXK/dp/B00HWUVHXK/ref=mt_kindle?_encoding=UTF8&me=&qid=1477928463
 [WilkinsonLink]: https://en.wikipedia.org/wiki/Leland_Wilkinson
