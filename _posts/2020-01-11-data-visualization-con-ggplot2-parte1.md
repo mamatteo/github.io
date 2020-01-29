@@ -54,6 +54,7 @@ Il caricamento della libreria `tidyverse` carica a cascata una serie di strument
 
 <hr>
 
+
 Primi passi
 ===========
 Useremo la libreria _tidyverse_ per prendere dimestichezza con le funzioni di visualizzazione offerte da R. Ci serviremo di un dataset predefinito, già pronto in _tidyverse_, che prende il nome di [MPG][datasetmpglink]. Il contenuto di MPG viene così descritto: _the dataset contains fuel economy data from 1999 and 2008 for 38 popular models of car_.
