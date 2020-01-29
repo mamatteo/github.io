@@ -16,7 +16,7 @@ Probabilmente ad un _data scientist_ non sono necessarie tutte le (tante) compet
 
 Questo lo aveva capito bene anche un altra figura iconica dei nostri tempi, Steve Jobs, che frequentò [un corso di calligrafia][JobsLink] durante la sua carriera, nonostante non si occupasse direttamente di scrittura.
 
-Cosa ci insegnano dunque Leonardo Da Vinci, Steve Jobs e questa TED Talk di Jose Cansado? Che l'esperto di dati dev'essere da un lato un grande esperto di matematica e di informatica, dall'altro dev'essere curioso, empatico, comunicativo, creativo. I dati contengono storie che non si raccontano da sole: hanno bisogno di narratori e di designer in grado di tradurre i numeri in narrazioni, comprensibili da tutti.
+Cosa ci insegnano dunque Leonardo Da Vinci, Steve Jobs e questa TED Talk di Jose Cansado? Che l'esperto di dati dev'essere da un lato un grande esperto di matematica e di informatica, dall'altro dev'essere curioso, empatico, comunicativo, creativo. I dati contengono storie che non si raccontano da sole: hanno bisogno di narratori e di _designer_ in grado di tradurre i numeri in narrazioni, comprensibili da tutti.
 
 Del video riporto alcuni passaggi interessanti:
 
