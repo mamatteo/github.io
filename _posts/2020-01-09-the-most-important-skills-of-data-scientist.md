@@ -12,13 +12,13 @@ Il video è interessante perché invita ad allargare l'idea per cui un _data sci
 
 Il riferimento che l'autore fa a Leonardo Da Vinci appare senz'altro azzeccato. L'inventore italiano era una persona estremamente poliedrica (secondo Wikipedia, Da Vinci era scienziato, filosofo, architetto, pittore, scultore, disegnatore, trattatista, scenografo, anatomista, botanico, musicista, ingegnere e progettista).
 
-Probabilmente ad un _data scientist_ non sono necessarie tutte le (tante) competenze di Leonardo, tuttavia il paragone con Da Vinci ci ricorda di quanto oggi sia importante allargare le nostre competenze con delle attitudini e delle sensibilità che non sono proprie del mestiere che facciamo.
+Sicuramente ad un _data scientist_ non sono necessarie tutte le (tante) competenze di Leonardo, tuttavia il paragone ci ricorda di quanto oggi sia importante allargare le nostre competenze con delle attitudini e delle sensibilità che non sono proprie del mestiere che facciamo.
 
-Questo lo aveva capito bene anche un'altra figura iconica dei nostri tempi, Steve Jobs, che frequentò [un corso di calligrafia][JobsLink] durante la sua carriera, nonostante non si occupasse direttamente di scrittura.
+Questo lo aveva capito bene anche un'altra figura iconica dei nostri tempi, Steve Jobs, che frequentò [un corso di calligrafia][JobsLink] durante la sua carriera nonostante non si occupasse direttamente di scrittura.
 
 Cosa ci insegnano dunque Leonardo Da Vinci, Steve Jobs e questa TED Talk di Jose Cansado?
 
-Che l'esperto di dati dev'essere senz'altro un grande esperto di matematica e di informatica, ma dev'essere allo stesso tempo curioso, empatico, comunicativo, creativo. I dati contengono delle storie che non hanno la capacità di raccontarsi da sole: hanno bisogno di narratori in grado di tradurre i numeri in narrazioni comprensibili da tutti.
+Che l'esperto di dati dev'essere senz'altro un grande esperto di matematica e di informatica, ma dev'essere allo stesso tempo curioso, empatico, comunicativo, creativo. I dati contengono delle storie che hanno bisogno del nostro contributo per essere raccontate in maniera comprensibile da tutti.
 
 Del video riporto alcuni passaggi interessanti:
 
