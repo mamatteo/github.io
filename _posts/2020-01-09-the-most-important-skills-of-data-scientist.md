@@ -6,17 +6,17 @@ categories: datascience
 permalink: /:categories/:title
 ---
 
-Durante le festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato ["The most important skills of data scientists"][TedTalk] (video).
+Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato _"The most important skills of data scientists"_ [(vai al video)][TedTalk] .
 
-Il video è interessante perché sprona ad allargare la concezione per cui il _data scientist_ sia solo un esperto di dati, di modelli, di statistica, di algoritmi e di _machine learning_. Ecco allora che un professionista dei dati deve avere anche delle qualità umanistiche.
+Il video è interessante perché invita ad allargare l'idea per cui un _data scientist_ sia solo un esperto di dati, di modelli, di statistica, di algoritmi o di _machine learning_. Uno "scienziato dei dati" invece, deve avere anche delle qualità umanistiche.
 
-Il riferimento a Leonardo Da Vinci appare senz'altro azzeccato. L'inventore italiano era una persona estremamente poliedrica (secondo Wikipedia, Da Vinci era scienziato, filosofo, architetto, pittore, scultore, disegnatore, trattatista, scenografo, anatomista, botanico, musicista, ingegnere e progettista).
+Il riferimento che l'autore fa a Leonardo Da Vinci appare senz'altro azzeccato. L'inventore italiano era una persona estremamente poliedrica (secondo Wikipedia, Da Vinci era scienziato, filosofo, architetto, pittore, scultore, disegnatore, trattatista, scenografo, anatomista, botanico, musicista, ingegnere e progettista).
 
-Probabilmente ad un _data scientist_ non sono necessarie tutte le (tante) competenze di Leonardo, tuttavia il paragone con Da Vinci ci ricorda di quanto oggi sia fondamentale allargare le nostre competenze con delle attitudini e delle sensibiliti che non sono proprie del mestiere che facciamo.
+Probabilmente ad un _data scientist_ non sono necessarie tutte le (tante) competenze di Leonardo, tuttavia il paragone con Da Vinci ci ricorda di quanto oggi sia importante allargare le nostre competenze con delle attitudini e delle sensibilità che non sono proprie del mestiere che facciamo.
 
-Questo lo aveva capito bene anche un altra figura iconica dei nostri tempi, Steve Jobs, che frequentò [un corso di calligrafia][JobsLink] durante la sua carriera, nonostante non si occupasse direttamente di scrittura.
+Questo lo aveva capito bene anche un'altra figura iconica dei nostri tempi, Steve Jobs, che frequentò [un corso di calligrafia][JobsLink] durante la sua carriera, nonostante non si occupasse direttamente di scrittura.
 
-Cosa ci insegnano dunque Leonardo Da Vinci, Steve Jobs e questa TED Talk di Jose Cansado? Che l'esperto di dati dev'essere da un lato un grande esperto di matematica e di informatica, dall'altro dev'essere curioso, empatico, comunicativo, creativo. I dati contengono storie che non si raccontano da sole: hanno bisogno di narratori e di _designer_ in grado di tradurre i numeri in narrazioni, comprensibili da tutti.
+Cosa ci insegnano dunque Leonardo Da Vinci, Steve Jobs e questa TED Talk di Jose Cansado? Che l'esperto di dati dev'essere senz'altro un grande esperto di matematica e di informatica, ma dev'essere allo stesso tempo curioso, empatico, comunicativo, creativo. I dati contengono delle storie che non hanno la capacità di raccontarsi da sole: hanno bisogno di narratori in grado di tradurre i numeri in narrazioni comprensibili da tutti.
 
 Del video riporto alcuni passaggi interessanti:
 
