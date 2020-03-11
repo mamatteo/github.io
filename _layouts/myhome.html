@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <i><a href="https://mamatteo.github.io/datascience/">Data science</a>, analisi dati in <a href="https://mamatteo.github.io/R/">R</a> e informatica</i>
+    <br>
+
+
+    <hr>
+    <br>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        > <span class="post_meta">{% for categories in post.categories %}<a href="/{{ categories }}">{{ categories }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}<br>
+        <span class="post-meta">{{ post.date | date: "%d/%-m/%Y" }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {{ post.excerpt }}
+
+        {% if post.excerpt != post.content %}
+    <a href="{{ site.baseurl }}{{ post.url }}"><i>Read more</i></a>
+{% endif %}
+
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="feed-subscribe">
+      <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+      </a>
+    </p>
+  {%- endif -%}
+    <link href="{{site.baseurl}}/css/mycss.css" rel="stylesheet">
+</div>
