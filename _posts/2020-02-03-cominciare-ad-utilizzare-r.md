@@ -14,6 +14,7 @@ Ci limiteremo pertanto a fornire solamente alcuni spunti a riguardo, nella spera
 
 * Scarica il software [RStudio][rstudiolink], in modo tale da avere uno strumento unico per gestire tutti i tuoi progetti in R;
 * Utilizza la _console_ di RStudio per testare il buon funzionamento di R. Prova ad esempio a svolgere alcune operazioni matematiche come `3*2` o `5^2`, oppure prova qualche assegnamento, del tipo `a=3` e `b=2` per poi eseguire la somma `a+b`.
+* Vai su File -> New File -> R Script per aprire invece un "foglio di lavoro" vero e proprio. A questo punto puoi abbandonare la _console_ e dedicarti al foglio di lavoro appena aperto. Utilizzeremo questo spazio per scrivere il nostro codice in R. Se vogliamo lasciare dei commenti all'interno del nostro codice, ci sarà sufficiente utilizzare il carattere speciale #.
 
 
 [rstudiolink]: https://rstudio.com/products/rstudio/download/
