@@ -6,13 +6,13 @@ permalink: /about/
 
 Mi chiamo Matteo, e sono un informatico.
 
-Ho ottenuto la Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink], discutendo una tesi intitolata “Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici”.
-
-Parallelamente agli studi ho avuto degli incarichi professionali in ambito pubblico. Ho un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione.
+Ho un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione.
 
 Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasformazione Digitale][teamdigitalelink], presso la Presidenza del Consiglio dei Ministri. Mi sono occupato di content design, di architettura dell’informazione, di tech writing e della piattaforma nazionale DocsItalia.
 
 Da novembre 2016 a marzo 2018 ho lavorato come data analyst nella [Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink], presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato l’On. Prof. Paolo Coppola, presidente di questa Commissione.
+
+Ho ottenuto la Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink], discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”.
 
 Negli ultimi anni mi sono speso in diversi progetti innovativi, credendo che l’innovazione tecnologica sia un ottimo trampolino tramite il quale costruire processi di miglioramento virtuosi, dei luoghi, ma sopratutto delle persone che abitano quei luoghi.
 
