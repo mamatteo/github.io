@@ -4,25 +4,28 @@ title: About
 permalink: /about/
 ---
 
-Mi chiamo Matteo, ho 26 anni e sono uno studente laureando di [informatica magistrale, presso l’Università degli Studi di Udine][informaticauniudlink].
+Mi chiamo Matteo, e sono un informatico.
 
-Durante il biennio di studio magistrale mi sono concentrato su un percorso di specializzazione intitolato <i>“Algoritmi e ragionamento automatico“</i>, che mi ha avviato al mondo degli <i>algoritmi avanzati</i> (algoritmi di string matching, algoritmi randomizzati, algoritmi paralleli e di compressione dati, teoria della calcolabilità e della complessità), della <i>data science</i> (network science, statistica applicata, analisi dati in R), dell’<i>intelligenza artificiale</i> e del <i>machine learning</i> (principali algoritmi di apprendimento supervisionato e non supervisionato).
+Ho ottenuto la Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink], discutendo una tesi intitolata “Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici”.
 
-Ho una laurea triennale in informatica, ottenuta discutendo una tesi intitolata “<i>modelli computazionali per la progressione del cancro</i>“.
+Parallelamente agli studi ho avuto degli incarichi professionali in ambito pubblico. Ho un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione.
 
-Parallelamente agli studi, ho maturato un’esperienza professionale triennale nel mondo dell’<i>innovazione e della digitalizzazione della pubblica amministrazione.</i>
+Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasformazione Digitale][teamdigitalelink], presso la Presidenza del Consiglio dei Ministri. Mi sono occupato di content design, di architettura dell’informazione, di tech writing e della piattaforma nazionale DocsItalia.
 
-Da gennaio a dicembre 2019, ho lavorato come consulente nel <i>[Team per la Trasformazione Digitale][teamdigitalelink]</i>, presso la Presidenza del Consiglio dei Ministri.
+Da novembre 2016 a marzo 2018 ho lavorato come data analyst nella [Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink], presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato l’On. Prof. Paolo Coppola, presidente di questa Commissione.
 
-Da novembre 2016 a marzo 2018 ho lavorato come <i>data analyst</i> nella <i>[Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink]</i>, presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato il Prof. On. Paolo Coppola, presidente di questa Commissione.
+Negli ultimi anni mi sono speso in diversi progetti innovativi, credendo che l’innovazione tecnologica sia un ottimo trampolino tramite il quale costruire processi di miglioramento virtuosi, dei luoghi, ma sopratutto delle persone che abitano quei luoghi.
 
-Durante il mio lavoro in Commissione, ho avuto l’opportunità di lavorare e di collaborare con il prof. Paolo Ferragina, professore ordinario di Algoritmi e prorettore per la ricerca applicata e l’innovazione all’Università di Pisa, e con Stefano Gatti, oggi Head of Data & Analytics presso Nexi, all’epoca Head of Innovation & Data Sources presso Cerved spa.
+A margine del mio percorso di studio e di lavoro, verso la fine del 2014 ho supportato la creazione di [CoderDojo FVG][coderdojolink] in Friuli Venezia Giulia assieme ad un gruppo di amici appassionati di informatica. CoderDojo FVG è un movimento di volontari che eroga attività gratuite di avvicinamento al coding per bambini e bambine. Negli ultimi anni abbiamo avvicinato al coding centinaia di ragazzi e ragazze di tutta la regione.
 
-A margine del mio percorso di studio e di lavoro, verso la fine del 2014 ho creato <i>[CoderDojo FVG][coderdojolink]</i> in Friuli Venezia Giulia assieme ad un gruppo di amici appassionati di informatica. CoderDojo FVG è un movimento di volontari che eroga attività gratuite di avvicinamento al coding per bambini e bambine. Negli ultimi anni abbiamo avvicinato al coding centinaia di ragazzi e ragazze di tutta la regione.
+Nel 2017 ho co-organizzato la prima edizione di [TEDx Udine][tedxudinelink], credendo nell’importanza della diffusione di idee e storie di valore.
 
-Nel 2017 ho co-organizzato la prima edizione di <i>[TEDx Udine][tedxudinelink]</i>, credendo da sempre, come dice lo slogan di TED, che ci siano idee e storie che vale la pena diffondere.
+Nel 2014 ho ricevuto il premio “[Giovane Talento][giovanetalentolink]” dal Comune di Casarsa della Delizia.
 
-Nel 2014 ho ricevuto il premio <i>"[Giovane Talento][giovanetalentolink]"</i> dal Comune di Casarsa della Delizia.
+Ho la passione dei viaggi, e amo raccontarli attraverso gli occhi dei miei dispositivi multimediali con i quali giro il mondo. Io ed Elena vi raccontiamo le nostre avventure sul canale YouTube “[Tre Tazze di Tè][tretazzeditelink]”.
+
+Scrivo da quando ero bambino: su un diario analogico (che tengo gelosamente privato) e su tanti “diari digitali”: questo blog, Medium e (per cose da nerd) anche su mamatteo.github.io.
+
 
 [informaticauniudlink]: https://www.dmif.uniud.it/
 [teamdigitalelink]: https://teamdigitale.governo.it/
@@ -30,3 +33,4 @@ Nel 2014 ho ricevuto il premio <i>"[Giovane Talento][giovanetalentolink]"</i> da
 [coderdojolink]: http://www.coderdojofvg.it
 [tedxudinelink]: http://www.tedxudine.com
 [giovanetalentolink]: https://procasarsa.org/articoli/cittadino-dellanno-humanitas-giovane-talento-premi-a-bagnarol-troia-e-sas-casarsa/
+[tretazzeditelink]: https://www.youtube.com/channel/UCukRWZLKAVGU8wesojESTzg
