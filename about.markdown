@@ -8,7 +8,7 @@ Mi chiamo Matteo, e sono un informatico.
 
 Ho un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione.
 
-Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasformazione Digitale][teamdigitalelink], presso la Presidenza del Consiglio dei Ministri. Mi sono occupato di content design, di architettura dell’informazione, di tech writing e della piattaforma nazionale DocsItalia.
+Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasformazione Digitale][teamdigitalelink], presso la Presidenza del Consiglio dei Ministri. Mi sono occupato di _content design_, di architettura dell’informazione, di _tech writing_ e della piattaforma nazionale [DocsItalia][docsitalialink].
 
 Da novembre 2016 a marzo 2018 ho lavorato come data analyst nella [Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink], presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato l’On. Prof. Paolo Coppola, presidente di questa Commissione.
 
@@ -34,3 +34,4 @@ Scrivo da quando ero bambino: su un diario analogico (che tengo gelosamente priv
 [tedxudinelink]: http://www.tedxudine.com
 [giovanetalentolink]: https://procasarsa.org/articoli/cittadino-dellanno-humanitas-giovane-talento-premi-a-bagnarol-troia-e-sas-casarsa/
 [tretazzeditelink]: https://www.youtube.com/channel/UCukRWZLKAVGU8wesojESTzg
+[docsitalialink]: https://docs.italia.it/che-cos-e-docs-italia/
