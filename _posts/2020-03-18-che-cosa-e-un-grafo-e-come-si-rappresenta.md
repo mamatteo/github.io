@@ -53,7 +53,7 @@ $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 Le matrici di adiacenza
 ========================
 
-Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosidetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
 
 $$
 \begin{pmatrix}
