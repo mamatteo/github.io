@@ -8,24 +8,6 @@ permalink: /:categories/:title
 
 Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato _"The most important skills of data scientists"_ [(vai al video)][TedTalk].
 
-
-{% graphviz %}
-digraph {
-  node [shape=circle, style=filled];
-  S [fillcolor=green];
-  A [fillcolor=yellow];
-  B [fillcolor=yellow];
-  C [fillcolor=yellow];
-  D [shape=doublecircle, fillcolor=green];
-  S -> A [label=a];
-  S -> B [label=b];
-  A -> D [label=c];
-  B -> D [label=d];
-}
-{% endgraphviz %}
-
-
-
 Il video è interessante perché invita ad allargare l'idea per cui un _data scientist_ sia solo un esperto di dati, di modelli, di statistica, di algoritmi o di _machine learning_. Uno "scienziato dei dati" invece, deve avere anche delle qualità umanistiche.
 
 Il riferimento che l'autore fa a Leonardo Da Vinci appare senz'altro azzeccato. L'inventore italiano era una persona estremamente poliedrica (secondo Wikipedia, Da Vinci era scienziato, filosofo, architetto, pittore, scultore, disegnatore, trattatista, scenografo, anatomista, botanico, musicista, ingegnere e progettista).
