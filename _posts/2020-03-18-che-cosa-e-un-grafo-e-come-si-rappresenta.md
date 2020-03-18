@@ -55,7 +55,16 @@ Le matrici di adiacenza
 
 Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosidetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
 
-$$x=[a \neq 1]$$
+$$
+\begin{pmatrix}
+0 & 1 & 0 & 0 & 1 & 0 \\
+1 & 0 & 1 & 1 & 0 & 0 \\
+0 & 1 & 0 & 1 & 1 & 1 \\
+0 & 1 & 1 & 0 & 0 & 0 \\
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 \\
+\end{pmatrix}
+$$
 
 
 Perché la teoria dei grafi è importante
