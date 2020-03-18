@@ -46,9 +46,6 @@ defaults:
 
 highlighter: rouge
 
-graphviz:
-  options: "-Tsvg" # 'dot' command option
-  command: "dot"   # execute this string. specify full path to 'dot' if you need
 
 # Exclude from processing.
 # The following items will not be processed, by default.
