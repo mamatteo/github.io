@@ -6,7 +6,7 @@ categories: informatica
 permalink: /:categories/:title
 ---
 
-La [<font color="#20bf6b">teoria dei grafi</font>][graphtheorylink], è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati per l'appunto _grafi_.
+La [<font color="#b3d313">teoria dei grafi</font>][graphtheorylink], è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati per l'appunto _grafi_.
 
 Un grafo _G_ è una coppia di insiemi, e più precisamente è la coppia formata dall'insieme _V_ dei nodi (_vertices_ in inglese), e dall'insieme _E_ degli archi (_edges_ in inglese).
 
@@ -42,7 +42,6 @@ e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
-Un modo per rappresentare in maniera compatta i grafi, prevede di usare le matrici di adiacenza.
 
 | Grafo        | Nodi       | Archi               |
 |--------------|------------|---------------------|
