@@ -18,5 +18,7 @@ Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti
 
 Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
 
+![graph1](/media/images/graph1.png)
+
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
