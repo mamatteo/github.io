@@ -6,7 +6,7 @@ categories: informatica
 permalink: /:categories/:title
 ---
 
-Cos'è un grafo
+Cosa sono i grafi
 ==================
 La [<font color="#b3d313">teoria dei grafi</font>][graphtheorylink], è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati per l'appunto _grafi_.
 
@@ -17,6 +17,12 @@ $$G = (V, E)$$
 Un grafo rappresenta un modello astratto per descrivere un determinato contesto reale. In generale, si utilizzano i nodi per rappresentare le _entità_ del dominio analizzato, mentre gli archi rappresenteranno le _relazioni_ che intercorrono tra le diverse entità coinvolte.
 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
+
+Come si rappresenta un grafo
+============================
+
+Disegnare i grafi
+********************
 
 Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
 
@@ -44,14 +50,15 @@ e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
-Come si rappresenta un grafo
-============================
+Le matrici di adiacenza
+********************
 
-Esistono diversi modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosidetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosidetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
 
 
-Perché sono importanti i grafi
+Perché la teoria dei grafi è importante
 ===============================
+
 | Grafo        | Nodi       | Archi               |
 |--------------|------------|---------------------|
 | Internet     | Computer   | Cavi di connessione |
