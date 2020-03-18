@@ -24,4 +24,12 @@ Nella figura sono stati messi in evidenza i nodi (N1, N2, N3, N4, N5 e N6) e gli
 
 Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 al nodo N1. In generale, in un grafo, possono esistere _n_ strade che collegano due nodi in un grafo. Diversi algoritmi studiati dall'informatica operano proprio sulle lunghezze delle strade che collegano due o più nodi di un grafo, ma non ne parleremo in questo articolo.
 
+Quel che è importante aver capito fin qui, è che un grafo rappresenta una serie di relazioni tra entità, mediante i suoi nodi e i suoi archi.
+
+Immaginiamo di ridisegnare il grafico precedente, calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste saranno le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare, è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
+
+Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segue:
+
+![graph2](/media/images/graph2.png)
+
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
