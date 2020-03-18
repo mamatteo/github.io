@@ -36,10 +36,10 @@ Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segu
 
 Nella figura qui sopra, in accordo con la definizione data all'inizio, individuiamo l'insieme dei nodi _V_
 
-$$V = {Venezia, Milano, Torino, Bologna, Roma, Palermo}$$
+$$V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}$$
 
 e l'insieme degli archi _E_
 
-$$E = (141, 279, 571, 154, 1270, 1423, 924)$$
+$$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
