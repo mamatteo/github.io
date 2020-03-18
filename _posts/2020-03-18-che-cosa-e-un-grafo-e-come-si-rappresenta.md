@@ -23,6 +23,7 @@ Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti
 
 Come si rappresenta un grafo
 ------------------------------------
+
 Disegnare i grafi
 ==================
 
