@@ -42,4 +42,7 @@ e l'insieme degli archi _E_
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
+<div class="image"><img src="/media/images/graph2.png"/></div>
+
+
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
