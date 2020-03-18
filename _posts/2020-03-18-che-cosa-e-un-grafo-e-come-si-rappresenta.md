@@ -20,5 +20,7 @@ Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresent
 
 ![graph1](/media/images/graph1.png)
 
+Nella figura sono stati messi in evidenza i nodi (N1, N2, N3, N4, N5 e N6) e gli archi (A1, A2, A3, A4, A5 e A6).
+
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
