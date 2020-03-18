@@ -32,17 +32,16 @@ Immaginiamo di ridisegnare il grafico precedente, calandolo ad un contesto reale
 
 Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segue:
 
-![graph2](/media/images/graph2.png)
+![graph2](/media/images/graph2.svg){: .center-image }
 
-Nella figura qui sopra, in accordo con la definizione data all'inizio, individuiamo l'insieme dei nodi _V_
+Nella figura qui sopra, in accordo con la definizione data all'inizio, individuiamo l'insieme dei nodi
 
 $$V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}$$
 
-e l'insieme degli archi _E_
+e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
-<div class="image"><img src="/media/images/graph2.svg"/></div>
 
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
