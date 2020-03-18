@@ -8,13 +8,6 @@ permalink: /:categories/:title
 
 Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato _"The most important skills of data scientists"_ [(vai al video)][TedTalk].
 
-{% mermaid %}
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-{% endmermaid %}
 
 {% graph some graph title %}
 a -- b
