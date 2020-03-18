@@ -10,10 +10,10 @@ Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Mig
 
 <div class="mermaid">
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A-->Marco;
+    A-->Arturo;
+    B-->Luigi;
+    C-->Penelope;
 </div>
 
 
