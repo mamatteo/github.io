@@ -16,6 +16,12 @@ graph TD;
     C-->D;
 {% endmermaid %}
 
+{% graph some graph title %}
+a -- b
+b -- c
+c -- a
+{% endgraph %}
+
 
 Il video è interessante perché invita ad allargare l'idea per cui un _data scientist_ sia solo un esperto di dati, di modelli, di statistica, di algoritmi o di _machine learning_. Uno "scienziato dei dati" invece, deve avere anche delle qualità umanistiche.
 
