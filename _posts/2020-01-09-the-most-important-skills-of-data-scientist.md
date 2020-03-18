@@ -9,11 +9,12 @@ permalink: /:categories/:title
 Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato _"The most important skills of data scientists"_ [(vai al video)][TedTalk].
 
 
-{% graph some graph title %}
-a -- b
-b -- c
-c -- a
-{% endgraph %}
+<div class="mermaid">
+graph LR
+    A --- B
+    B-->C[Happy]
+    B-->D(Sad);
+</div>
 
 
 Il video è interessante perché invita ad allargare l'idea per cui un _data scientist_ sia solo un esperto di dati, di modelli, di statistica, di algoritmi o di _machine learning_. Uno "scienziato dei dati" invece, deve avere anche delle qualità umanistiche.

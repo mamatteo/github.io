@@ -18,6 +18,11 @@
         </span>
       </label>
 
+      {% if page.mermaid %}
+        {% include mermaid.html %}
+      {% endif %}
+
+      
       <div class="trigger">
         {% for page in site.pages %}
     	  {% unless page.exclude %}
