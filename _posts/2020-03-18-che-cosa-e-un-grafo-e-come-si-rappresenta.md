@@ -57,7 +57,7 @@ Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali pr
 
 $$
 \begin{pmatrix}
-- & Venezia & Milano & Torino & Bologna & Roma & Palermo \\
+/ & Venezia & Milano & Torino & Bologna & Roma & Palermo \\
 Venezia & 0 & 1 & 0 & 1 & 0 & 1 \\
 Milano & 1 & 0 & 1 & 0 & 1 & 0 \\
 Torino & 0 & 1 & 0 & 0 & 0 & 0 \\
