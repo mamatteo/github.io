@@ -9,12 +9,20 @@ permalink: /:categories/:title
 Durante le ultime festività natalizie, mi sono imbattuto nel video di [Jose Miguel Cansado][JoseCansado], che in occasione del [TEDx di Madrid][TedxMadridLink] ha tenuto un intervento intitolato _"The most important skills of data scientists"_ [(vai al video)][TedTalk].
 
 
-{% graph some graph title %}
-a -- b
-b -- c
-c -- a
-{% endgraph %}
-
+{% graphviz %}
+digraph {
+  node [shape=circle, style=filled];
+  S [fillcolor=green];
+  A [fillcolor=yellow];
+  B [fillcolor=yellow];
+  C [fillcolor=yellow];
+  D [shape=doublecircle, fillcolor=green];
+  S -> A [label=a];
+  S -> B [label=b];
+  A -> D [label=c];
+  B -> D [label=d];
+}
+{% endgraphviz %}
 
 
 
