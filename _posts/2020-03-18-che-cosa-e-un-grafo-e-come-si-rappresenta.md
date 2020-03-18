@@ -44,11 +44,11 @@ $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
 Un modo per rappresentare in maniera compatta i grafi, prevede di usare le matrici di adiacenza.
 
-| 0 | 1 | 1 | 0 | 0 |
-|---|---|---|---|---|
-| 1 | 0 | 1 | 0 | 1 |
-| 0 | 0 | 1 | 0 | 1 |
-| 0 | 1 | 0 | 0 | 0 |
+| Grafo        | Nodi       | Archi               |
+|--------------|------------|---------------------|
+| Internet     | Computer   | Cavi di connessione |
+| Web          | Pagine web | Hyperlink           |
+| Rete neurale | Neuroni    | Sinapsi             |
 
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
