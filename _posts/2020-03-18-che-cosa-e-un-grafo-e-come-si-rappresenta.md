@@ -59,11 +59,11 @@ $$
 \begin{pmatrix}
 - & Venezia & Milano & Torino & Bologna & Roma & Palermo \\
 Venezia & 0 & 1 & 0 & 1 & 0 & 1 \\
-Milano & 0 & 1 & 1 & 0 & 0 & 0 \\
-Torino & 1 & 0 & 1 & 1 & 1 & 0 \\
-Bologna & 1 & 1 & 0 & 0 & 0 & 0 \\
-Roma & 0 & 1 & 0 & 0 & 0 & 0 \\
-Palermo & 0 & 1 & 0 & 0 & 0 & 0 \\
+Milano & 1 & 0 & 1 & 0 & 1 & 0 \\
+Torino & 0 & 1 & 0 & 0 & 0 & 0 \\
+Bologna & 1 & 0 & 0 & 0 & 0 & 1 \\
+Roma & 0 & 1 & 0 & 0 & 0 & 1 \\
+Palermo & 1 & 0 & 0 & 1 & 1 & 0 \\
 \end{pmatrix}
 $$
 
