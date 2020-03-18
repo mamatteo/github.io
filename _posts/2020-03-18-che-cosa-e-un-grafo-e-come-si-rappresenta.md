@@ -33,7 +33,7 @@ Immaginiamo di ridisegnare il grafico precedente, calandolo ad un contesto reale
 Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segue:
 
 ![graph2](/media/images/graph2.svg){: .center-image }
-<div style="text-align: center"><img src="(/media/images/graph2.svg" /></div>
+<div style="text-align: center"><img src="/media/images/graph2.svg" /></div>
 
 Nella figura qui sopra, in accordo con la definizione data all'inizio, individuiamo l'insieme dei nodi
 
