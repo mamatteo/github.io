@@ -57,13 +57,13 @@ Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali pr
 
 $$
 \begin{pmatrix}
-- & Venezia & Milano & 0 & 1 & 0 \\
+- & Venezia & Milano & Torino & Bologna & Roma & Palermo \\
 Venezia & 1 & 0 & 0 & 1 & 0 \\
 Milano & 0 & 1 & 1 & 0 & 0 \\
-0 & 1 & 0 & 1 & 1 & 1 \\
-0 & 1 & 1 & 0 & 0 & 0 \\
-1 & 0 & 1 & 0 & 0 & 0 \\
-0 & 0 & 1 & 0 & 0 & 0 \\
+Torino & 1 & 0 & 1 & 1 & 1 \\
+Bologna & 1 & 1 & 0 & 0 & 0 \\
+Roma & 0 & 1 & 0 & 0 & 0 \\
+Palermo & 0 & 1 & 0 & 0 & 0 \\
 \end{pmatrix}
 $$
 
