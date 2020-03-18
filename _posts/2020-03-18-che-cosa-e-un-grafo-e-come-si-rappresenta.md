@@ -67,6 +67,8 @@ Palermo & 1 & 0 & 0 & 1 & 1 & 0 \\
 \end{pmatrix}
 $$
 
+$$\textcolor{blue}{This is a sample text in blue.}$$
+
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
