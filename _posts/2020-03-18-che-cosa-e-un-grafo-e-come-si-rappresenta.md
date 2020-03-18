@@ -18,7 +18,7 @@ Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti
 
 Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
 
-![graph1](/media/images/graph1.png)
+![graph1](/media/images/graph1.svg)
 
 Nella figura sono stati messi in evidenza i nodi (N1, N2, N3, N4, N5 e N6) e gli archi (A1, A2, A3, A4, A5 e A6).
 
