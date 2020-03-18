@@ -46,8 +46,9 @@ defaults:
 
 highlighter: rouge
 
-
-gems: [jekyll-mermaid]
+group :jekyll_plugins do
+  gem 'jekyll-graphviz'
+end
 
 # Exclude from processing.
 # The following items will not be processed, by default.
