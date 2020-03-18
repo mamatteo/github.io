@@ -19,10 +19,10 @@ Un grafo rappresenta un modello astratto per descrivere un determinato contesto 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
 Come si rappresenta un grafo
-============================
+------------------------------------
 
 Disegnare i grafi
-------------------
+==================
 
 Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
 
@@ -51,13 +51,13 @@ e l'insieme degli archi
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
 Le matrici di adiacenza
-------------------------
+========================
 
 Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosidetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
 
 
 Perché la teoria dei grafi è importante
-===============================
+------------------------------------------------------
 
 | Grafo        | Nodi       | Archi               |
 |--------------|------------|---------------------|
