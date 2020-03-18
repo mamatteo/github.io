@@ -28,13 +28,13 @@ Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 
 
 Quel che è importante aver capito fin qui, è che un grafo rappresenta una serie di relazioni tra entità, mediante i suoi nodi e i suoi archi.
 
-Immaginiamo di ridisegnare il grafico precedente, calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste saranno le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare, è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
+Ridisegniamo ora il grafo precedente, calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare, è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
 
 Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segue:
 
 <div style="text-align: center"><img src="/media/images/graph2.svg" /></div>
 
-Nella figura qui sopra, in accordo con la definizione data all'inizio, individuiamo l'insieme dei nodi
+Nella figura qui sopra, in accordo con la definizione data all'inizio, è facile riconoscere l'insieme dei nodi, così formato
 
 $$V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}$$
 
@@ -42,6 +42,13 @@ e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
+Un modo per rappresentare in maniera compatta i grafi, prevede di usare le matrici di adiacenza.
+
+| 0 | 1 | 1 | 0 | 0 |
+|---|---|---|---|---|
+| 1 | 0 | 1 | 0 | 1 |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
 
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
