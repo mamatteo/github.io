@@ -34,4 +34,6 @@ Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segu
 
 ![graph2](/media/images/graph2.png)
 
+$$V = (Venezia, Milano, Torino, Bologna, Roma, Palermo)$$
+
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
