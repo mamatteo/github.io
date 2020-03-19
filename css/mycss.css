@@ -4,8 +4,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 /** Basic styling */
 body { font: 400 17px/1.5 Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
-.abstract {color: black;
-           font: 'Muli'}
+.abstract {color: #2f3640; font-weight: bold;}
 
 
 /** Set `margin-bottom` to maintain vertical rhythm */
