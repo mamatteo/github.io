@@ -37,7 +37,8 @@ Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo
 
 Dizionario elementare
 ------------------------------------
-<br>
+Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.
+
 CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
 
 $$cammino = (a_{1}, \dots, a_{m})$$
