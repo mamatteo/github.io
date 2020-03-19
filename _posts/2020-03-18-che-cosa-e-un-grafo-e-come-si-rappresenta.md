@@ -39,6 +39,8 @@ Dizionario elementare
 
 Chiameremo <font color="#b3d313">cammino</font>, una squenza ordinata di archi.
 
+<div style="text-align: center"><img src="/media/images/path.svg" /></div>
+
 Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
 
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
