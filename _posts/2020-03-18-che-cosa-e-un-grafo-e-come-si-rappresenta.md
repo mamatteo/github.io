@@ -13,7 +13,7 @@ Cosa sono i grafi
 
 La [<font color="#b3d313">teoria dei grafi</font>][graphtheorylink] è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati per l'appunto _grafi_.
 
-Un grafo _G_ è una coppia di insiemi, e più precisamente è la coppia formata dall'insieme _V_ dei nodi (_vertices_ in inglese), e dall'insieme _E_ degli archi (_edges_ in inglese).
+Un grafo _G_ è una coppia di insiemi, e più precisamente è la coppia formata dall'insieme _V_ dei <font color="#b3d313">nodi</font> (_vertices_ in inglese), e dall'insieme _E_ degli <font color="#b3d313">archi</font> (_edges_ in inglese).
 
 $$G = (V, E)$$
 
@@ -21,17 +21,17 @@ Un grafo rappresenta un modello astratto per descrivere un determinato contesto 
 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
-Solitamente, presi due nodi di un grafo questi sono collegati da uno ed un solo arco. Tuttavia nulla vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di _multi archi_ (o _multiedges_). Come mostrato nella figura seguente, un multi arco potrebbe rivelarsi utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell'esempio, tra i nodi N1 e N2, abbiamo messo in evidenza un arco che potrebbe esprimere la distanza che intercorre tra i due nodi, e un arco che esprime la capacità del collegamento. Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità in litri del tubo che  li collega (secondo arco).
+Solitamente, presi due nodi di un grafo questi sono collegati da uno ed un solo arco. Tuttavia nulla vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di <font color="#b3d313">_multi archi_</font> (o _multiedges_). Come mostrato nella figura seguente, un multi arco potrebbe rivelarsi utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell'esempio, tra i nodi N1 e N2, abbiamo messo in evidenza un arco che potrebbe esprimere la distanza che intercorre tra i due nodi, e un arco che esprime la capacità del collegamento. Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità in litri del tubo che  li collega (secondo arco).
 
 <div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
 
 <br>
-Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli archi. Se esiste un arco tra il nodo N1 e il nodo N2, diremo che l'arco è indiretto se è possibile percorrere l'arco da il nodo N1 al nodo N2 e viceversa. Altrimenti, diremo che l'arco che li collega è diretto, se esiste un'unica direzione in cui è possibile percorrere l'arco. Nella figura che segue è mostrato un esempio di arco diretto. Un arco diretto, in un grafo, si esprime indicando una freccia in una delle sue due estremità.
+Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli archi. Se esiste un arco tra il nodo N1 e il nodo N2, diremo che <font color="#b3d313">l'arco è indiretto</font> se è possibile percorrere l'arco da il nodo N1 al nodo N2 e viceversa. Altrimenti, diremo che l'arco che li collega è <font color="#b3d313">diretto</font>, se esiste un'unica direzione in cui è possibile percorrere l'arco. Nella figura che segue è mostrato un esempio di arco diretto. Un arco diretto, in un grafo, si esprime indicando una freccia in una delle sue due estremità.
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
 <br>
-Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
+Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
 
 
 
