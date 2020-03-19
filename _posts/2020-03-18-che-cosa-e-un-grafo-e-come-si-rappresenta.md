@@ -37,9 +37,12 @@ Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo
 
 Dizionario elementare
 ------------------------------------
-
 <br>
-CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi. Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi <A6, A7, A1>.
+CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
+
+$$cammino = (v_{0}, \dots, v_{m})$$
+
+Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi <A6, A7, A1>.
 
 Nota:
 - tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
