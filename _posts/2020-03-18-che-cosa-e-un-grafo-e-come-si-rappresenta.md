@@ -33,14 +33,20 @@ Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli 
 <br>
 Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia, dalla chimica e dalla sociologia.
 
-
+<br>
 Dizionario elementare
 ------------------------------------
 
-Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
+Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi. Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi A6, A7 e A1.
+
+Nota:
+- tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?).
+- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve (cammino minimo) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink]
+- tra due nodi di una rete potrebbe anche non esistere un cammino che li collega.
 
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
+<br>
 Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
 
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
@@ -129,5 +135,6 @@ Perché la teoria dei grafi è importante
 | Rete neurale | Neuroni    | Sinapsi             |
 
 
+[spplink]: https://en.wikipedia.org/wiki/Shortest_path_problem
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
 [nslink]: https://en.wikipedia.org/wiki/Network_science
