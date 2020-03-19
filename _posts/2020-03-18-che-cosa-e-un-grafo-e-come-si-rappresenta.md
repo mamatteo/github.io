@@ -80,7 +80,9 @@ $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 Le matrici di adiacenza
 ========================
 
-Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta _matrice di adiacenza_ (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta <font color="#b3d313">matrice di adiacenza</font> (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+
+<br>
 
 $$
 \begin{pmatrix}
@@ -94,7 +96,19 @@ Palermo & 1 & 0 & 0 & 1 & 1 & 0 \\
 \end{pmatrix}
 $$
 
+<br>
 Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci dice che il nodo "Venezia", possiede tre collegamenti: "Milano", "Bologna" e "Palermo", corrispondenti alle tre celle valorizzate ad 1.
+
+<br>
+
+Gli alberi
+========================
+
+Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi (solitamente) indiretti, privi di cicli (_loops_) e connessi. I cicli (_loop_), sono cammini che partendo da un determinato nodo della rete, ritornano dopo un numero _m_ di archi allo stesso nodo dal quale sono partiti.
+
+<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
+
+
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
