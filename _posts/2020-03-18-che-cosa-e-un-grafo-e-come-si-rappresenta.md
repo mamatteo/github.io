@@ -34,6 +34,15 @@ Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli 
 Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia, dalla chimica e dalla sociologia.
 
 
+Dizionario elementare
+------------------------------------
+
+Chiameremo <font color="#b3d313">cammino</font>, una squenza ordinata di archi.
+
+Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
+
+<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
+
 
 Come si rappresenta un grafo
 ------------------------------------
@@ -104,9 +113,7 @@ Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scop
 Gli alberi
 ========================
 
-Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi (solitamente) indiretti, privi di cicli (_loops_) e connessi. I cicli (_loop_), sono cammini che partendo da un determinato nodo della rete, ritornano dopo un numero _m_ di archi allo stesso nodo dal quale sono partiti.
-
-<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
+Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi (solitamente) indiretti, privi di cicli (_loops_) e connessi.
 
 
 
