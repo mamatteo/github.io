@@ -37,7 +37,7 @@ Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo
 Dizionario elementare
 ------------------------------------
 
-Chiameremo <font color="#b3d313">cammino</font>, una squenza ordinata di archi.
+Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
 
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
