@@ -30,6 +30,7 @@ Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli 
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
+
 Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
 
 
