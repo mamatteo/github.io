@@ -25,12 +25,12 @@ Solitamente, presi due nodi di un grafo questi sono collegati da uno ed un solo 
 
 <div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
 
-
+<br>
 Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli archi. Se esiste un arco tra il nodo N1 e il nodo N2, diremo che l'arco è indiretto se è possibile percorrere l'arco da il nodo N1 al nodo N2 e viceversa. Altrimenti, diremo che l'arco che li collega è diretto, se esiste un'unica direzione in cui è possibile percorrere l'arco. Nella figura che segue è mostrato un esempio di arco diretto. Un arco diretto, in un grafo, si esprime indicando una freccia in una delle sue due estremità.
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
-
+<br>
 Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
 
 
