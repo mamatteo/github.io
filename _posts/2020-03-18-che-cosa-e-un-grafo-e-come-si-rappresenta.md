@@ -75,6 +75,7 @@ e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
+<br>
 
 Le matrici di adiacenza
 ========================
