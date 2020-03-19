@@ -21,7 +21,7 @@ Un grafo rappresenta un modello astratto per descrivere un determinato contesto 
 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
-Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o _network science_. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
+Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
 
 
 
@@ -96,3 +96,4 @@ Perché la teoria dei grafi è importante
 
 
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
+[nslink]: https://en.wikipedia.org/wiki/Network_science
