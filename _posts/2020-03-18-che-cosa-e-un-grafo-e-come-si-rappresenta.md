@@ -39,6 +39,7 @@ Dizionario elementare
 ------------------------------------
 Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.
 
+<br>
 CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
 
 $$cammino = (a_{1}, \dots, a_{m})$$
