@@ -35,33 +35,6 @@ Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo
 
 <br>
 
-Dizionario elementare
-------------------------------------
-Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.
-
-<br>
-CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
-
-$$cammino = (a_{1}, \dots, a_{m})$$
-
-In riferimento alla figura riportata di seguito, potremmo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi <A6, A7, A1>.
-
-<div style="text-align: center"><img src="/media/images/path.svg" /></div>
-
-Nota:
-- tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
-- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink];
-- tra due nodi di una rete potrebbe anche non esserci alcun cammino che li collega.
-
-<br>
-CICLO | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
-
-$$ciclo = (a_{1}, a_{2}, a_{3}, \dots, a_{1})$$
-
-Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi <A1, A2, A3, A4, A5, A6, A7>. Questo cammino non è l'unico ciclo che insiste sul nodo N1 e non è nemmeno il più breve. Nella figura è stato volutamente evidenziato di rosso l'arco A7, che denota la possibilità di chiudere un ciclo su N1 con un cammino molto più breve del precedente (il cammino <A1, A2, A7>).
-
-<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
-
 
 Come si rappresenta un grafo
 ------------------------------------
@@ -128,6 +101,39 @@ $$
 Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci dice che il nodo "Venezia", possiede tre collegamenti: "Milano", "Bologna" e "Palermo", corrispondenti alle tre celle valorizzate ad 1.
 
 <br>
+
+Dizionario elementare
+------------------------------------
+Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.
+
+<br>
+CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi.
+
+$$cammino = (a_{1}, \dots, a_{m})$$
+
+In riferimento alla figura riportata di seguito, potremmo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi <A6, A7, A1>.
+
+<div style="text-align: center"><img src="/media/images/path.svg" /></div>
+
+Nota:
+- tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
+- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink];
+- tra due nodi di una rete potrebbe anche non esserci alcun cammino che li collega.
+
+<br>
+CICLO | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
+
+$$ciclo = (a_{1}, a_{2}, a_{3}, \dots, a_{1})$$
+
+Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi <A1, A2, A3, A4, A5, A6, A7>. Questo cammino non è l'unico ciclo che insiste sul nodo N1 e non è nemmeno il più breve. Nella figura è stato volutamente evidenziato di rosso l'arco A7, che denota la possibilità di chiudere un ciclo su N1 con un cammino molto più breve del precedente (il cammino <A1, A2, A7>).
+
+<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
+
+
+<br>
+
+Grafi particolari
+-----------------------
 
 Gli alberi
 ========================
