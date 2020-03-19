@@ -1,6 +1,7 @@
 
 <header class="site-header">
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 <div class="wrapper">
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -22,7 +23,7 @@
         {% include mermaid.html %}
       {% endif %}
 
-      
+
       <div class="trigger">
         {% for page in site.pages %}
     	  {% unless page.exclude %}
