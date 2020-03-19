@@ -41,9 +41,9 @@ Dizionario elementare
 Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi. Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi A6, A7 e A1.
 
 Nota:
-- tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?).
-- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve (cammino minimo) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink]
-- tra due nodi di una rete potrebbe anche non esistere un cammino che li collega.
+- tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
+- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink];
+- tra due nodi di una rete potrebbe anche non esserci alcun cammino che li collega.
 
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
@@ -136,6 +136,7 @@ Perché la teoria dei grafi è importante
 | Rete neurale | Neuroni    | Sinapsi             |
 
 
+[pathmin]: https://it.wikipedia.org/wiki/Cammino_minimo
 [spplink]: https://en.wikipedia.org/wiki/Shortest_path_problem
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
 [nslink]: https://en.wikipedia.org/wiki/Network_science
