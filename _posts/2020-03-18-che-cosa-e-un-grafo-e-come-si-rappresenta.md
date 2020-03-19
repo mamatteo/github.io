@@ -48,7 +48,7 @@ Nota:
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
 <br>
-CICLO | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti. Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi <A1, A2, A3, A4, A5, A6, A7>
+CICLO | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti. Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi <A1, A2, A3, A4, A5, A6, A7>. Questo cammino non è l'unico ciclo che insiste sul nodo N1 e non è nemmeno il più breve. Nella figura è stato volutamente evidenziato di rosso l'arco A7, che denota la possibilità di chiudere un ciclo su N1 con un cammino molto più breve del precedente (il cammino <A1, A2, A7>).
 
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
 
