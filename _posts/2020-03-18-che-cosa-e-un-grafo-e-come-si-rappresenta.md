@@ -38,7 +38,7 @@ Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo
 Dizionario elementare
 ------------------------------------
 
-Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi. Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi A6, A7 e A1.
+CAMMINO | Chiameremo <font color="#b3d313">cammino</font> (_path_), una squenza ordinata di archi. Un cammino si esprime sempre in riferimento a due nodi. Pertanto, in riferimento alla figura riportata di seguito, potremmo dire che tra il nodo N6 e il nodo N2, esiste il cammino formato dagli archi A6, A7 e A1.
 
 Nota:
 - tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
@@ -48,7 +48,7 @@ Nota:
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
 <br>
-Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
+CICLO | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
 
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
 
