@@ -21,6 +21,10 @@ Un grafo rappresenta un modello astratto per descrivere un determinato contesto 
 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
+Solitamente, presi due nodi di un grafo questi sono collegati da uno ed un solo arco. Tuttavia nulla vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di _multi archi_ (o _multiedges_). Come mostrato nella figura seguente, un multi arco potrebbe rivelarsi utile quando vogliamo rappresentare più informazione contemporaneamente.
+
+<div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
+
 Spesso un sinonimo di grafo è rete (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia e dalla sociologia.
 
 
