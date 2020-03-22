@@ -145,8 +145,13 @@ Gli alberi
 
 Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi indiretti, privi di cicli e connessi.
 
+Di seguito è riportato un esempio di albero.
 
-<div style="text-align: center"><img src="/media/images/tree.svg" /></div>
+<div style="text-align: center"><img src="/media/images/tree1.svg" /></div>
+
+che più comumenete viene rappresentato così
+
+<div style="text-align: center"><img src="/media/images/tree2.svg" /></div>
 
 Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto nodo radice (_root node_).
 
