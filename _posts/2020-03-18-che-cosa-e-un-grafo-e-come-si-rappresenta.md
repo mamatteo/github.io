@@ -19,7 +19,7 @@ $$G = (V, E)$$
 
 I nodi di un grafo servono a rappresentare le _entità_ del dominio in esame, mentre gli archi rappresenteranno le _relazioni_ che intercorrono tra le diverse entità coinvolte. In questo senso, un grafo rappresenta un modello astratto per descrivere tutti quei contesti in cui siamo in grado di individuare delle entità (città, squadre di calcio, persone, etc.), connesse tra loro da determinate relazioni (strade, partite, rapporti affettivi).
 
-I matematici, utilizzano la lettera _n_ per denotare il numero dei nodi di un grafo, e la lettera _m_ per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V (|V| = _n_) e la cardinalità di E (|E| = _m_).
+I matematici, utilizzano la lettera _n_ per denotare il numero dei nodi di un grafo, e la lettera _m_ per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V con _n_ e la cardinalità di E con _m_.
 
 I grafi sono quindi utili strumenti per modellare contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
@@ -38,7 +38,7 @@ Nella figura seguente viene mostrato un esempio di arco diretto. Un arco diretto
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
-Un <font color="#b3d313">grafo orientato</font> è un grafo in cui tutti i suoi archi sono diretti. 
+Un <font color="#b3d313">grafo orientato</font> è un grafo in cui tutti i suoi archi sono diretti.
 Un <font color="#b3d313">grafo non orientato</font> è un grafo in cui tutti i suoi archi sono indiretti.
 
 <br>
