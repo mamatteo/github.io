@@ -149,7 +149,9 @@ Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
 
 <br>
-**CONNETTIVITÀ** | Dato un grafo G = (V, E) due vertici v, u $$\in$$ V si dicono <font color="#b3d313">connessi</font> se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti <font color="#b3d313">sconnessi</font>. 
+**CONNETTIVITÀ** | Dato un grafo G = (V, E) due vertici v, u $$\in$$ V si dicono <font color="#b3d313">connessi</font> se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti <font color="#b3d313">sconnessi</font>.
+
+Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di vertici (u, v) $$\in$$ V, esiste un cammino che collega u a v.
 
 <div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
 
