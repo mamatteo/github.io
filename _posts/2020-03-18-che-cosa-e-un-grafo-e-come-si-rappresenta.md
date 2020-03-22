@@ -136,7 +136,7 @@ In riferimento alla figura riportata di seguito, possiamo affermare che tra il n
 
 Nota:
 - tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
-- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink];
+- spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo _[shortest path problem][spplink]_;
 - una coppia di nodi in una rete potrebbe anche non essere collegata da alcun cammino.
 
 <br>
