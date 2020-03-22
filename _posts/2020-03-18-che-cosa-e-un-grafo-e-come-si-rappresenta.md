@@ -21,9 +21,13 @@ I nodi di un grafo servono a rappresentare le _entità_ del dominio in esame, me
 
 I matematici, utilizzano la lettera _n_ per denotare il numero dei nodi di un grafo, e la lettera _m_ per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V (|V| = _n_) e la cardinalità di E (|E| = _m_).
 
-Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
+I grafi sono quindi utili strumenti per modellare contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
-Solitamente, presi due nodi di un grafo questi sono collegati da uno ed un solo arco. Tuttavia nulla vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di <font color="#b3d313">multiarchi</font> (o _multiedges_). Come mostrato nella figura seguente, un multi arco potrebbe rivelarsi utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell'esempio, tra i nodi N1 e N2, abbiamo messo in evidenza un arco che potrebbe esprimere la distanza che intercorre tra i due nodi, e un arco che esprime la capacità del collegamento. Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità in litri del tubo che  li collega (secondo arco).
+Il modo più semplice per collegare due nodi, comporta che tra essi vi sia uno ed un solo arco e quindi una ed una sola relazione. Nulla però vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di <font color="#b3d313">multiarchi</font> (_multiedges_).
+
+Come mostrato nella figura seguente, un multiarco è utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell'esempio riportato in figura, tra il nodo N1 e il nodo N2 è stato messo in evidenza un primo arco che esprime la distanza che intercorre tra i due nodi e un secondo arco che esprime la capacità del collegamento.
+
+Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità del tubo che li collega (secondo arco).
 
 <div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
 
