@@ -151,13 +151,15 @@ Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna
 <br>
 **CONNETTIVITÀ** | Dato un grafo G = (V, E) due vertici v, u $$\in$$ V si dicono <font color="#b3d313">connessi</font> se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti <font color="#b3d313">sconnessi</font>.
 
-Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di vertici (u, v) $$\in$$ V, esiste un cammino che collega u a v.
+Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di vertici (u, v) $$\in$$ V, esiste un cammino che collega u a v. Nel grafo riportato di seguito, comunque scegliamo due nodi esisterà sempre un cammino che li collega. Il grafo che segue è un esempio di <font color="#b3d313">grafo connesso</font>.
 
 <div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
 
-Se però immaginassimo di eliminare gli archi evidenziati in arancione, ecco che il grafo diventa sconnesso.
+Se però immaginassimo di eliminare gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.
 
 <div style="text-align: center"><img src="/media/images/disconnectedgraph.svg" /></div>
+
+L'operazione di eliminazione di uno o più archi da un grafo è detta operazione di taglio. Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di _[minimum cut problem][mincutlink]_
 
 <br>
 **RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.
@@ -207,7 +209,7 @@ L'avvento della rete internet, non ha solo collegato ciascuno di noi ad altre pe
 
 La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l'impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull'intero sistema.
 
-
+[mincutlink]: https://en.wikipedia.org/wiki/Minimum_cut
 [pathmin]: https://it.wikipedia.org/wiki/Cammino_minimo
 [spplink]: https://en.wikipedia.org/wiki/Shortest_path_problem
 [graphtheorylink]: https://en.wikipedia.org/wiki/Graph_theory
