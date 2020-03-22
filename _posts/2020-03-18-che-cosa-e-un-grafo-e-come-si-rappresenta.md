@@ -151,7 +151,7 @@ Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna
 <br>
 **RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.
 
-Le reti i cui archi possiedono un peso sono dette <font color="#b3d313">reti pesate</font> (_weighted networks_). Nella figura che segue è riportato un esempio di rete pesata. Ogni arco è etichettato con un numero reale che ne determina il peso. In relazione a questo tipo di reti, potrebbe essere interessante chiederci qual è il cammino di peso minore che collega due nodi oppure qual è il cammino di peso maggiore che collega due nodi.
+Le reti i cui archi possiedono un peso sono dette <font color="#b3d313">reti pesate</font> (_weighted networks_). Nella figura che segue è riportato un esempio di rete pesata. Ogni arco è etichettato con un numero reale che ne determina il peso. In relazione a questo tipo di reti, potrebbe essere interessante chiederci qual è il cammino di peso minore o maggiore che collega due nodi, inteso come la somma dei pesi di tutti gli archi che collegano il primo nodo al secondo.
 
 <div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
 
