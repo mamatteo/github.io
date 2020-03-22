@@ -149,13 +149,21 @@ Di seguito è riportato un esempio di albero.
 
 <div style="text-align: center"><img src="/media/images/tree1.svg" /></div>
 
-che più comumenete viene rappresentato così
+Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela utile più comumenete viene rappresentato così
 
 <div style="text-align: center"><img src="/media/images/tree2.svg" /></div>
 
-Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto nodo radice (_root node_).
+Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto <font color="#b3d313">nodo radice</font> (_root node_). Nella figura seguente è stato colorato di blu il nodo radice N1. I nodi finali di quest'albero (ovvero i nodi che non possiedono nodi figli), sono detti <font color="#b3d313">foglie</font> (_leaf_) dell'albero.
 
 <div style="text-align: center"><img src="/media/images/roottree.svg" /></div>
+
+Gli alberi sono oggetti matematici ancora più semplici dei grafi, eppure godono di alcune interessanti proprietà, elencate di seguito:
+
+- poiché in un albero non esistono cicli, esiste un solo cammino tra ogni coppia di nodi;
+- un albero di _n_ nodi, possiede sempre esattamente _n - 1_ archi;
+
+Lasciamo al lettore dimostrare e convincersi di queste proprietà.
+
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
