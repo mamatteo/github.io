@@ -155,7 +155,7 @@ Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di ver
 
 <div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
 
-Se però immaginassimo di eliminare gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.
+Se però eliminassimo gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.
 
 <div style="text-align: center"><img src="/media/images/disconnectedgraph.svg" /></div>
 
