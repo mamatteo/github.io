@@ -147,7 +147,7 @@ Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>.
 
 <div style="text-align: center"><img src="/media/images/tree1.svg" /></div>
 
-Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo in maniera, per coì dire, "più ordinata":
+Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo in maniera, per così dire, "più ordinata":
 
 <div style="text-align: center"><img src="/media/images/tree2.svg" /></div>
 
@@ -165,6 +165,7 @@ Lasciamo al lettore dimostrare e convincersi di queste proprietà.
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
+Nella vita reale, esistono moltissimi contesti rappresentabili come una rete. Internet, intesa come l'insieme di computer connessi fra loro, è la rete per eccellenza, ma solo perché è utilizzata da un numero elevatissimo di persone in tutto il mondo. Esistono però molti altri ambiti nei quali sono presenti delle reti, anche di fondamentale importanza per l'essere umano. Il cervello è modellabile come una rete, dove i nodi sono rappresentati dai neuroni e gli archi dalle sinapsi. Ma anche le persone che incontriamo ogni giorno, in famiglia o al lavoro, formano assieme a noi una gigantesca rete umana. 
 
 | Grafo        | Nodi       | Archi               |
 |--------------|------------|---------------------|
