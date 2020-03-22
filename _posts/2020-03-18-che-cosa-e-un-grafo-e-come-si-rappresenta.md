@@ -6,18 +6,20 @@ categories: informatica
 permalink: /:categories/:title
 ---
 
-<p class="abstract">In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo che esistono diversi modi per rappresentarli. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.</p>
+<p class="abstract">In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.</p>
 
 Cosa sono i grafi
 -----------------------
 
-La [<font color="#b3d313">teoria dei grafi</font>][graphtheorylink] è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati per l'appunto _grafi_.
+La [<font color="#b3d313">teoria dei grafi</font>][graphtheorylink] è una branca della matematica e dell'informatica che si occupa di studiare degli oggetti chiamati _grafi_.
 
-Un grafo _G_ è una coppia di insiemi, e più precisamente è la coppia formata dall'insieme _V_ dei <font color="#b3d313">nodi</font> (_vertices_ in inglese), e dall'insieme _E_ degli <font color="#b3d313">archi</font> (_edges_ in inglese).
+Un grafo _G_ è definito dalla coppia di insiemi _V_ dei <font color="#b3d313">nodi</font> (_vertices_ in inglese), ed _E_ degli <font color="#b3d313">archi</font> (_edges_ in inglese).
 
 $$G = (V, E)$$
 
-Un grafo rappresenta un modello astratto per descrivere un determinato contesto reale. In generale, si utilizzano i nodi per rappresentare le _entità_ del dominio analizzato, mentre gli archi rappresenteranno le _relazioni_ che intercorrono tra le diverse entità coinvolte. È consuetudine, in matematica, utilizzare la lettera _n_ per denotare il numero dei nodi di un grafo, e la lettera _m_ per denotare invece il numero di archi.
+I nodi di un grafo servono a rappresentare le _entità_ del dominio in esame, mentre gli archi rappresenteranno le _relazioni_ che intercorrono tra le diverse entità coinvolte. In questo senso, un grafo rappresenta un modello astratto per descrivere tutti quei contesti in cui siamo in grado di individuare delle entità (città, squadre di calcio, persone, etc.), connesse tra loro da determinate relazioni (strade, partite, rapporti affettivi).
+
+I matematici, utilizzano la lettera _n_ per denotare il numero dei nodi di un grafo, e la lettera _m_ per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V (|V| = n) e la cardinalità di E (|E| = m).
 
 Alla luce di questa premesse, è importante ricordare che i grafi sono strumenti adatti a modellare dei contesti "di relazione". Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.
 
@@ -171,7 +173,7 @@ Con l'avvento delle tecnologie digitali, le reti non hanno fatto altro che aumen
 
 L'avvento della rete internet, non ha solo collegato ciascuno di noi ad altre persone, ma ha coinvolto anche gli oggetti, dagli smartphone ai frigoriferi, che oggi fanno ormai parte di una sorta di rete globale.
 
-La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l'impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull'intero sistema. 
+La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l'impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull'intero sistema.
 
 
 [pathmin]: https://it.wikipedia.org/wiki/Cammino_minimo
