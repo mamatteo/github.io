@@ -130,14 +130,14 @@ Di seguito verranno riportate alcune definizioni di base dei grafi. Queste defin
 
 $$cammino = (a_{1}, \dots, a_{m})$$
 
-In riferimento alla figura riportata di seguito, potremmo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi <A6, A7, A1>.
+In riferimento alla figura riportata di seguito, possiamo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi <A6, A7, A1>.
 
 <div style="text-align: center"><img src="/media/images/path.svg" /></div>
 
 Nota:
 - tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);
 - spesso per l'informatica è utile individuare, soprattutto su reti complesse, il cammino più breve ([cammino minimo][pathmin]) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo [shortest path problem][spplink];
-- tra due nodi di una rete potrebbe anche non esserci alcun cammino che li collega.
+- una coppia di nodi in una rete potrebbe anche non essere collegata da alcun cammino.
 
 <br>
 **CICLO** | Parleremo di <font color="#b3d313">ciclo</font> (_loop_), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, ritorna dopo un numero _m_ di archi allo stesso nodo dal quale siamo partiti.
