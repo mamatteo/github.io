@@ -117,7 +117,7 @@ Palermo & 1 & 0 & 0 & 1 & 1 & 0 \\
 $$
 
 <br>
-Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci dice che il nodo "Venezia", possiede tre collegamenti: "Milano", "Bologna" e "Palermo", corrispondenti alle tre celle valorizzate ad 1.
+Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci informa che il nodo Venezia possiede dei collegamenti con le città di Milano, Bologna e Palermo, corrispondenti alle tre celle valorizzate ad 1.
 
 <br>
 
