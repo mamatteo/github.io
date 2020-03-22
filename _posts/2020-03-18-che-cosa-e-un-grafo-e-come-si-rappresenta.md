@@ -38,6 +38,9 @@ Nella figura seguente viene mostrato un esempio di arco diretto. Un arco diretto
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
+Un <font color="#b3d313">grafo orientato</font> è un grafo in cui tutti i suoi archi sono diretti. 
+Un <font color="#b3d313">grafo non orientato</font> è un grafo in cui tutti i suoi archi sono indiretti.
+
 <br>
 Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (_network_). Lo studio dei grafi è anche detto studio delle reti o [_network science_][nslink]. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall'economia, dalla chimica e dalla sociologia.
 
