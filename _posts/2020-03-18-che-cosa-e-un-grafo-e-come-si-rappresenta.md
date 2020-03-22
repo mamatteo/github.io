@@ -143,7 +143,7 @@ Grafi particolari
 Gli alberi
 ========================
 
-Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi (solitamente) indiretti, privi di cicli e connessi.
+Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi indiretti, privi di cicli e connessi.
 
 
 <div style="text-align: center"><img src="/media/images/tree.svg" /></div>
