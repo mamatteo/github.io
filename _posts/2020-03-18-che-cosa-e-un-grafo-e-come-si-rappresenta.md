@@ -134,10 +134,6 @@ Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorn
 
 <div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
 
-Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto nodo radice (_root node_).
-
-<div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
-
 
 <br>
 
@@ -150,9 +146,11 @@ Gli alberi
 Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi indiretti, privi di cicli e connessi.
 
 
+<div style="text-align: center"><img src="/media/images/tree.svg" /></div>
+
+Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto nodo radice (_root node_).
+
 <div style="text-align: center"><img src="/media/images/roottree.svg" /></div>
-
-
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
