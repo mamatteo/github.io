@@ -155,11 +155,11 @@ Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di ver
 
 <div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
 
-Se però eliminassimo gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.
+Se però eliminiamo gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.
 
 <div style="text-align: center"><img src="/media/images/disconnectedgraph.svg" /></div>
 
-L'operazione di eliminazione di uno o più archi da un grafo è detta operazione di taglio. Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di _[minimum cut problem][mincutlink]_
+L'operazione di eliminazione di uno o più archi da un grafo è detta operazione di <font color="#b3d313">taglio</font>. Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di _[minimum cut problem][mincutlink]_
 
 <br>
 **RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.
