@@ -161,7 +161,9 @@ Se però eliminiamo gli archi evidenziati in arancione, ecco che sconnettiamo il
 
 Nel grafo riportato qui sopra, non è possibile raggiungere il nodo N11 da un nodo diverso dal nodo N10, così come non è possibile raggiungere i nodi N7, N8 e N9 a partire da un qualsiasi nodo diverso da questi tre.
 
-L'operazione di eliminazione di uno o più archi da un grafo è detta operazione di <font color="#b3d313">taglio</font>. Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di _[minimum cut problem][mincutlink]_.
+L'operazione di eliminazione di uno o più archi da un grafo è detta operazione di <font color="#b3d313">taglio</font>.
+
+Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di _[minimum cut problem][mincutlink]_.
 
 <br>
 **RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.
