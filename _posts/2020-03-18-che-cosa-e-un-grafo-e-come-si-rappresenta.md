@@ -165,13 +165,13 @@ Lasciamo al lettore dimostrare e convincersi di queste proprietà.
 
 Perché la teoria dei grafi è importante
 ------------------------------------------------------
-Nella vita reale, esistono moltissimi contesti rappresentabili come una rete. Internet, intesa come l'insieme di computer connessi fra loro, è la rete per eccellenza, ma solo perché è utilizzata da un numero elevatissimo di persone in tutto il mondo. Esistono però molti altri ambiti nei quali sono presenti delle reti, anche di fondamentale importanza per l'essere umano. Il cervello è modellabile come una rete, dove i nodi sono rappresentati dai neuroni e gli archi dalle sinapsi. Ma anche le persone che incontriamo ogni giorno, in famiglia o al lavoro, formano assieme a noi una gigantesca rete umana. 
+Nella vita reale, esistono moltissimi contesti rappresentabili come una rete. Internet, intesa come l'insieme di computer connessi fra loro, è la rete per eccellenza, ma solo perché è utilizzata da un numero elevatissimo di persone in tutto il mondo. Esistono però molti altri ambiti nei quali sono presenti delle reti, anche di fondamentale importanza per l'essere umano. Il cervello è modellabile come una rete, dove i nodi sono rappresentati dai neuroni e gli archi dalle sinapsi. Ma anche le persone che incontriamo ogni giorno, in famiglia o al lavoro, formano assieme a noi una gigantesca rete umana.
 
-| Grafo        | Nodi       | Archi               |
-|--------------|------------|---------------------|
-| Internet     | Computer   | Cavi di connessione |
-| Web          | Pagine web | Hyperlink           |
-| Rete neurale | Neuroni    | Sinapsi             |
+Con l'avvento delle tecnologie digitali, le reti non hanno fatto altro che aumentare in tutto il mondo. Non solo: le reti esistenti sono cresciute a dismisura, permttendoci di affermare che oggi siamo tutti interconnessi.
+
+L'avvento della rete internet, non ha solo collegato ciascuno di noi ad altre persone, ma ha coinvolto anche gli oggetti, dagli smartphone ai frigoriferi, che oggi fanno ormai parte di una sorta di rete globale.
+
+La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l'impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull'intero sistema. 
 
 
 [pathmin]: https://it.wikipedia.org/wiki/Cammino_minimo
