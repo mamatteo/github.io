@@ -149,7 +149,13 @@ Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
 
 <br>
-**CONNETTIVITÀ** | Dato un grafo G = (V, E) due vertici v, u $$\in$$ V
+**CONNETTIVITÀ** | Dato un grafo G = (V, E) due vertici v, u $$\in$$ V si dicono <font color="#b3d313">connessi</font> se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti <font color="#b3d313">sconnessi</font>. 
+
+<div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
+
+Se però immaginassimo di eliminare gli archi evidenziati in arancione, ecco che il grafo diventa sconnesso.
+
+<div style="text-align: center"><img src="/media/images/disconnectedgraph.svg" /></div>
 
 <br>
 **RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.
