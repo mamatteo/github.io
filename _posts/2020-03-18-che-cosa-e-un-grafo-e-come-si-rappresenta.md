@@ -98,7 +98,9 @@ Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come que
 Le matrici di adiacenza
 ========================
 
-Esistono altri modi per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta <font color="#b3d313">matrice di adiacenza</font> (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni (gli archi) esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+Esistono anche dei modi più compatti per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta <font color="#b3d313">matrice di adiacenza</font> (_adjacency matrix_). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.
+
+Di seguito è riporata la matrice di adiacenza del grafo delle città disegnato nel paragrafo precedente.
 
 <br>
 
