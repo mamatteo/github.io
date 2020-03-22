@@ -76,7 +76,7 @@ Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 
 Diversi algoritmi studiati dall'informatica operano sia sul numero di strade che collegano una data coppia di nodi sia sul numero di archi che collegano due nodi.
 
 <hr>
-
+<br>
 Ridisegniamo ora il grafo precedente calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
 
 Il grafo in esame è riportato nella figura che segue:
