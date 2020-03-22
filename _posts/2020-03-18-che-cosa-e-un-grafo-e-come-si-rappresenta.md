@@ -53,25 +53,29 @@ Come si rappresenta un grafo
 Disegnare i grafi
 ==================
 
-Una delle potenzialità dei grafi, e la facilità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
+Una delle potenzialità dei grafi, e la semplicità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.
 
 <div style="text-align: center"><img src="/media/images/graph1.svg" /></div>
 
-Nella figura sono stati messi in evidenza i nodi
+Il grafo della figura è composto dall'insieme dei seguenti nodi:
 
 $$V = \{N1, N2, N3, N4, N5, N6\}$$
 
-e l'insieme degli archi
+e dal seguente insieme di archi:
 
 $$E = \{A1, A2, A3, A4, A5, A6\}$$
 
-"Leggere" un grafo è semplice (quando il grafo è piccolo come quello nell'esempio).
+"Leggere" un grafo solitamente è semplice (a patto che il grafo sia piccolo, cioè formato da pochi nodi).
 
-Nel grafo in figura ad esempio, si nota che il nodo N1 è collegato al nodo N2, mediante l'arco A1. Allo stesso modo il nodo N5 è collegato al nodo N4 dall'arco A4. Un collegamento tra nodi, avviene per mezzo di uno o più archi che ci permettono, partendo da uno dei due nodi considerati, di raggiungere l'altro, o viceversa. Non è necessario che ci sia _esattamente_ un arco tra due nodi per definire quei due nodi "collegati". Il nodo N6, ad eempio, è sicuramente collegato al nodo N4 mediante l'arco A5, e al nodo N5 mediante l'arco A3. Ma il nodo N6 è collegato anche al nodo N3, mediante gli archi A5 e A6 oppure al nodo N1, mediante gli archi A5, A6, A7 e A1.
+In riferimento al grafo riportato in figura, ad esempio, possiamo affermare che il nodo N1 è collegato al nodo N2 mediante l'arco A1. Allo stesso modo il nodo N5 è collegato al nodo N4 mediante l'arco A4.
 
-Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 al nodo N1. In generale, in un grafo, possono esistere _n_ strade che collegano due nodi in un grafo. Diversi algoritmi studiati dall'informatica operano proprio sulle lunghezze delle strade che collegano due o più nodi di un grafo, ma non ne parleremo in questo articolo.
+Non è necessario che ci sia _esattamente un arco_ tra due nodi per far sì che quei due nodi siano effettivamente "collegati". Il nodo N6, ad esempio, è sicuramente collegato al nodo N4 mediante l'arco A5 e al nodo N5 mediante l'arco A3. Ma il nodo N6 è collegato anche al nodo N3, mediante gli archi A5 e A6 oppure al nodo N1, mediante gli archi A5, A6, A7 e A1.
 
-Quel che è importante aver capito fin qui, è che un grafo rappresenta una serie di relazioni tra entità, mediante i suoi nodi e i suoi archi.
+Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 al nodo N1. In generale esistono _k_ strade che collegano due nodi in un grafo (con _k_ che va da 0 ad un numero finito _t_).
+
+Diversi algoritmi studiati dall'informatica operano sia sul numero di strade che collegano una data coppia di nodi sia sul numero di archi che collegano due nodi.
+
+<hr>
 
 Ridisegniamo ora il grafo precedente, calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare, è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
 
