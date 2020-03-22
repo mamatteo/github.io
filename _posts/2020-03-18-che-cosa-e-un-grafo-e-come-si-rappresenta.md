@@ -187,7 +187,7 @@ Gli alberi sono grafi indiretti, privi di cicli e connessi. Di seguito è riport
 
 <div style="text-align: center"><img src="/media/images/tree1.svg" /></div>
 
-Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo in maniera, per così dire, "più ordinata":
+Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo così come riportato dalla figura che segue.
 
 <div style="text-align: center"><img src="/media/images/tree2.svg" /></div>
 
