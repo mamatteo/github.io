@@ -77,9 +77,9 @@ Diversi algoritmi studiati dall'informatica operano sia sul numero di strade che
 
 <hr>
 
-Ridisegniamo ora il grafo precedente, calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare, è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
+Ridisegniamo ora il grafo precedente calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.
 
-Il grafo che abbiamo immaginato di disegnare, è riportato nella figura che segue:
+Il grafo in esame è riportato nella figura che segue:
 
 <div style="text-align: center"><img src="/media/images/graph2.svg" /></div>
 
