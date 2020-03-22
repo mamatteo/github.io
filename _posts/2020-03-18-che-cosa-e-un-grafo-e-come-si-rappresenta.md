@@ -83,13 +83,15 @@ Il grafo in esame è riportato nella figura che segue:
 
 <div style="text-align: center"><img src="/media/images/graph2.svg" /></div>
 
-Nella figura qui sopra, in accordo con la definizione data all'inizio, è facile riconoscere l'insieme dei nodi, così formato
+Nella figura qui sopra, in accordo con la definizione data all'inizio, è facile riconoscere l'insieme dei nodi
 
 $$V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}$$
 
 e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
+
+Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come quello dei grafi può rappresentare in maniera semplice ma efficace degli scenari reali.
 
 <br>
 
