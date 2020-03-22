@@ -130,7 +130,11 @@ Nel grafo della figura seguente, esiste un ciclo che partendo dal nodo N1 ritorn
 <div style="text-align: center"><img src="/media/images/loops.svg" /></div>
 
 <br>
-**RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina la quantità del valore della relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o il valore degli archi rappresentati. Le reti i cui archi possiedono un peso, sono dette <font color="#b3d313">reti pesate</font> (_weighted networks_).
+**RETI PESATE** | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina "quanto vale" la relazione che l'arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o il valore degli archi rappresentati. Le reti i cui archi possiedono un peso, sono dette <font color="#b3d313">reti pesate</font> (_weighted networks_). Nella figura che segue è riportato un esempio di rete pesata. Ogni arco è etichettato con un numero reale che ne determina il peso. In relazione a questo tipo di reti, potrebbe essere interessante chiederci qual è il cammino tra due nodi con il peso minore (nel caso ci interessasse minimizzarne il valore), oppure qual è il cammino tra du nodi con il peso maggiore (nel caso in cui ci interessasse massimizzarne il valore).
+
+<div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
+
+Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un "albero informatico", a differenza di un albero vero e proprio, è situata in cima all'albero e non a terra. Il nodo privo di nodi genitori è detto nodo radice (_root node_).
 
 <div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
 
@@ -146,7 +150,7 @@ Gli alberi
 Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>. Gli alberi sono grafi indiretti, privi di cicli e connessi.
 
 
-<div style="text-align: center"><img src="/media/images/tree.svg" /></div>
+<div style="text-align: center"><img src="/media/images/roottree.svg" /></div>
 
 
 
