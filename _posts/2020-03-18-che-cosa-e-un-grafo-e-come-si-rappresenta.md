@@ -91,7 +91,7 @@ e l'insieme degli archi
 
 $$E = \{141, 279, 571, 154, 1270, 1423, 924\}$$
 
-Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come quello dei grafi può rappresentare in maniera semplice ma efficace degli scenari reali.
+Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come quello dei grafi può rappresentare in maniera semplice ma efficace alcuni scenari reali.
 
 <br>
 
