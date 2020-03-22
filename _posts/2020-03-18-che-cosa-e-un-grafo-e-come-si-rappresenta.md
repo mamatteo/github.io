@@ -32,7 +32,9 @@ Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di 
 <div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
 
 <br>
-Un ulteriore concetto chiave della teoria dei grafi riguarda la direzione degli archi. Se esiste un arco tra il nodo N1 e il nodo N2, diremo che <font color="#b3d313">l'arco è indiretto</font> se è possibile percorrere l'arco da il nodo N1 al nodo N2 e viceversa. Altrimenti, diremo che <font color="#b3d313">l'arco che li collega è diretto</font>, se esiste un'unica direzione in cui è possibile percorrere l'arco. Nella figura che segue è mostrato un esempio di arco diretto. Un arco diretto, in un grafo, si esprime indicando una freccia in una delle sue due estremità.
+Un altro concetto chiave della teoria dei grafi riguarda la <font color="#b3d313">direzione degli archi</font>. Diremo che un arco è <font color="#b3d313">indiretto</font>, se esiste un arco tra il nodo N1 e il nodo N2 percorribile da N1 a N2 e viceversa in maniera del tutto equivalente. Diremo invece che un arco è <font color="#b3d313">diretto</font>, se esiste un arco tra il nodo N1 e il N2 percorribile solo in un senso (da N1 a N2 oppure da N2 a N1).
+
+Nella figura seguente viene mostrato un esempio di arco diretto. Un arco diretto è ricnoscibile dalla freccia posta in una delle sue due estremità.
 
 <div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
 
