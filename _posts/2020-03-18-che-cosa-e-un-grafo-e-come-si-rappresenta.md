@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title:  "Che cos'è un grafo e come rappresentarlo"
-date:   2020-01-09
+date:   2020-03-18
 categories: informatica
 permalink: /:categories/:title
 ---
