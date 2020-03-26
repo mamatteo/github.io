@@ -19,4 +19,4 @@ Formalmente, per un grafo indiretto di _n_ nodi, il grado di ciascun nodo può e
 
 $$k_{i} = \sum{j=1}^n A_{i, j}$$  
 
-dove $$k_{i}$4 indica il grado del nodo _i_.
+dove $$k_{i}$$ indica il grado del nodo _i_.
