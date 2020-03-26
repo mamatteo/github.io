@@ -77,7 +77,7 @@ Questa rete modella le persone P1, P2, P3, ..., P18. Queste 18 persone sono tutt
 
 Analizziamo un po' di relazioni. Ad esempio, il nodo P13 lavora con P12. Il nodo P4 lavora con P11, con P1 e P2. Il nodo P16 lavora con P3. Il nodo P3 è evidentemente la persona che ha contatti con il maggior numero di colleghi.
 
-<div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
+<div style="text-align: center"><img src="/media/images/spread0.svg" /></div>
 
 Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.
 
