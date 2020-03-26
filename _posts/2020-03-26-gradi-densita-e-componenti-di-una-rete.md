@@ -112,7 +112,14 @@ Si noti l'arco tratteggiato che collega P1 a P3. Quell'arco giocherà un ruolo c
 Degree distribution
 -----------------------
 
-La distribuzione dei gradi in una rete $$p_{k}$$ (_degree distribution_) è la probabilità che scegliendo in maniera casuale un nodo _i_ della rete esso abbia grado _k_.
+La distribuzione dei gradi (_degree distribution_) in una rete è la probabilità $$p_{k}$$ per cui scegliendo in maniera casuale un nodo _i_ della rete esso abbia grado _k_.
 
+La probabilità $$p_{k}$$ va normalizzata secondo la seguente formula
 
-$$ \sum_{k=1}^\infty p_{k} = 1$$ 
+$$ \sum_{k=1}^\infty p_{k} = 1$$
+
+In una rete con _n_ nodi, la distribuzione dei gradi è data dall'istogramma normalizzato della relazione
+
+$$ p_{k} = \frac{N_{k}}{M} $$
+
+dove $$N_{k}$$ è il numero di nodi con grado _k_. 
