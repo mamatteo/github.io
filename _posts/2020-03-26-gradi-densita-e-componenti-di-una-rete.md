@@ -1,6 +1,7 @@
 ---
 layout: mypost
-title:  "Gradi, densità e componenti di una rete"
+title:  "Il grado di un nodo di una rete: l'importanza delle connessioni"
+subtitle: "test subtitle"
 date:   2020-03-26
 categories: informatica
 permalink: /:categories/:title
@@ -8,7 +9,7 @@ permalink: /:categories/:title
 
 <p class="abstract">Dopo aver appreso i concetti chiave della teoria dei grafi, proveremo ora ad addentrarci in alcuni aspetti strutturali delle reti, così da essere in grado non solo di rappresentarle ma anche di analizzarle e studiarle.</p>
 
-Gradi di un nodo
+Il grado di un nodo
 -----------------------
 
 I <font color="#008cff">gradi</font> (_degree_) di un nodo sono il numero di archi che il nodo possiede. Rispetto al grafo d'esempio riportato nella figura che segue, possiamo affermare che il grado del nodo N3 è pari a 3, il grado del nodo N6 è pari a 5 e il grado del nodo N1 è pari a 2.
