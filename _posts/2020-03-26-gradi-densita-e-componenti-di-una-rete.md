@@ -120,6 +120,6 @@ $$ \sum_{k=1}^\infty p_{k} = 1$$
 
 In una rete con _n_ nodi, la distribuzione dei gradi è data dall'istogramma normalizzato della relazione
 
-$$ p_{k} = \frac{N_{k}}{M} $$
+$$ p_{k} = \frac{N_{k}}{N} $$
 
-dove $$N_{k}$$ è il numero di nodi con grado _k_. 
+dove $$N_{k}$$ è il numero di nodi con grado _k_.
