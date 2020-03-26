@@ -85,4 +85,4 @@ Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà c
 
 Quante persone potrà invece contagiare il nodo P4?
 
-<div style="text-align: center"><img src="/media/images/spread3.svg" /></div>
+<div style="text-align: center"><img src="/media/images/highdegree.svg" /></div>
