@@ -69,6 +69,8 @@
       <circle stroke-linecap="butt" clip-path="url(#clipPath2)" fill="none" r="8.0359" cx="398.2309" cy="203.7781" stroke-width="2" stroke-miterlimit="1.45"/>
       <circle r="8.0359" clip-path="url(#clipPath2)" cx="420.1661" cy="161.5085" stroke="none"/>
       <circle stroke-linecap="butt" clip-path="url(#clipPath2)" fill="none" r="8.0359" cx="420.1661" cy="161.5085" stroke-width="2" stroke-miterlimit="1.45"/>
+      <circle r="8.0359" clip-path="url(#clipPath2)" cx="564.4342" cy="203.7781" stroke="none"/>
+      <circle stroke-linecap="butt" clip-path="url(#clipPath2)" fill="none" r="8.0359" cx="564.4342" cy="203.7781" stroke-width="2" stroke-miterlimit="1.45"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-width="2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-243,19)" stroke-linecap="butt">
       <path fill="none" d="M318.4968 132.6818 L403.769 132.6818" clip-path="url(#clipPath2)"/>
