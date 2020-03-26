@@ -54,3 +54,13 @@ Il grado del nodo "Matteo" è pari a 4 (la linea tratteggiata indica la possibil
 Consideriamo ora un piccolo estratto del grafo che rappresenta la linea metropolitana di Londra.
 
 <div style="text-align: center"><img src="/media/images/metrolondon.svg" /></div>
+
+Cosa ci serve conoscere il grado di ciascun nodo in reti come quelle riportate qui sopra?
+
+Beh, qui viene il bello! Il concetto di grado di un nodo è un concetto semplice (_"il numero di archi di ciascun nodo..._). Calcolare il grado di un nodo è altrettanto semplice: basta contare!
+
+Se la rete è molto grande esistono diversi software che aiutano a contare gli archi dei nodi in maniera molto molto rapida, anche su reti complesse.
+
+La vera sfida è stabilire un criterio con cui valutare il grado di ogni nodo.
+
+Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all'importanza del nodo considerato. In altre parole: più amici abbiamo, più siamo importanti, posto che dobbiamo intenderci su cosa intendiamo per "essere importanti".
