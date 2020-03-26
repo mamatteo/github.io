@@ -81,8 +81,12 @@ Analizziamo un po' di relazioni. Ad esempio, il nodo P13 lavora con P12. Il nodo
 
 Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.
 
-<div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
+<div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
 
 Quante persone potrà invece contagiare il nodo P4?
+
+<div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
+
+Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmente contagiare nella sua rete di contatti con i colleghi? Il grado di P3 ammonta a 12. Sono dodici infatti, le persone che P3 potrebbe contagiare, recandosi al lavoro con l'influenza.
 
 <div style="text-align: center"><img src="/media/images/highdegree.svg" /></div>
