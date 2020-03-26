@@ -36,3 +36,7 @@ $$m = \frac{1}{2} \sum_{i=1}^n k_{i} = \frac{1}{2} \sum_{i, j} A_{i, j}$$
 A questo punto, sulla scia delle semplici formule appena descritte, è possibile calcolare il grado medio (_mean degree_) _c_ di un nodo in un grafo indiretto:
 
 $$c = \frac{1}{n} \sum_{i=1}^n k_{i}$$
+
+Se sostituiamo \frac{1}{n} \sum_{i=1}^n k_{i}$$ con _2m_ otteniamo una relazione che ci sarà utile più avanti:
+
+$$c = \frac{2m}{n}$$ 
