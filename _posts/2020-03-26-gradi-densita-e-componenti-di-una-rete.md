@@ -63,4 +63,8 @@ Se la rete è molto grande esistono diversi software che aiutano a contare gli a
 
 La vera sfida è stabilire un criterio con cui valutare il grado di ogni nodo.
 
-Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all'importanza del nodo considerato. In altre parole: più amici abbiamo, più siamo importanti, posto che dobbiamo intenderci su cosa intendiamo per "essere importanti".
+Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all'importanza del nodo considerato. In altre parole: più amici abbiamo, più siamo importanti, posto che dobbiamo essere d'accordo sul concetto di "importanza".
+
+Da un altro punto di vista, potremmo affermare che più il nostro grado su Facebook è alto più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti (immaginando di avere migliaia e migliaia di amici).
+
+Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi, e questo nel caso in esame è una conclusione positiva. D'altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile un numero elevato di altre stazioni. 
