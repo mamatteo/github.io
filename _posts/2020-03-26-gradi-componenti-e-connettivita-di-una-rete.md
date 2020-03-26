@@ -21,4 +21,6 @@ $$k_{i} = \sum_{j=1}^n A_{i, j}$$
 
 dove $$k_{i}$$ indica il grado del nodo _i_.
 
-Se continuiamo a considerare grafi indiretti, allora possiamo osservare anche che ciascun arco di questi grafi possiede due estremità equivalenti. Se un grafo possiede _m_ archi, allora in totale esisteranno _2m_ estremità. 
+Se continuiamo a considerare grafi indiretti, allora possiamo osservare anche che ciascun arco di questi grafi possiede due estremità equivalenti. Se un grafo possiede _m_ archi, allora in totale esisteranno _2m_ estremità.
+
+<div style="text-align: center"><img src="/media/images/endsedges.svg" /></div>
