@@ -42,3 +42,9 @@ Se sostituiamo a questa formula $$\sum_{i=1}^n k_{i}$$ con _2m_, otteniamo una r
 $$c = \frac{2m}{n}$$
 
 in cui leghiamo il grado medio di un nodo al rapporto tra le estremità del grafo (_2m_) sul numero totali di nodi (_n_).
+
+Ora che abbiamo descritto formalmente il concetto di _grado_ di un nodo, proveremo a darne alcune definizioni intituitve.
+
+Il grado di un nodo in una determinata rete potrebbe rappresentare il numero di persone che quel nodo conosce. Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta, a cui aggiungeremo tanti archi quanti gli amici che possediamo su Facebook. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.
+
+ <div style="text-align: center"><img src="/media/images/socialgraph.svg" /></div>
