@@ -6,7 +6,7 @@ categories: informatica
 permalink: /:categories/:title
 ---
 
-<p class="abstract">In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.</p>
+<p class="abstract">Dopo aver appreso i concetti chiave della teoria dei grafi, proveremo ora ad addentrarci in alcuni aspetti strutturali delle reti, così da essere in grado non solo di rappresentarle ma anche di analizzarle e studiarle.</p>
 
 Gradi di un nodo
 -----------------------
@@ -17,6 +17,6 @@ I <font color="#008cff">gradi</font> (_degree_) di un nodo sono il numero di arc
 
 Formalmente, per un grafo indiretto di _n_ nodi, il grado di ciascun nodo può essere calcolato a partire dalla sua matrice di adiacenza, così come espresso dalla formula che segue:
 
-$$k_{i} = \sum{j=1}^n A_{i, j}$$  
+$$k_{i} = \sum_{j=1}^n A_{i, j}$$  
 
 dove $$k_{i}$$ indica il grado del nodo _i_.
