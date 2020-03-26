@@ -99,6 +99,8 @@ Nell'esempio che segue, notiamo che al tempo _t0_ il nodo P13 ha l'influenza (il
 
 <div style="text-align: center"><img src="/media/images/timein.svg" /></div>
 
-Al tempo _t8_ invece, le persone influezate sono molto di più. Questo perché tra il nodo p13 e il nodo p3 (i due estremi considerati), vi è almeno un cammino che li collega, rendendo possibile la trasmissione del virus influenzale.
+Al tempo _t8_ invece, le persone influenzate sono molto di più. Questo perché tra il nodo p13 e il nodo p3 (i due estremi considerati), vi è almeno un cammino che li collega, rendendo possibile la trasmissione del virus influenzale.
+
+Si noti l'arco tratteggiato che collega P1 a P3. Quell'arco giocherà un ruolo cruciale nella diffusione dell'influenza. Sapreste dire il perché?
 
 <div style="text-align: center"><img src="/media/images/timeout.svg" /></div>
