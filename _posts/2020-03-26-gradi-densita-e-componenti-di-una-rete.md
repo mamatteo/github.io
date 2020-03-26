@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title:  "Gradi, componenti e connettività di una rete"
+title:  "Gradi, densità e componenti di una rete"
 date:   2020-03-26
 categories: informatica
 permalink: /:categories/:title
@@ -41,4 +41,4 @@ Se sostituiamo a questa formula $$\sum_{i=1}^n k_{i}$$ con _2m_, otteniamo una r
 
 $$c = \frac{2m}{n}$$
 
-in cui leghiamo il grado medio di un nodo, al rapporto delle estremità del grafo (_2m_) sul numero totali di nodi (_n_). 
+in cui leghiamo il grado medio di un nodo, al rapporto delle estremità del grafo (_2m_) sul numero totali di nodi (_n_).
