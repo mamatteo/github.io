@@ -24,3 +24,7 @@ dove $$k_{i}$$ indica il grado del nodo _i_.
 Se continuiamo a considerare grafi indiretti, allora possiamo osservare anche che ciascun arco di questi grafi possiede due estremità equivalenti. Se un grafo possiede _m_ archi, allora in totale esisteranno _2m_ estremità.
 
 <div style="text-align: center"><img src="/media/images/endsedges.svg" /></div>
+
+Il numero di estremità di un grafo indiretto corrisponde anche alla somma dei gradi di tutti i vertici. Sia sempre $$k_{i}$$ il grado del nodo _i_; possiamo allora formalizzare questo concetto con la seguente formula:
+
+$$2m = \sum_{i=1}^n k_{i}$$ 
