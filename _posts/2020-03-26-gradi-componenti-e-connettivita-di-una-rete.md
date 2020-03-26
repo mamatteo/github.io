@@ -37,6 +37,8 @@ A questo punto, sulla scia delle semplici formule appena descritte, è possibile
 
 $$c = \frac{1}{n} \sum_{i=1}^n k_{i}$$
 
-Se sostituiamo $$\frac{1}{n} \sum_{i=1}^n k_{i}$$ con _2m_ otteniamo una relazione che ci sarà utile più avanti:
+Se sostituiamo a questa formula $$\sum_{i=1}^n k_{i}$$ con _2m_, otteniamo una relazione che ci sarà utile più avanti:
 
 $$c = \frac{2m}{n}$$
+
+in cui leghiamo il grado medio di un nodo, al rapporto delle estremità del grafo (_2m_) sul numero totali di nodi (_n_). 
