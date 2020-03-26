@@ -31,4 +31,4 @@ $$2m = \sum_{i=1}^n k_{i}$$
 
 oppure, con la formula equivalente:
 
-$$m = \frac{1}{2} \sum_{i=1}^n k_{i} = \frac{1}{2} \sum_{i, j} A_{i, j}$$ 
+$$m = \frac{1}{2} \sum_{i=1}^n k_{i} = \underbrace{\frac{1}{2} \sum_{i, j} A_{i, j}}{text 1}$$
