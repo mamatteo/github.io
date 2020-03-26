@@ -114,7 +114,7 @@ Degree distribution
 
 La distribuzione dei gradi (_degree distribution_) in una rete è la probabilità $$p_{k}$$ per cui scegliendo in maniera casuale un nodo _i_ della rete esso abbia grado _k_.
 
-La probabilità $$p_{k}$$ va normalizzata secondo la seguente formula
+La probabilità $$p_{k}$$ va normalizzata in modo che
 
 $$ \sum_{k=1}^\infty p_{k} = 1$$
 
