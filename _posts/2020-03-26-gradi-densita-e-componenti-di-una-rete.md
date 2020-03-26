@@ -83,7 +83,7 @@ Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà c
 
 <div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
 
-Quante persone potrà invece contagiare il nodo P4?
+Quante persone potrà invece contagiare il nodo P4, se si ammalasse di influenza? Contiamo gli archi di P4: <P4, P11>, <P4, P2>, <P4, P1>. Il grado di P4 è pari a 3 e dunque saranno 3 le persone che P4 potrebbe potenzialmente contagiare.
 
 <div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
 
