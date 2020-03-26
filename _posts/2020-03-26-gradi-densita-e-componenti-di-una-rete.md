@@ -45,6 +45,12 @@ in cui leghiamo il grado medio di un nodo al rapporto tra le estremità del graf
 
 Ora che abbiamo descritto formalmente il concetto di _grado_ di un nodo, proviamo ora a visualizzare dei casi reali dove esplorare la nozione di grado.
 
-Il grado di un nodo in una determinata rete potrebbe rappresentare il numero di persone che quel nodo conosce. Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta, a cui aggiungeremo tanti archi quanti gli amici che possediamo su Facebook. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.
+Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta a cui aggiungeremo tanti archi quanti gli amici che possediamo sul social network. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.
+
+Il grado del nodo "Matteo" è pari a 4 (la linea tratteggiata indica la possibilità di aggiungere altri nodi). In questo caso esemplificativo, il grado di ciascun nodo rappresenta il numero di amici che ogni individuo possiede su Facebook.
 
  <div style="text-align: center"><img src="/media/images/socialgraph.svg" /></div>
+
+Consideriamo ora un piccolo estratto del grafo che rappresenta la linea metropolitana di Londra.
+
+<div style="text-align: center"><img src="/media/images/metrolondon.svg" /></div>
