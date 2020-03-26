@@ -7,7 +7,7 @@ categories: informatica
 permalink: /:categories/:title
 ---
 
-<p class="abstract">Dopo aver appreso i concetti chiave della teoria dei grafi, proveremo ora ad addentrarci in alcuni aspetti strutturali delle reti, così da essere in grado non solo di rappresentarle ma anche di analizzarle e studiarle.</p>
+<p class="abstract">Una proprietà chiave dei nodi di una rete è riferita al loro grado. In questo articolo dopo aver dato la definizione di grado di un nodo verranno illustrate diverse situazioni in cui il concetto di grado gioca un ruolo importante. </p>
 
 Il grado di un nodo
 -----------------------
