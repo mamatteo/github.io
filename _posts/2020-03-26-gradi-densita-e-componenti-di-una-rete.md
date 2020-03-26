@@ -45,7 +45,7 @@ $$c = \frac{2m}{n}$$
 
 in cui leghiamo il grado medio di un nodo al rapporto tra le estremità del grafo (_2m_) sul numero totali di nodi (_n_).
 
-Il concetto di grado al lavoro
+Studiare il grado di reti reali
 -----------------------
 Ora che abbiamo descritto formalmente il concetto di _grado_ di un nodo, proviamo ora a visualizzare dei casi reali dove esplorare la nozione di grado.
 
@@ -112,4 +112,7 @@ Si noti l'arco tratteggiato che collega P1 a P3. Quell'arco giocherà un ruolo c
 Degree distribution
 -----------------------
 
-ell'es
+La distribuzione dei gradi in una rete $$p_{k}$$ (_degree distribution_) è la probabilità che scegliendo in maniera casuale un nodo _i_ della rete esso abbia grado _k_.
+
+
+$$ \sum_{k=1}^\infty p_{k} = 1$$ 
