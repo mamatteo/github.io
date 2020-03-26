@@ -19,4 +19,6 @@ Formalmente, per un grafo indiretto di _n_ nodi, il grado di ciascun nodo può e
 
 $$k_{i} = \sum_{j=1}^n A_{i, j}$$  
 
-dove $$k_{i}$$ indica il grado del nodo $$\emph{i}$$.
+dove $$k_{i}$$ indica il grado del nodo $$textit{i}$$.
+
+Se continuiamo a considerare grafi indiretti, allora possiamo osservare anche che ciascun arco di questi grafi possiede due estremità equivalenti. Se un grafo possiede
