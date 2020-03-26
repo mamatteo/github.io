@@ -33,6 +33,8 @@ oppure, con la formula equivalente:
 
 $$m = \frac{1}{2} \sum_{i=1}^n k_{i} = \frac{1}{2} \sum_{i, j} A_{i, j}$$
 
+Il grado medio dei nodi
+-----------------------
 A questo punto, sulla scia delle semplici formule appena descritte, è possibile calcolare il grado medio (_mean degree_) _c_ di un nodo in un grafo indiretto:
 
 $$c = \frac{1}{n} \sum_{i=1}^n k_{i}$$
@@ -43,6 +45,8 @@ $$c = \frac{2m}{n}$$
 
 in cui leghiamo il grado medio di un nodo al rapporto tra le estremità del grafo (_2m_) sul numero totali di nodi (_n_).
 
+Il concetto di grado al lavoro
+-----------------------
 Ora che abbiamo descritto formalmente il concetto di _grado_ di un nodo, proviamo ora a visualizzare dei casi reali dove esplorare la nozione di grado.
 
 Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta a cui aggiungeremo tanti archi quanti gli amici che possediamo sul social network. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.
@@ -104,3 +108,8 @@ Al tempo _t8_ invece, le persone influenzate sono molto di più. Questo perché 
 Si noti l'arco tratteggiato che collega P1 a P3. Quell'arco giocherà un ruolo cruciale nella diffusione dell'influenza. Sapreste dire il perché?
 
 <div style="text-align: center"><img src="/media/images/timeout.svg" /></div>
+
+Degree distribution
+-----------------------
+
+ell'es
