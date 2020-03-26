@@ -71,12 +71,18 @@ Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è a
 
 Consideriamo infine quest'ultimo esempio di _network_.
 
-Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione _"lavora con"_. Il nodo P13 lavora con P12. Il nodo P4 lavora con P11, con P1 e P2. Il nodo P16 lavora con P3.
+Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione _"lavora con"_.
+
+Questa rete modella le persone P1, P2, P3, ..., P18. Queste 18 persone sono tutti colleghi di lavoro, ma non tutte hanno lo stesso ruolo e pertanto verosimilmente hanno contatti con un numero diverso di colleghi.
+
+Analizziamo un po' di relazioni. Ad esempio, il nodo P13 lavora con P12. Il nodo P4 lavora con P11, con P1 e P2. Il nodo P16 lavora con P3. Il nodo P3 è evidentemente la persona che ha contatti con il maggior numero di colleghi.
 
 <div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
 
- aaa
+Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.
 
 <div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
+
+Quante persone potrà invece contagiare il nodo P4?
 
 <div style="text-align: center"><img src="/media/images/spread3.svg" /></div>
