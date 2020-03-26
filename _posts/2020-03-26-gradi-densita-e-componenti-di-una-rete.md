@@ -67,4 +67,12 @@ Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è c
 
 Da un altro punto di vista, potremmo affermare che più il nostro grado su Facebook è alto più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti (immaginando di avere migliaia e migliaia di amici).
 
-Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi, e questo nel caso in esame è una conclusione positiva. D'altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile un numero elevato di altre stazioni. 
+Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi. D'altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.
+
+Consideriamo infine quest'ultimo esempio di _network_. Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione _"lavora con"_.
+
+<div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
+
+<div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
+
+<div style="text-align: center"><img src="/media/images/spread3.svg" /></div>
