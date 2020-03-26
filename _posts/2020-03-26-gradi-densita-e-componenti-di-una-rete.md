@@ -90,3 +90,9 @@ Quante persone potrà invece contagiare il nodo P4, se si ammalasse di influenza
 Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmente contagiare nella sua rete di contatti con i colleghi? Il grado di P3 ammonta a 12. Sono dodici infatti, le persone che P3 potrebbe contagiare, recandosi al lavoro con l'influenza.
 
 <div style="text-align: center"><img src="/media/images/highdegree.svg" /></div>
+
+Negli esempi riportati fino a qui, abbiamo focalizzato esclusivamente delle fotografie delle reti prese in esame. Spesso però le reti devono modellare dei contesti in evoluzione, dinamici.
+
+La rete analizzata poco fa potrebbe essere studiata anche in relazione al tempo che passa.
+
+<div style="text-align: center"><img src="/media/images/timein.svg" /></div>
