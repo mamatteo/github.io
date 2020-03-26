@@ -93,6 +93,6 @@ Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmen
 
 Negli esempi riportati fino a qui, abbiamo focalizzato esclusivamente delle fotografie delle reti prese in esame. Spesso però le reti devono modellare dei contesti in evoluzione, dinamici.
 
-La rete analizzata poco fa potrebbe essere studiata anche in relazione al tempo che passa.
+La rete analizzata poco fa potrebbe essere studiata anche in relazione alla componente temporale _t_.
 
 <div style="text-align: center"><img src="/media/images/timein.svg" /></div>
