@@ -69,9 +69,13 @@ Da un altro punto di vista, potremmo affermare che più il nostro grado su Faceb
 
 Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi. D'altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.
 
-Consideriamo infine quest'ultimo esempio di _network_. Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione _"lavora con"_.
+Consideriamo infine quest'ultimo esempio di _network_.
+
+Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione _"lavora con"_. Il nodo P13 lavora con P12. Il nodo P4 lavora con P11, con P1 e P2. Il nodo P16 lavora con P3.
 
 <div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
+
+ aaa
 
 <div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
 
