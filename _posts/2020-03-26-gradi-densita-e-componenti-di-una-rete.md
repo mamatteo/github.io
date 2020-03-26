@@ -1,7 +1,6 @@
 ---
 layout: mypost
 title:  "Il grado di un nodo di una rete: l'importanza delle connessioni"
-subtitle: "test subtitle"
 date:   2020-03-26
 categories: informatica
 permalink: /:categories/:title
