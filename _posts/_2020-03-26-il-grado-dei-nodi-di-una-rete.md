@@ -123,3 +123,7 @@ In una rete con _n_ nodi, la distribuzione dei gradi è data dall'istogramma nor
 $$ p_{k} = \frac{N_{k}}{N} $$
 
 dove $$N_{k}$$ è il numero di nodi con grado _k_.
+
+La _degree distribution_ ha assunto un ruolo centrale nella teoria delle reti, rivelandosi davvero importante nello studio delle _scale-free networks_ di cui ci occuperemo più avanti.
+
+Molte proprietà interessanti delle reti necessitano della conoscenza del valore $$p_{k}$$. Lo studio, ad esempio, della diffusione di un'epidemia, necessita (anche) di questo valore.
