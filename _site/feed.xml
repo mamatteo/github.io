@@ -1,4 +1,215 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T16:38:39+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">Che cos’è un grafo e come rappresentarlo</title><link href="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" rel="alternate" type="text/html" title="Che cos'è un grafo e come rappresentarlo" /><published>2020-03-18T00:00:00+01:00</published><updated>2020-03-18T00:00:00+01:00</updated><id>http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta</id><content type="html" xml:base="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta">&lt;p class=&quot;abstract&quot;&gt;In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T22:42:04+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">Il grado dei nodi di una rete: l’importanza delle connessioni</title><link href="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete" rel="alternate" type="text/html" title="Il grado dei nodi di una rete: l'importanza delle connessioni" /><published>2020-03-26T00:00:00+01:00</published><updated>2020-03-26T00:00:00+01:00</updated><id>http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete</id><content type="html" xml:base="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete">&lt;p class=&quot;abstract&quot;&gt;Una proprietà chiave dei nodi di una rete è detta &quot;grado&quot;. In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire l'importanza delle connessioni tra nodi.&lt;/p&gt;
+
+&lt;h2 id=&quot;il-grado-di-un-nodo&quot;&gt;Il grado di un nodo&lt;/h2&gt;
+
+&lt;p&gt;Il &lt;font color=&quot;#008cff&quot;&gt;grado&lt;/font&gt; (&lt;em&gt;degree&lt;/em&gt;) di un nodo è il numero di archi che il nodo possiede.&lt;/p&gt;
+
+&lt;p&gt;Rispetto al grafo d’esempio riportato nella figura che segue, possiamo affermare che il grado del nodo &lt;font color=&quot;#008cff&quot;&gt;N3&lt;/font&gt; è pari a 4, il grado del nodo &lt;font color=&quot;#008cff&quot;&gt;N6&lt;/font&gt; è pari a 3 e il grado del nodo &lt;font color=&quot;#008cff&quot;&gt;N4&lt;/font&gt; è pari a 2.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/degree1.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Formalmente, per un grafo indiretto di &lt;em&gt;n&lt;/em&gt; nodi, il grado di ciascun nodo può essere calcolato a partire dalla sua matrice di adiacenza, così come espresso dalla formula seguente:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{i} = \sum_{j=1}^n A_{i, j}&lt;/script&gt;
+
+&lt;p&gt;dove &lt;script type=&quot;math/tex&quot;&gt;k_{i}&lt;/script&gt; indica il grado del nodo &lt;em&gt;i&lt;/em&gt;. Avremo per cui che &lt;script type=&quot;math/tex&quot;&gt;k_{3}&lt;/script&gt; = 4, &lt;script type=&quot;math/tex&quot;&gt;k_{6}&lt;/script&gt; = 3 e &lt;script type=&quot;math/tex&quot;&gt;k_{4}&lt;/script&gt; = 2.&lt;/p&gt;
+
+&lt;p&gt;Il grado è un parametro che quantifica il numero di collegamenti che ciascun nodo possiede in una determinata rete.&lt;/p&gt;
+
+&lt;p&gt;È come se chiedessimo ad un nostro amico “&lt;em&gt;hai dei fratelli o delle sorelle?&lt;/em&gt;”. La sua risposta stabilisce implicitamente il suo grado, che sarà pari a 0 nel caso in cui il nostro amico è figlio unico, 1 se ha un fratello o una sorella, 2 se ha più di un fratello o una sorella e così via.&lt;/p&gt;
+
+&lt;p&gt;Se continuiamo a studiare grafi indiretti, è possibile osservare un ulteriore fenomeno che a fare con il grado dei nodi.&lt;/p&gt;
+
+&lt;p&gt;Ogni arco altro non è che un segmento da un &lt;em&gt;nodo a&lt;/em&gt; ad un &lt;em&gt;nodo b&lt;/em&gt;. Ogni vertice di questo segmento è detto &lt;font color=&quot;#008cff&quot;&gt;estremità&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ciascun arco di un grafo indiretto possiede due estremità equivalenti (in altri termini: non vi è un verso stabilito da una freccia).&lt;/p&gt;
+
+&lt;p&gt;In un grafo di &lt;em&gt;m&lt;/em&gt; archi allora, esisteranno in totale  &lt;em&gt;2m&lt;/em&gt; estremità, come è possibile constatare dalla figura che segue, dove le estremità di ciascun arco sono state evidenziate in giallo.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/endsedges.svg&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Da qui una prima semplice intuzione:&lt;/p&gt;
+
+&lt;font color=&quot;#008cff&quot;&gt; &amp;gt; il numero di estremità di un grafo indiretto corrisponde alla somma dei gradi di tutti i nodi.&lt;/font&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Ricordando che &lt;script type=&quot;math/tex&quot;&gt;k_{i}&lt;/script&gt; rappresenta il grado del nodo &lt;em&gt;i&lt;/em&gt;-esimo, possiamo formalizzare il concetto intuitivo sopra descritto con la seguente formula:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2m = \sum_{i=1}^n k_{i}&lt;/script&gt;
+
+&lt;p&gt;Dalla formula appena riportata possiamo ricavare una nuova formula (equivalente alla precedente):&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;m = \frac{1}{2} \sum_{i=1}^n k_{i} = \frac{1}{2} \sum_{i, j} A_{i, j}&lt;/script&gt;
+
+&lt;p&gt;che formalizza così una seconda importante intuzione:&lt;/p&gt;
+
+&lt;font color=&quot;#008cff&quot;&gt; &amp;gt; il numero di archi in una rete indiretta può essere espresso come somma dei gradi dei nodi, diviso 2.&lt;/font&gt;
+
+&lt;p&gt;&lt;br /&gt;
+L’utilizzo del fattore &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{2}&lt;/script&gt; ci permette di evitare di contare due volte lo stesso arco&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;il-grado-medio-dei-nodi&quot;&gt;Il grado medio dei nodi&lt;/h2&gt;
+
+&lt;h1 id=&quot;in-un-grafo-indiretto&quot;&gt;In un grafo indiretto&lt;/h1&gt;
+&lt;p&gt;A questo punto, sulla scia delle semplici formule appena descritte, è possibile calcolare il &lt;font color=&quot;#008cff&quot;&gt;grado medio (&lt;i&gt;mean degree&lt;/i&gt;) &lt;i&gt;c&lt;/i&gt;&lt;/font&gt; di un nodo in un grafo indiretto:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c = \frac{1}{n} \sum_{i=1}^n k_{i}&lt;/script&gt;
+
+&lt;p&gt;Se sostituiamo la formula &lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^n k_{i}&lt;/script&gt; con &lt;em&gt;2m&lt;/em&gt;, otteniamo una relazione che ci sarà utile più avanti:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_{out} = \frac{2m}{n} \ \ | \ grado \ medio \ rete \ indiretta&lt;/script&gt;
+
+&lt;p&gt;Definiamo così il grado medio dei nodi di una rete in funzione del rapporto tra le estremità del grafo (&lt;em&gt;2m&lt;/em&gt;) ed il numero totali di nodi (&lt;em&gt;n&lt;/em&gt;).&lt;/p&gt;
+
+&lt;h1 id=&quot;in-un-grafo-diretto&quot;&gt;In un grafo diretto&lt;/h1&gt;
+&lt;p&gt;Finora, abbiamo considerato esclusivamente grafi indiretti, ma è possibile misurare il grado dei nodi anche su &lt;strong&gt;grafi diretti&lt;/strong&gt;, a patto di distinguere il &lt;font color=&quot;#008cff&quot;&gt;grado degli archi entranti&lt;/font&gt; &lt;script type=&quot;math/tex&quot;&gt;k_{i}^{in}&lt;/script&gt; dal &lt;font color=&quot;#008cff&quot;&gt;grado degli archi uscenti&lt;/font&gt; &lt;script type=&quot;math/tex&quot;&gt;k_{i}^{out}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il grado totale di un nodo appartenente ad un grafo diretto sarà pari a&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{tot} = k_{i}^{in} + k_{i}^{out}&lt;/script&gt;
+
+&lt;p&gt;da cui&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{tot} = \sum_{i=1}^N k_{i}^{in} + \sum_{i=1}^N k_{i}^{out}&lt;/script&gt;
+
+&lt;p&gt;a patto di non voler distinguere gli archi entranti da quelli uscenti.&lt;/p&gt;
+
+&lt;p&gt;Il &lt;font color=&quot;#008cff&quot;&gt;numero totale di archi in una rete diretta&lt;/font&gt; è dato da:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;m = \sum_{i=1}^N k_{i}^{in} = \sum_{i=1}^N k_{i}^{out}&lt;/script&gt;
+
+&lt;p&gt;Il grado medio dei nodi di una rete diretta è dato invece dalla formula seguente:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c^{in} = \frac{1}{N} \sum_{i=1}^N k_{i}^{in} = c_{out} = \frac{1}{N} \sum_{i=1}^N k_{i}^{out} \ \ | \ grado \ medio \ rete \ diretta&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;degree-distribution&quot;&gt;Degree distribution&lt;/h2&gt;
+
+&lt;p&gt;La &lt;font color=&quot;#008cff&quot;&gt;distribuzione dei gradi&lt;/font&gt; (&lt;em&gt;degree distribution&lt;/em&gt;) di una rete è la probabilità &lt;script type=&quot;math/tex&quot;&gt;p_{k}&lt;/script&gt;, per cui, scegliendo in maniera casuale un nodo &lt;em&gt;i&lt;/em&gt; della rete, esso possiede esattamente un grado &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{k} \ \ | \ degree \ distribution&lt;/script&gt;
+
+&lt;p&gt;La probabilità &lt;script type=&quot;math/tex&quot;&gt;p_{k}&lt;/script&gt; va normalizzata in modo che&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{k=1}^\infty p_{k} = 1&lt;/script&gt;
+
+&lt;p&gt;In una rete con &lt;em&gt;n&lt;/em&gt; nodi, la distribuzione dei gradi è data dall’istogramma normalizzato della relazione&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{k} = \frac{N_{k}}{N}&lt;/script&gt;
+
+&lt;p&gt;dove &lt;script type=&quot;math/tex&quot;&gt;N_{k}&lt;/script&gt; è il numero di nodi con grado &lt;em&gt;k&lt;/em&gt;, mentre &lt;script type=&quot;math/tex&quot;&gt;N&lt;/script&gt; è il numero di nodi totali .&lt;/p&gt;
+
+&lt;p&gt;La &lt;em&gt;degree distribution&lt;/em&gt; è un concetto molto importante nello studio delle reti. Essa ci sarà utile quando parleremo ad esempio di &lt;em&gt;&lt;a href=&quot;https://it.wikipedia.org/wiki/Rete_a_invarianza_di_scala&quot;&gt;scale-free networks&lt;/a&gt;&lt;/em&gt; e di altri concetti legati alle dinamiche di sviluppo di alcuni fenomeni su reti reali. Lo studio, ad esempio, della diffusione di un’epidemia, necessita (anche) di questo valore.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;studiare-il-grado-dei-nodi-su-semplici-reti-reali&quot;&gt;Studiare il grado dei nodi su semplici reti reali&lt;/h2&gt;
+&lt;p&gt;Ora che abbiamo descritto formalmente il concetto di &lt;em&gt;grado&lt;/em&gt; di un nodo, proveremo a visualizzare dei semplici casi reali tramite i quali prendere confidenza con i concetti sopra esposti.&lt;/p&gt;
+
+&lt;h1 id=&quot;i-nostri-amici-su-facebook&quot;&gt;I nostri amici su Facebook&lt;/h1&gt;
+
+&lt;p&gt;Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta, per poi aggiungere tanti archi quanti gli amici che possediamo sul social network. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.&lt;/p&gt;
+
+&lt;p&gt;Il grado del nodo &lt;font color=&quot;#008cff&quot;&gt;Matteo&lt;/font&gt; è pari a 4 (la linea tratteggiata indica solamente la possibilità di aggiungere altri nodi). In questo caso esemplificativo, il grado di ciascun nodo rappresenta il numero di amici che ogni individuo possiede su Facebook.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/socialgraph.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all’importanza del nodo considerato. In altre parole: più amici possiede un individuo su Facebook, più quell’individuo è importante, a patto di essere d’accordo sul concetto di “importanza”.&lt;/p&gt;
+
+&lt;p&gt;Da un altro punto di vista, potremmo affermare che più il nostro numero di amici su Facebook è alto (e quindi il nostro grado), più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti (immaginando di avere migliaia e migliaia di amici).&lt;/p&gt;
+
+&lt;h1 id=&quot;la-metropolitana-di-londra&quot;&gt;La metropolitana di Londra&lt;/h1&gt;
+
+&lt;p&gt;Consideriamo ora un piccolo estratto del grafo che rappresenta la linea metropolitana di Londra.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/metroLondon1.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;In questo secondo caso, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi. D’altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.&lt;/p&gt;
+
+&lt;p&gt;In una rete metropolitana, le fermate che puntiamo a raggiungere hanno sempre due caratteristiche (una esplicita e una forse inconscia):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;puntiamo sempre a raggiungere la fermata più vicina a luogo che dobbiamo raggiungere (&lt;em&gt;caratteristica esplicita&lt;/em&gt; e aggiungerei anche ovvia, a meno di non voler gironzolare per la metropolitana a caso);&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;quando siamo costretti a cambiare linea metropolitana, lo facciamo sempre grazie a delle stazioni con un elevato numero di nuove linee che si sviluppano da esse (e quindi con un elevato grado). Questa è la &lt;em&gt;caratteristica inconscia&lt;/em&gt;, perché guida in maniera inconscia la scelta del nostro itinerario.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Naturalmente, se partendo dalla fermata X di una rete metropolitana dobbiamo raggiungere la fermata Y, la prima cosa in assoluto più importante da verificare, è che esista un cammino tra X e Y. Nel caso di uno spostamento in metropolitana, ci auspichiamo, solitamente, che questo cammino sia anche il più breve.&lt;/p&gt;
+
+&lt;p&gt;Nella figura che segue sono riportati i collegamenti disponibili dalla stazione di &lt;em&gt;Oxford Circus&lt;/em&gt;, sulla sinistra, e di &lt;em&gt;Liverpool Street&lt;/em&gt;, sulla destra.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/metroLondon2.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;una-rete-scolastica&quot;&gt;Una rete scolastica&lt;/h1&gt;
+
+&lt;p&gt;Consideriamo infine quest’ultimo esempio di &lt;em&gt;network&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nella figura che segue è riportato un estratto di una possibile rete di persone che lavorano in una scuola. I diversi nodi della rete sono collegati da archi che rappresentano la relazione &lt;em&gt;“lavora con”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Questa rete è fatta da 18 nodi. Ciascun nodo rappresenta le generiche persone &lt;font color=&quot;#008cff&quot;&gt;P1&lt;/font&gt;, &lt;font color=&quot;#008cff&quot;&gt;P2&lt;/font&gt;, &lt;font color=&quot;#008cff&quot;&gt;P3&lt;/font&gt;, …, &lt;font color=&quot;#008cff&quot;&gt;P18&lt;/font&gt;. Queste 18 persone fanno tutte parte del personale scolastico, ma non tutte hanno lo stesso ruolo e pertanto, verosimilmente, ciascuno di loro avrà contatti con un numero diverso di altri individui.&lt;/p&gt;
+
+&lt;p&gt;Analizziamo un po’ di relazioni, prendendo come riferimento la rete riportata di seguito.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/spread0.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Il nodo &lt;font color=&quot;#008cff&quot;&gt;P13&lt;/font&gt;, ad esempio, lavora direttamente con il nodo &lt;font color=&quot;#008cff&quot;&gt;P12&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il nodo &lt;font color=&quot;#008cff&quot;&gt;P4&lt;/font&gt; invece, lavora a stretto contatto con il nodo &lt;font color=&quot;#008cff&quot;&gt;P11&lt;/font&gt;, &lt;font color=&quot;#008cff&quot;&gt;P1&lt;/font&gt; e &lt;font color=&quot;#008cff&quot;&gt;P2&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il nodo &lt;font color=&quot;#008cff&quot;&gt;P16&lt;/font&gt; lavora con &lt;font color=&quot;#008cff&quot;&gt;P3&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il nodo &lt;font color=&quot;#008cff&quot;&gt;P3&lt;/font&gt; infine, è evidentemente la persona che ha contatti con il maggior numero di individui.&lt;/p&gt;
+
+&lt;p&gt;Potremmo immaginare che il nodo &lt;font color=&quot;#008cff&quot;&gt;P13&lt;/font&gt; sia il dirigente scolastico della scuola, &lt;font color=&quot;#008cff&quot;&gt;P12&lt;/font&gt; il vice preside e &lt;font color=&quot;#008cff&quot;&gt;P11&lt;/font&gt; il responsabile della segreteria.&lt;/p&gt;
+
+&lt;p&gt;Cominciamo allora a distinguere dei &lt;em&gt;cluster&lt;/em&gt; (dei raggruppamenti):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;il &lt;font color=&quot;#ff0066&quot;&gt;cluster della dirigenza&lt;/font&gt; sarà formato dai nodi P13 e P12, preside e vice-preside.&lt;/li&gt;
+  &lt;li&gt;il &lt;font color=&quot;#99cc00&quot;&gt;cluster della segreteria&lt;/font&gt; sarà formato dal responsabile della segreteria, il nodo P11, e dei suoi colleghi collaboratori, i nodi P4, P1 e P2.&lt;/li&gt;
+  &lt;li&gt;il &lt;font color=&quot;#00ccff&quot;&gt;cluster della classe&lt;/font&gt; sarà formato dall’insegnante, il nodo P3, e da tutti i suoi alunni (i nodi P5, P14, P15, P16, P6, P7, P8, P19, P18, P9, P17, P10).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/schoolcluster.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;A questo punto come ci torna utile il concetto di grado dei nodi?&lt;/p&gt;
+
+&lt;p&gt;Il prossimo paragrafo ci aiuterà a condurre un’analisi un po’ più complessa delle precedenti, che si servirà dei &lt;em&gt;cluster&lt;/em&gt; appena identificati e di una componente non banale nell’analisi delle reti: il tempo.&lt;/p&gt;
+
+&lt;p&gt;Di seguito vedremo come il grado di un nodo e il tempo che passa, giocano un ruolo fondamentale nella dinamica di reti come quella in esame.&lt;/p&gt;
+
+&lt;h1 id=&quot;linfluenza-a-scuola&quot;&gt;L’influenza a scuola&lt;/h1&gt;
+&lt;p&gt;Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/spread1.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Quante persone potrà invece contagiare il nodo P4, se si ammalasse di influenza? Contiamo gli archi di P4: &amp;lt;P4, P11&amp;gt;, &amp;lt;P4, P2&amp;gt;, &amp;lt;P4, P1&amp;gt;. Il grado di P4 è pari a 3 e dunque saranno 3 le persone che P4 potrebbe potenzialmente contagiare.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/spread2.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmente contagiare nella sua rete di contatti con i colleghi? Il grado di P3 ammonta a 12. Sono dodici infatti, le persone che P3 potrebbe contagiare, recandosi al lavoro con l’influenza.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/highdegree.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Negli esempi riportati fino a qui, abbiamo focalizzato esclusivamente delle fotografie delle reti prese in esame. Spesso però le reti devono modellare dei contesti in evoluzione, dinamici.&lt;/p&gt;
+
+&lt;p&gt;La rete analizzata poco fa potrebbe essere studiata anche in relazione alla componente temporale &lt;em&gt;t&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nell’esempio che segue, notiamo che al tempo &lt;em&gt;t0&lt;/em&gt; il nodo P13 ha l’influenza (il colore rosso indica la prorpietà “avere l’influenza”).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/timein.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Al tempo &lt;em&gt;t8&lt;/em&gt; invece, le persone influenzate sono molto di più. Questo perché tra il nodo p13 e il nodo p3 (i due estremi considerati), vi è almeno un cammino che li collega, rendendo possibile la trasmissione del virus influenzale.&lt;/p&gt;
+
+&lt;p&gt;Si noti l’arco tratteggiato che collega P1 a P3. Quell’arco giocherà un ruolo cruciale nella diffusione dell’influenza. Sapreste dire il perché?&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/timeout.svg&quot; /&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Una proprietà chiave dei nodi di una rete è detta &quot;grado&quot;. In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire l'importanza delle connessioni tra nodi.</summary></entry><entry><title type="html">Che cos’è un grafo e come rappresentarlo</title><link href="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" rel="alternate" type="text/html" title="Che cos'è un grafo e come rappresentarlo" /><published>2020-03-18T00:00:00+01:00</published><updated>2020-03-18T00:00:00+01:00</updated><id>http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta</id><content type="html" xml:base="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta">&lt;p class=&quot;abstract&quot;&gt;In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.&lt;/p&gt;
 
 &lt;h2 id=&quot;cosa-sono-i-grafi&quot;&gt;Cosa sono i grafi&lt;/h2&gt;
 
