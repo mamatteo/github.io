@@ -2,7 +2,10 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 16px/1.5 -apple-system, Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 18px/1.5 Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+
+.abstract {color: #535c68; font-weight: bold; font-family: 'Muli'}
+
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -29,7 +32,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
 
-a:visited { color: #1756a9; }
+a:visited { color: #458; }
 
 a:hover { color: #111; text-decoration: underline; }
 
@@ -43,11 +46,11 @@ blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px;
 blockquote > :last-child { margin-bottom: 0; }
 
 /** Code formatting */
-pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eef; }
+pre, code { font-size: 15px; border: 1px solid #f3f3f3; border-radius: 3px;}
 
 code { padding: 1px 5px; }
 
-pre { padding: 8px 12px; overflow-x: auto; }
+pre { padding: 8px 12px; overflow-x: auto;}
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
@@ -134,9 +137,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-list > li { margin-bottom: 30px; }
 
-.post-meta {font-size: 17px;font-style: italic;color: #828282;}
+.post-meta {font-size: 16px; font-style: regular; color: #828282;}
 
-.post-link { display: block; font-size: 24px; }
+.post-link { display: block; font-size: 24px; font-weight: bold;}
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
@@ -281,5 +284,6 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
 
 /*# sourceMappingURL=main.css.map */

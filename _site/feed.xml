@@ -1,64 +1,199 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-11T16:37:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">Data visualization con ggplot2</title><link href="http://localhost:4000/r/data-visualization-con-ggplot2" rel="alternate" type="text/html" title="Data visualization con ggplot2" /><published>2020-01-11T00:00:00+01:00</published><updated>2020-01-11T00:00:00+01:00</updated><id>http://localhost:4000/r/data%20visualization%20con%20ggplot2</id><content type="html" xml:base="http://localhost:4000/r/data-visualization-con-ggplot2">&lt;p&gt;In questo articolo, impareremo a visualizzare dati attraverso la libreria &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggplot2&lt;/code&gt;, una delle librerie di R più versatili ed eleganti.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T16:38:39+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">Che cos’è un grafo e come rappresentarlo</title><link href="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" rel="alternate" type="text/html" title="Che cos'è un grafo e come rappresentarlo" /><published>2020-03-18T00:00:00+01:00</published><updated>2020-03-18T00:00:00+01:00</updated><id>http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta</id><content type="html" xml:base="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta">&lt;p class=&quot;abstract&quot;&gt;In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.&lt;/p&gt;
 
-&lt;h1 id=&quot;prerequisiti&quot;&gt;Prerequisiti&lt;/h1&gt;
-&lt;p&gt;Il pacchetto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggplot2&lt;/code&gt; fa parte della libreria &lt;a href=&quot;https://www.tidyverse.org/&quot;&gt;tidyverse&lt;/a&gt; e ne rappresenta una delle componenti chiave. Per utilizzare in maniera efficace le funzioni che utilizzeremo in questo tutorial, è utile eseguire il seguente codice nell’ambiente di sviluppo che decidiamo di utilizzare (il consiglio è quello di usare &lt;a href=&quot;https://rstudio.com/&quot;&gt;RStudio&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&quot;cosa-sono-i-grafi&quot;&gt;Cosa sono i grafi&lt;/h2&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;La &lt;a href=&quot;https://en.wikipedia.org/wiki/Graph_theory&quot;&gt;&lt;font color=&quot;#b3d313&quot;&gt;teoria dei grafi&lt;/font&gt;&lt;/a&gt; è una branca della matematica e dell’informatica che si occupa di studiare degli oggetti chiamati &lt;em&gt;grafi&lt;/em&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: ggplot2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: tibble&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: tidyr&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: readr&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: purr&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Loading tidyverse: dplyr&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; Conflicts with tidy packages -------&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; filter(): dplyr, stats&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;gt; lag(): dplyr, stats&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Un grafo &lt;em&gt;G&lt;/em&gt; è definito dalla coppia di insiemi &lt;em&gt;V&lt;/em&gt; dei &lt;font color=&quot;#b3d313&quot;&gt;nodi&lt;/font&gt; (&lt;em&gt;vertices&lt;/em&gt; in inglese), ed &lt;em&gt;E&lt;/em&gt; degli &lt;font color=&quot;#b3d313&quot;&gt;archi&lt;/font&gt; (&lt;em&gt;edges&lt;/em&gt; in inglese).&lt;/p&gt;
 
-&lt;p&gt;Con il solo caricamento della libreria &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tidyverse&lt;/code&gt; abbiamo già a nostra disposizione una buona quantità di strumenti utili alla maggior parte delle analisi dati che ci capiterà di dover fare. L’esecuzione del comando ci informa anche delle funzioni di &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tidyverse&lt;/code&gt; che vanno in conflitto con le funzioni standard di R.&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;G = (V, E)&lt;/script&gt;
 
-&lt;p&gt;Nel caso in cui, dopo aver eseguito il comando, il sistema restituisce l’errore “there is no package called ‘tidyverse’”, c’è bisogno allora di installarlo, tramite il comando che segue:&lt;/p&gt;
+&lt;p&gt;I nodi di un grafo servono a rappresentare le &lt;em&gt;entità&lt;/em&gt; del dominio in esame, mentre gli archi rappresenteranno le &lt;em&gt;relazioni&lt;/em&gt; che intercorrono tra le diverse entità coinvolte. In questo senso, un grafo rappresenta un modello astratto per descrivere tutti quei contesti in cui siamo in grado di individuare delle entità (città, squadre di calcio, persone, etc.), connesse tra loro da determinate relazioni (strade, partite, rapporti affettivi).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;install.packages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tidyverse&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;I matematici, utilizzano la lettera &lt;em&gt;n&lt;/em&gt; per denotare il numero dei nodi di un grafo, e la lettera &lt;em&gt;m&lt;/em&gt; per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V con &lt;em&gt;n&lt;/em&gt; e la cardinalità di E con &lt;em&gt;m&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;primi-passi&quot;&gt;Primi passi&lt;/h1&gt;
-&lt;p&gt;I primi passi sono&lt;/p&gt;
+&lt;p&gt;I grafi sono quindi utili strumenti per modellare contesti “di relazione”. Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#left
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mapping&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;displ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hwy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Il modo più semplice per collegare due nodi, comporta che tra essi vi sia uno ed un solo arco e quindi una ed una sola relazione. Nulla però vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di &lt;font color=&quot;#b3d313&quot;&gt;multiarchi&lt;/font&gt; (&lt;em&gt;multiedges&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;E l’output è il seguente:
-&lt;img src=&quot;/media/images/graph.png&quot; alt=&quot;graph&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">In questo articolo, impareremo a visualizzare dati attraverso la libreria ggplot2, una delle librerie di R più versatili ed eleganti.</summary></entry><entry><title type="html">The most important skills of data scientist</title><link href="http://localhost:4000/datascience/the-most-important-skills-of-data-scientist" rel="alternate" type="text/html" title="The most important skills of data scientist" /><published>2020-01-09T00:00:00+01:00</published><updated>2020-01-09T00:00:00+01:00</updated><id>http://localhost:4000/datascience/the-most-important-skills-of-data-scientist</id><content type="html" xml:base="http://localhost:4000/datascience/the-most-important-skills-of-data-scientist">&lt;p&gt;Nei giorni che hanno preceduto l’inizio dell’anno 2020, ho potuto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;leggere&lt;/code&gt; diverse cose che avevo lasciato da parte e ho potuto guardarmi un po’ di video interessanti. Tra questi segnalo l’ottimo contributo offerto da &lt;a href=&quot;https://www.linkedin.com/in/josemiguelcansado/?originalSubdomain=es&quot;&gt;Jose Miguel Cansado&lt;/a&gt;, che in occasione del &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TEDx&lt;/code&gt; di Madrid ha tenuto un intervento intitolato &lt;a href=&quot;https://www.youtube.com/watch?v=qrhRfPY4F4w&amp;amp;t=4s&quot;&gt;“The most important skills of data scientists”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Come mostrato nella figura seguente, un multiarco è utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell’esempio riportato in figura, tra il nodo N1 e il nodo N2 è stato messo in evidenza un primo arco che esprime la distanza che intercorre tra i due nodi e un secondo arco che esprime la capacità del collegamento.&lt;/p&gt;
 
-&lt;p&gt;Alcune note matematiche:&lt;/p&gt;
+&lt;p&gt;Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità del tubo che li collega (secondo arco).&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;0 &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{N}&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;a \in \mathbb{N}&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;S(a) \in \mathbb{N}&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;a, b \in \mathbb{N}&lt;/script&gt; tali che &lt;script type=&quot;math/tex&quot;&gt;a\neq b&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;S(a)\neq S(b)&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;non esiste alcun &lt;script type=&quot;math/tex&quot;&gt;a \in \mathbb{N}&lt;/script&gt; tale che &lt;script type=&quot;math/tex&quot;&gt;0 = S(a)&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;se &lt;script type=&quot;math/tex&quot;&gt;A\subseteq \mathbb{N}&lt;/script&gt; tale che &lt;script type=&quot;math/tex&quot;&gt;0\in A&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;(a\in A \Rightarrow S(a) \in A)&lt;/script&gt; allora &lt;script type=&quot;math/tex&quot;&gt;A =
-\mathbb{N}&lt;/script&gt; (&lt;em&gt;assioma di induzione&lt;/em&gt;)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/graph3.svg&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;Tra i passaggi più signficativi riporto alcune frasi finali:&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+Un altro concetto chiave della teoria dei grafi riguarda la &lt;font color=&quot;#b3d313&quot;&gt;direzione degli archi&lt;/font&gt;. Diremo che un arco è &lt;font color=&quot;#b3d313&quot;&gt;indiretto&lt;/font&gt;, se esiste un arco tra il nodo N1 e il nodo N2 percorribile da N1 a N2 e viceversa in maniera del tutto equivalente. Diremo invece che un arco è &lt;font color=&quot;#b3d313&quot;&gt;diretto&lt;/font&gt;, se esiste un arco tra il nodo N1 e il N2 percorribile solo in un senso (da N1 a N2 oppure da N2 a N1).&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;the most important skill of a data scientist is asking the right question to data. (…) Big data needs big brains. Big data needs the curious brain of an artist to make the difference.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Nella figura seguente viene mostrato un esempio di arco diretto. Un arco diretto è riconoscibile dalla freccia posta in una delle sue due estremità.&lt;/p&gt;
 
-&lt;iframe width=&quot;730&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/qrhRfPY4F4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/graph4.svg&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;Davvero interessante:&lt;/p&gt;
+&lt;p&gt;Un &lt;font color=&quot;#b3d313&quot;&gt;grafo orientato&lt;/font&gt; è un grafo in cui tutti i suoi archi sono diretti. &lt;br /&gt;
+Un &lt;font color=&quot;#b3d313&quot;&gt;grafo non orientato&lt;/font&gt; è un grafo in cui tutti i suoi archi sono indiretti.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int_x^{x+1} \ln(t) {\rm d}t&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;
+Spesso un sinonimo di grafo è &lt;font color=&quot;#b3d313&quot;&gt;rete&lt;/font&gt; (&lt;em&gt;network&lt;/em&gt;). Lo studio dei grafi è anche detto studio delle reti o &lt;a href=&quot;https://en.wikipedia.org/wiki/Network_science&quot;&gt;&lt;em&gt;network science&lt;/em&gt;&lt;/a&gt;. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall’economia, dalla chimica e dalla sociologia.&lt;/p&gt;
 
-&lt;p&gt;per &lt;script type=&quot;math/tex&quot;&gt;x&gt;0&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Nei giorni che hanno preceduto l’inizio dell’anno 2020, ho potuto leggere diverse cose che avevo lasciato da parte e ho potuto guardarmi un po’ di video interessanti. Tra questi segnalo l’ottimo contributo offerto da Jose Miguel Cansado, che in occasione del TEDx di Madrid ha tenuto un intervento intitolato “The most important skills of data scientists”.</summary></entry></feed>
+&lt;h2 id=&quot;come-si-rappresenta-un-grafo&quot;&gt;Come si rappresenta un grafo&lt;/h2&gt;
+
+&lt;h1 id=&quot;disegnare-i-grafi&quot;&gt;Disegnare i grafi&lt;/h1&gt;
+
+&lt;p&gt;Una delle potenzialità dei grafi, e la semplicità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/graph1.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Il grafo della figura è composto dall’insieme dei seguenti nodi:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V = \{N1, N2, N3, N4, N5, N6\}&lt;/script&gt;
+
+&lt;p&gt;e dal seguente insieme di archi:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E = \{A1, A2, A3, A4, A5, A6\}&lt;/script&gt;
+
+&lt;p&gt;“Leggere” un grafo solitamente è semplice (a patto che il grafo sia piccolo, cioè formato da pochi nodi).&lt;/p&gt;
+
+&lt;p&gt;In riferimento al grafo riportato in figura, ad esempio, possiamo affermare che il nodo N1 è collegato al nodo N2 mediante l’arco A1. Allo stesso modo il nodo N5 è collegato al nodo N4 mediante l’arco A4.&lt;/p&gt;
+
+&lt;p&gt;Non è necessario che ci sia &lt;em&gt;esattamente un arco&lt;/em&gt; tra due nodi per far sì che quei due nodi siano effettivamente “collegati”. Il nodo N6, ad esempio, è sicuramente collegato al nodo N4 mediante l’arco A5 e al nodo N5 mediante l’arco A3. Ma il nodo N6 è collegato anche al nodo N3, mediante gli archi A5 e A6 oppure al nodo N1, mediante gli archi A5, A6, A7 e A1.&lt;/p&gt;
+
+&lt;p&gt;Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 al nodo N1. In generale esistono &lt;em&gt;k&lt;/em&gt; strade che collegano due nodi in un grafo (con &lt;em&gt;k&lt;/em&gt; che va da 0 ad un numero finito &lt;em&gt;t&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Diversi algoritmi studiati dall’informatica operano sia sul numero di strade che collegano una data coppia di nodi sia sul numero di archi che collegano due nodi.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Ridisegniamo ora il grafo precedente calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.&lt;/p&gt;
+
+&lt;p&gt;Il grafo in esame è riportato nella figura che segue:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/graph2.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Nella figura qui sopra, in accordo con la definizione data all’inizio, è facile riconoscere l’insieme dei nodi&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}&lt;/script&gt;
+
+&lt;p&gt;e l’insieme degli archi&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E = \{141, 279, 571, 154, 1270, 1423, 924\}&lt;/script&gt;
+
+&lt;p&gt;Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come quello dei grafi può rappresentare in maniera semplice ma efficace alcuni scenari reali.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;le-matrici-di-adiacenza&quot;&gt;Le matrici di adiacenza&lt;/h1&gt;
+
+&lt;p&gt;Esistono anche dei modi più compatti per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta &lt;font color=&quot;#b3d313&quot;&gt;matrice di adiacenza&lt;/font&gt; (&lt;em&gt;adjacency matrix&lt;/em&gt;). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.&lt;/p&gt;
+
+&lt;p&gt;Di seguito è riporata la matrice di adiacenza del grafo delle città disegnato nel paragrafo precedente.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{pmatrix}
+/ &amp; Venezia &amp; Milano &amp; Torino &amp; Bologna &amp; Roma &amp; Palermo \\
+Venezia &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\
+Milano &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\
+Torino &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
+Bologna &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+Roma &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+Palermo &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 0 \\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci informa che il nodo Venezia possiede dei collegamenti con le città di Milano, Bologna e Palermo, corrispondenti alle tre celle valorizzate ad 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dizionario-elementare&quot;&gt;Dizionario elementare&lt;/h2&gt;
+&lt;p&gt;Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;CAMMINO&lt;/strong&gt; | Chiameremo &lt;font color=&quot;#b3d313&quot;&gt;cammino&lt;/font&gt; (&lt;em&gt;path&lt;/em&gt;), una squenza ordinata di archi.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;cammino = (a_{1}, \dots, a_{m})&lt;/script&gt;
+
+&lt;p&gt;In riferimento alla figura riportata di seguito, possiamo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi &amp;lt;A6, A7, A1&amp;gt;.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/path.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Nota:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);&lt;/li&gt;
+  &lt;li&gt;spesso per l’informatica è utile individuare, soprattutto su reti complesse, il cammino più breve (&lt;a href=&quot;https://it.wikipedia.org/wiki/Cammino_minimo&quot;&gt;cammino minimo&lt;/a&gt;) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Shortest_path_problem&quot;&gt;shortest path problem&lt;/a&gt;&lt;/em&gt;;&lt;/li&gt;
+  &lt;li&gt;una coppia di nodi in una rete potrebbe anche non essere collegata da alcun cammino.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;CICLO&lt;/strong&gt; | Parleremo di &lt;font color=&quot;#b3d313&quot;&gt;ciclo&lt;/font&gt; (&lt;em&gt;loop&lt;/em&gt;), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, dopo un numero &lt;em&gt;m&lt;/em&gt; di archi ritorna allo stesso nodo dal quale siamo partiti.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;ciclo = (a_{1}, a_{2}, a_{3}, \dots, a_{1})&lt;/script&gt;
+
+&lt;p&gt;Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi &amp;lt;A1, A2, A3, A4, A5, A6, A7&amp;gt;. Questo cammino non è l’unico ciclo che insiste sul nodo N1 e non è nemmeno il più breve. Nella figura è stato volutamente evidenziato di rosso l’arco A7, che denota la possibilità di chiudere un ciclo su N1 con un cammino molto più breve del precedente (il cammino &amp;lt;A1, A2, A7&amp;gt;).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/loops.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;CONNETTIVITÀ&lt;/strong&gt; | Dato un grafo G = (V, E) due vertici v, u &lt;script type=&quot;math/tex&quot;&gt;\in&lt;/script&gt; V si dicono &lt;font color=&quot;#b3d313&quot;&gt;connessi&lt;/font&gt; se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti &lt;font color=&quot;#b3d313&quot;&gt;sconnessi&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di vertici (u, v) &lt;script type=&quot;math/tex&quot;&gt;\in&lt;/script&gt; V, esiste un cammino che collega u a v. Nel grafo riportato di seguito, comunque scegliamo due nodi esisterà sempre un cammino che li collega. Il grafo che segue è un esempio di &lt;font color=&quot;#b3d313&quot;&gt;grafo connesso&lt;/font&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/connectedgraph.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Se però eliminiamo gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di &lt;font color=&quot;#b3d313&quot;&gt;grafo sconnesso&lt;/font&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/disconnectedgraph.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Nel grafo riportato qui sopra, non è possibile raggiungere il nodo N11 da un nodo diverso dal nodo N10, così come non è possibile raggiungere i nodi N7, N8 e N9 a partire da un qualsiasi nodo diverso da questi tre.&lt;/p&gt;
+
+&lt;p&gt;L’operazione di eliminazione di uno o più archi da un grafo è detta operazione di &lt;font color=&quot;#b3d313&quot;&gt;taglio&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_cut&quot;&gt;minimum cut problem&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;RETI PESATE&lt;/strong&gt; | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina “quanto vale” la relazione che l’arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.&lt;/p&gt;
+
+&lt;p&gt;Le reti i cui archi possiedono un peso sono dette &lt;font color=&quot;#b3d313&quot;&gt;reti pesate&lt;/font&gt; (&lt;em&gt;weighted networks&lt;/em&gt;). Nella figura che segue è riportato un esempio di rete pesata. Ogni arco è etichettato con un numero reale che ne determina il peso. In relazione a questo tipo di reti, potrebbe essere interessante chiederci qual è il cammino di peso minore o maggiore che collega due nodi, inteso come la somma dei pesi di tutti gli archi che collegano il primo nodo al secondo.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/weighnet.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;grafi-particolari&quot;&gt;Grafi particolari&lt;/h2&gt;
+
+&lt;h1 id=&quot;gli-alberi&quot;&gt;Gli alberi&lt;/h1&gt;
+
+&lt;p&gt;Una particolare tipologia di grafi è detta &lt;font color=&quot;#b3d313&quot;&gt;alberi&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gli alberi sono grafi indiretti, privi di cicli e connessi. Di seguito è riportato un esempio di albero.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/tree1.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo così come riportato dalla figura che segue.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/tree2.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un “albero informatico”, a differenza di un albero vero e proprio, è situata in cima all’albero e non a terra. Il nodo privo di nodi genitori è detto &lt;font color=&quot;#b3d313&quot;&gt;nodo radice&lt;/font&gt; (&lt;em&gt;root node&lt;/em&gt;). Nella figura seguente è stato colorato di blu il nodo radice N1. I nodi finali di quest’albero (ovvero i nodi che non possiedono nodi figli), sono detti &lt;font color=&quot;#b3d313&quot;&gt;foglie&lt;/font&gt; (&lt;em&gt;leaf&lt;/em&gt;) dell’albero.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/roottree.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Gli alberi sono oggetti matematici ancora più semplici dei grafi, eppure godono di alcune interessanti proprietà, elencate di seguito:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;poiché in un albero non esistono cicli, esiste un solo cammino tra ogni coppia di nodi;&lt;/li&gt;
+  &lt;li&gt;un albero di &lt;em&gt;n&lt;/em&gt; nodi, possiede sempre esattamente &lt;em&gt;n - 1&lt;/em&gt; archi;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lasciamo al lettore dimostrare e convincersi di queste proprietà.&lt;/p&gt;
+
+&lt;h2 id=&quot;perché-la-teoria-dei-grafi-è-importante&quot;&gt;Perché la teoria dei grafi è importante&lt;/h2&gt;
+&lt;p&gt;Nella vita reale, esistono moltissimi contesti rappresentabili come una rete. Internet, intesa come l’insieme di computer connessi fra loro, è la rete per eccellenza, ma solo perché è utilizzata da un numero elevatissimo di persone in tutto il mondo. Esistono però molti altri ambiti nei quali sono presenti delle reti, anche di fondamentale importanza per l’essere umano. Il cervello è modellabile come una rete, dove i nodi sono rappresentati dai neuroni e gli archi dalle sinapsi. Ma anche le persone che incontriamo ogni giorno, in famiglia o al lavoro, formano assieme a noi una gigantesca rete umana.&lt;/p&gt;
+
+&lt;p&gt;Con l’avvento delle tecnologie digitali, le reti non hanno fatto altro che aumentare in tutto il mondo. Non solo: le reti esistenti sono cresciute a dismisura, permttendoci di affermare che oggi siamo tutti interconnessi.&lt;/p&gt;
+
+&lt;p&gt;L’avvento della rete internet, non ha solo collegato ciascuno di noi ad altre persone, ma ha coinvolto anche gli oggetti, dagli smartphone ai frigoriferi, che oggi fanno ormai parte di una sorta di rete globale.&lt;/p&gt;
+
+&lt;p&gt;La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l’impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull’intero sistema.&lt;/p&gt;</content><author><name></name></author><summary type="html">In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.</summary></entry></feed>

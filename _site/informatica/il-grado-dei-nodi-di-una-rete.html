@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Il grado dei nodi di una rete: l’importanza delle connessioni | Matteo Troìa</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Il grado dei nodi di una rete: l’importanza delle connessioni" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Una CIAO proprietà chiave dei nodi di una rete è riferita al loro grado. In questo articolo dopo aver dato la definizione di grado di un nodo verranno illustrate diverse situazioni in cui il concetto di grado gioca un ruolo importante." />
+<meta property="og:description" content="Una CIAO proprietà chiave dei nodi di una rete è riferita al loro grado. In questo articolo dopo aver dato la definizione di grado di un nodo verranno illustrate diverse situazioni in cui il concetto di grado gioca un ruolo importante." />
+<link rel="canonical" href="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete" />
+<meta property="og:url" content="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete" />
+<meta property="og:site_name" content="Matteo Troìa" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-26T00:00:00+01:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete","headline":"Il grado dei nodi di una rete: l’importanza delle connessioni","dateModified":"2020-03-26T00:00:00+01:00","datePublished":"2020-03-26T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete"},"description":"Una CIAO proprietà chiave dei nodi di una rete è riferita al loro grado. In questo articolo dopo aver dato la definizione di grado di un nodo verranno illustrate diverse situazioni in cui il concetto di grado gioca un ruolo importante.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Matteo Troìa" /></head>
+<body>
+<header class="site-header">
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+<div class="wrapper"><a class="site-title" rel="author" href="/">Matteo Troìa</a><nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      
+
+
+      <div class="trigger">
+        
+    	  
+            
+	  
+        
+    	  
+        
+    	  
+        
+    	  
+        
+    	  
+            
+              <a class="page-link" href="/about/">About</a>
+            
+	  
+        
+    	  
+        
+    	  
+            
+	  
+        
+    	  
+            
+	  
+        
+    	  
+            
+	  
+        
+	<!-- <a class="page-link"
+	   href="https://www.behance.net/orporick">Diario</a> -->
+      </div>
+    </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+  <!--  <h1 class="post-title p-name" itemprop="name headline">Il grado dei nodi di una rete: l&#39;importanza delle connessioni</h1> -->
+
+    <h1 class="post-title p-name" style="margin-bottom: 2px; itemprop="name headline">Il grado dei nodi di una rete: l&#39;importanza delle connessioni</h1>
+
+    <p class="post-meta">
+
+      
+      26
+      Marzo
+        
+      2020</p>
+
+      <link href="/css/mycss.css" rel="stylesheet">
+
+      
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left;
+    height: 36px;
+    width: 32px;
+    float: left;
+    text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+
+<span style="color: silver;">Condividi con: </span><div id="share-buttons">
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('https://facebook.com/sharer.php?u=http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Il grado dei nodi di una rete: l'importanza delle connessioni&url=http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete&via=_matteotroia&related=_matteotroia');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+
+      <hr>
+
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p class="abstract">Una CIAO proprietà chiave dei nodi di una rete è riferita al loro grado. In questo articolo dopo aver dato la definizione di grado di un nodo verranno illustrate diverse situazioni in cui il concetto di grado gioca un ruolo importante. </p>
+
+<h2 id="il-grado-di-un-nodo">Il grado di un nodo</h2>
+
+<p>I <font color="#008cff">gradi</font> (<em>degree</em>) di un nodo sono il numero di archi che il nodo possiede. Rispetto al grafo d’esempio riportato nella figura che segue, possiamo affermare che il grado del nodo N3 è pari a 3, il grado del nodo N6 è pari a 5 e il grado del nodo N1 è pari a 2.</p>
+
+<div style="text-align: center"><img src="/media/images/degree1.svg" /></div>
+
+<p>Formalmente, per un grafo indiretto di <em>n</em> nodi, il grado di ciascun nodo può essere calcolato a partire dalla sua matrice di adiacenza, così come espresso dalla formula che segue:</p>
+
+<script type="math/tex; mode=display">k_{i} = \sum_{j=1}^n A_{i, j}</script>
+
+<p>dove <script type="math/tex">k_{i}</script> indica il grado del nodo <em>i</em>.</p>
+
+<p>Se continuiamo a considerare grafi indiretti, allora possiamo osservare anche che ciascun arco di questi grafi possiede due estremità equivalenti. Se un grafo possiede <em>m</em> archi, allora in totale esisteranno <em>2m</em> estremità. Le estremità di ciascun arco sono state evidenziate in giallo di seguito.</p>
+
+<div style="text-align: center"><img src="/media/images/endsedges.svg" /></div>
+
+<p>Il numero di estremità di un grafo indiretto corrisponde anche alla somma dei gradi di tutti i vertici. Sia sempre <script type="math/tex">k_{i}</script> il grado del nodo <em>i</em>; possiamo allora formalizzare questo concetto con la seguente formula:</p>
+
+<script type="math/tex; mode=display">2m = \sum_{i=1}^n k_{i}</script>
+
+<p>oppure, con la formula equivalente:</p>
+
+<script type="math/tex; mode=display">m = \frac{1}{2} \sum_{i=1}^n k_{i} = \frac{1}{2} \sum_{i, j} A_{i, j}</script>
+
+<h2 id="il-grado-medio-dei-nodi">Il grado medio dei nodi</h2>
+<p>A questo punto, sulla scia delle semplici formule appena descritte, è possibile calcolare il grado medio (<em>mean degree</em>) <em>c</em> di un nodo in un grafo indiretto:</p>
+
+<script type="math/tex; mode=display">c = \frac{1}{n} \sum_{i=1}^n k_{i}</script>
+
+<p>Se sostituiamo a questa formula <script type="math/tex">\sum_{i=1}^n k_{i}</script> con <em>2m</em>, otteniamo una relazione che ci sarà utile più avanti:</p>
+
+<script type="math/tex; mode=display">c = \frac{2m}{n}</script>
+
+<p>in cui leghiamo il grado medio di un nodo al rapporto tra le estremità del grafo (<em>2m</em>) sul numero totali di nodi (<em>n</em>).</p>
+
+<h2 id="studiare-il-grado-di-reti-reali">Studiare il grado di reti reali</h2>
+<p>Ora che abbiamo descritto formalmente il concetto di <em>grado</em> di un nodo, proviamo ora a visualizzare dei casi reali dove esplorare la nozione di grado.</p>
+
+<p>Immaginiamo di costruire il grafo dei nostri amici di Facebook. Cominceremo disegnando il nodo che ci rappresenta a cui aggiungeremo tanti archi quanti gli amici che possediamo sul social network. Inoltre, immaginiamo di conoscere anche gli amici dei nostri amici, potendo così ampliare il grafo in questione.</p>
+
+<p>Il grado del nodo “Matteo” è pari a 4 (la linea tratteggiata indica la possibilità di aggiungere altri nodi). In questo caso esemplificativo, il grado di ciascun nodo rappresenta il numero di amici che ogni individuo possiede su Facebook.</p>
+
+<div style="text-align: center"><img src="/media/images/socialgraph.svg" /></div>
+
+<p>Consideriamo ora un piccolo estratto del grafo che rappresenta la linea metropolitana di Londra.</p>
+
+<div style="text-align: center"><img src="/media/images/metrolondon.svg" /></div>
+
+<p>Cosa ci serve conoscere il grado di ciascun nodo in reti come quelle riportate qui sopra?</p>
+
+<p>Beh, qui viene il bello! Il concetto di grado di un nodo è un concetto semplice (<em>“il numero di archi di ciascun nodo…</em>). Calcolare il grado di un nodo è altrettanto semplice: basta contare!</p>
+
+<p>Se la rete è molto grande esistono diversi software che aiutano a contare gli archi dei nodi in maniera molto molto rapida, anche su reti complesse.</p>
+
+<p>La vera sfida è stabilire un criterio con cui valutare il grado di ogni nodo.</p>
+
+<p>Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all’importanza del nodo considerato. In altre parole: più amici abbiamo, più siamo importanti, posto che dobbiamo essere d’accordo sul concetto di “importanza”.</p>
+
+<p>Da un altro punto di vista, potremmo affermare che più il nostro grado su Facebook è alto più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti (immaginando di avere migliaia e migliaia di amici).</p>
+
+<p>Rispetto invece alla rete metropolitana di Londra, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi. D’altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.</p>
+
+<p>Consideriamo infine quest’ultimo esempio di <em>network</em>.</p>
+
+<p>Nella figura che segue è riportato un estratto di un rete di persone collegate tra loro dalla relazione <em>“lavora con”</em>.</p>
+
+<p>Questa rete modella le persone P1, P2, P3, …, P18. Queste 18 persone sono tutti colleghi di lavoro, ma non tutte hanno lo stesso ruolo e pertanto verosimilmente hanno contatti con un numero diverso di colleghi.</p>
+
+<p>Analizziamo un po’ di relazioni. Ad esempio, il nodo P13 lavora con P12. Il nodo P4 lavora con P11, con P1 e P2. Il nodo P16 lavora con P3. Il nodo P3 è evidentemente la persona che ha contatti con il maggior numero di colleghi.</p>
+
+<div style="text-align: center"><img src="/media/images/spread0.svg" /></div>
+
+<p>Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.</p>
+
+<div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
+
+<p>Quante persone potrà invece contagiare il nodo P4, se si ammalasse di influenza? Contiamo gli archi di P4: &lt;P4, P11&gt;, &lt;P4, P2&gt;, &lt;P4, P1&gt;. Il grado di P4 è pari a 3 e dunque saranno 3 le persone che P4 potrebbe potenzialmente contagiare.</p>
+
+<div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
+
+<p>Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmente contagiare nella sua rete di contatti con i colleghi? Il grado di P3 ammonta a 12. Sono dodici infatti, le persone che P3 potrebbe contagiare, recandosi al lavoro con l’influenza.</p>
+
+<div style="text-align: center"><img src="/media/images/highdegree.svg" /></div>
+
+<p>Negli esempi riportati fino a qui, abbiamo focalizzato esclusivamente delle fotografie delle reti prese in esame. Spesso però le reti devono modellare dei contesti in evoluzione, dinamici.</p>
+
+<p>La rete analizzata poco fa potrebbe essere studiata anche in relazione alla componente temporale <em>t</em>.</p>
+
+<p>Nell’esempio che segue, notiamo che al tempo <em>t0</em> il nodo P13 ha l’influenza (il colore rosso indica la prorpietà “avere l’influenza”).</p>
+
+<div style="text-align: center"><img src="/media/images/timein.svg" /></div>
+
+<p>Al tempo <em>t8</em> invece, le persone influenzate sono molto di più. Questo perché tra il nodo p13 e il nodo p3 (i due estremi considerati), vi è almeno un cammino che li collega, rendendo possibile la trasmissione del virus influenzale.</p>
+
+<p>Si noti l’arco tratteggiato che collega P1 a P3. Quell’arco giocherà un ruolo cruciale nella diffusione dell’influenza. Sapreste dire il perché?</p>
+
+<div style="text-align: center"><img src="/media/images/timeout.svg" /></div>
+
+<h2 id="degree-distribution">Degree distribution</h2>
+
+<p>La distribuzione dei gradi (<em>degree distribution</em>) in una rete è la probabilità <script type="math/tex">p_{k}</script> per cui scegliendo in maniera casuale un nodo <em>i</em> della rete esso abbia grado <em>k</em>.</p>
+
+<p>La probabilità <script type="math/tex">p_{k}</script> va normalizzata in modo che</p>
+
+<script type="math/tex; mode=display">\sum_{k=1}^\infty p_{k} = 1</script>
+
+<p>In una rete con <em>n</em> nodi, la distribuzione dei gradi è data dall’istogramma normalizzato della relazione</p>
+
+<script type="math/tex; mode=display">p_{k} = \frac{N_{k}}{N}</script>
+
+<p>dove <script type="math/tex">N_{k}</script> è il numero di nodi con grado <em>k</em>.</p>
+
+<p>La <em>degree distribution</em> ha assunto un ruolo centrale nella teoria delle reti, rivelandosi davvero importante nello studio delle <em>scale-free networks</em> di cui ci occuperemo più avanti.</p>
+
+<p>Molte proprietà interessanti delle reti necessitano della conoscenza del valore <script type="math/tex">p_{k}</script>. Lo studio, ad esempio, della diffusione di un’epidemia, necessita (anche) di questo valore.</p>
+
+  </div><a class="u-url" href="/informatica/il-grado-dei-nodi-di-una-rete" hidden></a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Matteo Troìa</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Email</li><li><a class="u-email" href="mailto:matteotroia@icloud.com">matteotroia@icloud.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li class="p-name">Twitter</li><li><a class="u-email" href="https://twitter.com/_matteotroia" target="_blank">_matteotroia</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+          <li class="p-name">Linkedin</li><li><a class="u-email" href="https://www.linkedin.com/in/m-tro%C3%ACa/" target="_blank">Matteo Troìa</a></li></ul>
+      </div>
+
+
+    </div>
+
+  </div>
+</footer>
+</body>
+
+</html>

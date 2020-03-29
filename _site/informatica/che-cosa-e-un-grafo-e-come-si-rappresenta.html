@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Che cos’è un grafo e come rappresentarlo | Matteo Troìa</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Che cos’è un grafo e come rappresentarlo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l&#39;appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull&#39;importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni." />
+<meta property="og:description" content="In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l&#39;appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull&#39;importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni." />
+<link rel="canonical" href="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" />
+<meta property="og:url" content="http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" />
+<meta property="og:site_name" content="Matteo Troìa" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-18T00:00:00+01:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta","headline":"Che cos’è un grafo e come rappresentarlo","dateModified":"2020-03-18T00:00:00+01:00","datePublished":"2020-03-18T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta"},"description":"In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l&#39;appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull&#39;importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Matteo Troìa" /></head>
+<body>
+<header class="site-header">
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+<div class="wrapper"><a class="site-title" rel="author" href="/">Matteo Troìa</a><nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      
+
+
+      <div class="trigger">
+        
+    	  
+            
+	  
+        
+    	  
+        
+    	  
+        
+    	  
+        
+    	  
+            
+              <a class="page-link" href="/about/">About</a>
+            
+	  
+        
+    	  
+        
+    	  
+            
+	  
+        
+    	  
+            
+	  
+        
+    	  
+            
+	  
+        
+	<!-- <a class="page-link"
+	   href="https://www.behance.net/orporick">Diario</a> -->
+      </div>
+    </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+  <!--  <h1 class="post-title p-name" itemprop="name headline">Che cos&#39;è un grafo e come rappresentarlo</h1> -->
+
+    <h1 class="post-title p-name" style="margin-bottom: 2px; itemprop="name headline">Che cos&#39;è un grafo e come rappresentarlo</h1>
+
+    <p class="post-meta">
+
+      
+      18
+      Marzo
+        
+      2020</p>
+
+      <link href="/css/mycss.css" rel="stylesheet">
+
+      
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left;
+    height: 36px;
+    width: 32px;
+    float: left;
+    text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+
+<span style="color: silver;">Condividi con: </span><div id="share-buttons">
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('https://facebook.com/sharer.php?u=http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Che cos'è un grafo e come rappresentarlo&url=http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta&via=_matteotroia&related=_matteotroia');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=http://localhost:4000/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+
+      <hr>
+
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p class="abstract">In questo articolo verranno illustrati i concetti di base della teoria dei grafi, la branca della matematica che si occupa dello studio delle reti (dette anche grafi per l'appunto). Dopo aver dato la definizone di grafo vedremo come possiamo rappresentarli e quali sono i concetti chiave per comprendere questioni più complesse. Concluderemo questo articolo con alcune note sull'importanza della teoria dei grafi nel mondo reale e nella vita di tutti i giorni.</p>
+
+<h2 id="cosa-sono-i-grafi">Cosa sono i grafi</h2>
+
+<p>La <a href="https://en.wikipedia.org/wiki/Graph_theory"><font color="#b3d313">teoria dei grafi</font></a> è una branca della matematica e dell’informatica che si occupa di studiare degli oggetti chiamati <em>grafi</em>.</p>
+
+<p>Un grafo <em>G</em> è definito dalla coppia di insiemi <em>V</em> dei <font color="#b3d313">nodi</font> (<em>vertices</em> in inglese), ed <em>E</em> degli <font color="#b3d313">archi</font> (<em>edges</em> in inglese).</p>
+
+<script type="math/tex; mode=display">G = (V, E)</script>
+
+<p>I nodi di un grafo servono a rappresentare le <em>entità</em> del dominio in esame, mentre gli archi rappresenteranno le <em>relazioni</em> che intercorrono tra le diverse entità coinvolte. In questo senso, un grafo rappresenta un modello astratto per descrivere tutti quei contesti in cui siamo in grado di individuare delle entità (città, squadre di calcio, persone, etc.), connesse tra loro da determinate relazioni (strade, partite, rapporti affettivi).</p>
+
+<p>I matematici, utilizzano la lettera <em>n</em> per denotare il numero dei nodi di un grafo, e la lettera <em>m</em> per denotare invece il numero di archi. Dato un grafo G = (V, E) quindi, possiamo denotare la cardinalità di V con <em>n</em> e la cardinalità di E con <em>m</em>.</p>
+
+<p>I grafi sono quindi utili strumenti per modellare contesti “di relazione”. Viceversa, laddove non vi sono delle relazioni evidenti tra i soggetti coinvolti, i grafi probabilmente non rappresentano lo strumento di modellazione più adatto.</p>
+
+<p>Il modo più semplice per collegare due nodi, comporta che tra essi vi sia uno ed un solo arco e quindi una ed una sola relazione. Nulla però vieta che questi due nodi siano collegati da più di un arco. In questo caso parleremo di <font color="#b3d313">multiarchi</font> (<em>multiedges</em>).</p>
+
+<p>Come mostrato nella figura seguente, un multiarco è utile quando vogliamo rappresentare più informazioni contemporaneamente. Nell’esempio riportato in figura, tra il nodo N1 e il nodo N2 è stato messo in evidenza un primo arco che esprime la distanza che intercorre tra i due nodi e un secondo arco che esprime la capacità del collegamento.</p>
+
+<p>Immaginiamo ad esempio che i due nodi rappresentino due appartamenti diversi di uno stesso condominio, e che gli archi rappresentino le condutture idrauliche. Ci interessa quindi conoscere la distanza dei due appartamenti (primo arco) e la capacità del tubo che li collega (secondo arco).</p>
+
+<div style="text-align: center"><img src="/media/images/graph3.svg" /></div>
+
+<p><br />
+Un altro concetto chiave della teoria dei grafi riguarda la <font color="#b3d313">direzione degli archi</font>. Diremo che un arco è <font color="#b3d313">indiretto</font>, se esiste un arco tra il nodo N1 e il nodo N2 percorribile da N1 a N2 e viceversa in maniera del tutto equivalente. Diremo invece che un arco è <font color="#b3d313">diretto</font>, se esiste un arco tra il nodo N1 e il N2 percorribile solo in un senso (da N1 a N2 oppure da N2 a N1).</p>
+
+<p>Nella figura seguente viene mostrato un esempio di arco diretto. Un arco diretto è riconoscibile dalla freccia posta in una delle sue due estremità.</p>
+
+<div style="text-align: center"><img src="/media/images/graph4.svg" /></div>
+
+<p>Un <font color="#b3d313">grafo orientato</font> è un grafo in cui tutti i suoi archi sono diretti. <br />
+Un <font color="#b3d313">grafo non orientato</font> è un grafo in cui tutti i suoi archi sono indiretti.</p>
+
+<p><br />
+Spesso un sinonimo di grafo è <font color="#b3d313">rete</font> (<em>network</em>). Lo studio dei grafi è anche detto studio delle reti o <a href="https://en.wikipedia.org/wiki/Network_science"><em>network science</em></a>. Le reti non vengono studiate solo dalla matematica, ma anche dalla fisica, dall’economia, dalla chimica e dalla sociologia.</p>
+
+<p><br /></p>
+
+<h2 id="come-si-rappresenta-un-grafo">Come si rappresenta un grafo</h2>
+
+<h1 id="disegnare-i-grafi">Disegnare i grafi</h1>
+
+<p>Una delle potenzialità dei grafi, e la semplicità con cui li possiamo rappresentare. Alcuni esempi riportati di seguito aiuteranno il lettore a prendere confidenza con questi oggetti matematici.</p>
+
+<div style="text-align: center"><img src="/media/images/graph1.svg" /></div>
+
+<p>Il grafo della figura è composto dall’insieme dei seguenti nodi:</p>
+
+<script type="math/tex; mode=display">V = \{N1, N2, N3, N4, N5, N6\}</script>
+
+<p>e dal seguente insieme di archi:</p>
+
+<script type="math/tex; mode=display">E = \{A1, A2, A3, A4, A5, A6\}</script>
+
+<p>“Leggere” un grafo solitamente è semplice (a patto che il grafo sia piccolo, cioè formato da pochi nodi).</p>
+
+<p>In riferimento al grafo riportato in figura, ad esempio, possiamo affermare che il nodo N1 è collegato al nodo N2 mediante l’arco A1. Allo stesso modo il nodo N5 è collegato al nodo N4 mediante l’arco A4.</p>
+
+<p>Non è necessario che ci sia <em>esattamente un arco</em> tra due nodi per far sì che quei due nodi siano effettivamente “collegati”. Il nodo N6, ad esempio, è sicuramente collegato al nodo N4 mediante l’arco A5 e al nodo N5 mediante l’arco A3. Ma il nodo N6 è collegato anche al nodo N3, mediante gli archi A5 e A6 oppure al nodo N1, mediante gli archi A5, A6, A7 e A1.</p>
+
+<p>Forse ti sarai accorto che esistono anche altre strade che collegano il nodo N6 al nodo N1. In generale esistono <em>k</em> strade che collegano due nodi in un grafo (con <em>k</em> che va da 0 ad un numero finito <em>t</em>).</p>
+
+<p>Diversi algoritmi studiati dall’informatica operano sia sul numero di strade che collegano una data coppia di nodi sia sul numero di archi che collegano due nodi.</p>
+
+<hr />
+
+<p><br />
+Ridisegniamo ora il grafo precedente calandolo ad un contesto reale. Immaginiamo di voler disegnare il grafo di sei città italiane, diciamo Venezia, Milano, Torino, Bologna, Roma e Palermo. Queste città rappresentano le nostre entità, pertanto ogni nodo del nostro grafo rappresenterà una di queste sei città. La relazione invece che vogliamo evidenziare è la lunghezza della strada che separa ciascuna coppia di città. Gli archi in questo senso ci vengono in aiuto.</p>
+
+<p>Il grafo in esame è riportato nella figura che segue:</p>
+
+<div style="text-align: center"><img src="/media/images/graph2.svg" /></div>
+
+<p>Nella figura qui sopra, in accordo con la definizione data all’inizio, è facile riconoscere l’insieme dei nodi</p>
+
+<script type="math/tex; mode=display">V = \{Venezia, Milano, Torino, Bologna, Roma, Palermo\}</script>
+
+<p>e l’insieme degli archi</p>
+
+<script type="math/tex; mode=display">E = \{141, 279, 571, 154, 1270, 1423, 924\}</script>
+
+<p>Questo ultimo esempio ci aiuta a capire in che modo un modello astratto come quello dei grafi può rappresentare in maniera semplice ma efficace alcuni scenari reali.</p>
+
+<p><br /></p>
+
+<h1 id="le-matrici-di-adiacenza">Le matrici di adiacenza</h1>
+
+<p>Esistono anche dei modi più compatti per rappresentare i grafi. Uno dei modi più tradizionali prevede di utilizzare la cosiddetta <font color="#b3d313">matrice di adiacenza</font> (<em>adjacency matrix</em>). Una matrice di adiacenza non è altro che un modo compatto per esprimere le relazioni esistenti tra i vari nodi considerati. Ciascuna cella della matrice sarà valorizzata con il valore 1 se tra i due nodi considerati vi è un arco che li collega, 0 altrimenti.</p>
+
+<p>Di seguito è riporata la matrice di adiacenza del grafo delle città disegnato nel paragrafo precedente.</p>
+
+<p><br /></p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{pmatrix}
+/ & Venezia & Milano & Torino & Bologna & Roma & Palermo \\
+Venezia & 0 & 1 & 0 & 1 & 0 & 1 \\
+Milano & 1 & 0 & 1 & 0 & 1 & 0 \\
+Torino & 0 & 1 & 0 & 0 & 0 & 0 \\
+Bologna & 1 & 0 & 0 & 0 & 0 & 1 \\
+Roma & 0 & 1 & 0 & 0 & 0 & 1 \\
+Palermo & 1 & 0 & 0 & 1 & 1 & 0 \\
+\end{pmatrix} %]]></script>
+
+<p><br />
+Attraverso la lettura della matrice di adiacenza abbiamo la possibilità di scoprire (e volendo di contare), il numero di archi che possiede ciascun nodo considerato. La lettura della prima riga della matrice, ad esempio, ci informa che il nodo Venezia possiede dei collegamenti con le città di Milano, Bologna e Palermo, corrispondenti alle tre celle valorizzate ad 1.</p>
+
+<p><br /></p>
+
+<h2 id="dizionario-elementare">Dizionario elementare</h2>
+<p>Di seguito verranno riportate alcune definizioni di base dei grafi. Queste definizioni saranno utili a capire via via concetti più complessi.</p>
+
+<p><br />
+<strong>CAMMINO</strong> | Chiameremo <font color="#b3d313">cammino</font> (<em>path</em>), una squenza ordinata di archi.</p>
+
+<script type="math/tex; mode=display">cammino = (a_{1}, \dots, a_{m})</script>
+
+<p>In riferimento alla figura riportata di seguito, possiamo affermare che tra il nodo N6 e il nodo N2 esiste il cammino formato dagli archi &lt;A6, A7, A1&gt;.</p>
+
+<div style="text-align: center"><img src="/media/images/path.svg" /></div>
+
+<p>Nota:</p>
+<ul>
+  <li>tra due nodi può esistere più di un cammino (riesci a trovare 3 cammini diversi che collegano il nodo N1 al nodo N4?);</li>
+  <li>spesso per l’informatica è utile individuare, soprattutto su reti complesse, il cammino più breve (<a href="https://it.wikipedia.org/wiki/Cammino_minimo">cammino minimo</a>) che collega due nodi della rete. Esistono problemi famosi riferiti a questa idea, come lo <em><a href="https://en.wikipedia.org/wiki/Shortest_path_problem">shortest path problem</a></em>;</li>
+  <li>una coppia di nodi in una rete potrebbe anche non essere collegata da alcun cammino.</li>
+</ul>
+
+<p><br />
+<strong>CICLO</strong> | Parleremo di <font color="#b3d313">ciclo</font> (<em>loop</em>), tutte le volte in cui dovremmo riferirci ad un cammino che partendo da un determinato nodo, dopo un numero <em>m</em> di archi ritorna allo stesso nodo dal quale siamo partiti.</p>
+
+<script type="math/tex; mode=display">ciclo = (a_{1}, a_{2}, a_{3}, \dots, a_{1})</script>
+
+<p>Nel grafo della figura seguente esiste un ciclo che partendo dal nodo N1 ritorna al nodo N1. Il ciclo in questione è formato dagli archi &lt;A1, A2, A3, A4, A5, A6, A7&gt;. Questo cammino non è l’unico ciclo che insiste sul nodo N1 e non è nemmeno il più breve. Nella figura è stato volutamente evidenziato di rosso l’arco A7, che denota la possibilità di chiudere un ciclo su N1 con un cammino molto più breve del precedente (il cammino &lt;A1, A2, A7&gt;).</p>
+
+<div style="text-align: center"><img src="/media/images/loops.svg" /></div>
+
+<p><br />
+<strong>CONNETTIVITÀ</strong> | Dato un grafo G = (V, E) due vertici v, u <script type="math/tex">\in</script> V si dicono <font color="#b3d313">connessi</font> se esiste un cammino con estremi v e u. Se tale cammino non esiste, v e u sono detti <font color="#b3d313">sconnessi</font>.</p>
+
+<p>Di conseguenza, un grafo G = (V, E) è detto connesso se, per ogni coppia di vertici (u, v) <script type="math/tex">\in</script> V, esiste un cammino che collega u a v. Nel grafo riportato di seguito, comunque scegliamo due nodi esisterà sempre un cammino che li collega. Il grafo che segue è un esempio di <font color="#b3d313">grafo connesso</font>.</p>
+
+<div style="text-align: center"><img src="/media/images/connectedgraph.svg" /></div>
+
+<p>Se però eliminiamo gli archi evidenziati in arancione, ecco che sconnettiamo il grafo. Il grafo che segue è un esempio di <font color="#b3d313">grafo sconnesso</font>.</p>
+
+<div style="text-align: center"><img src="/media/images/disconnectedgraph.svg" /></div>
+
+<p>Nel grafo riportato qui sopra, non è possibile raggiungere il nodo N11 da un nodo diverso dal nodo N10, così come non è possibile raggiungere i nodi N7, N8 e N9 a partire da un qualsiasi nodo diverso da questi tre.</p>
+
+<p>L’operazione di eliminazione di uno o più archi da un grafo è detta operazione di <font color="#b3d313">taglio</font>.</p>
+
+<p>Anche in questo caso esistono molti algoritmi interessanti che si occupano di questa questione. Uno dei problemi più noti in questo ambito prende il nome di <em><a href="https://en.wikipedia.org/wiki/Minimum_cut">minimum cut problem</a></em>.</p>
+
+<p><br />
+<strong>RETI PESATE</strong> | In molti contesti reali, gli archi possono essere corredati da un determinato peso, che determina “quanto vale” la relazione che l’arco esprime. Ci sono quindi delle situazioni in cui è utile esprimere la forza, il peso o in generale il valore degli archi rappresentati.</p>
+
+<p>Le reti i cui archi possiedono un peso sono dette <font color="#b3d313">reti pesate</font> (<em>weighted networks</em>). Nella figura che segue è riportato un esempio di rete pesata. Ogni arco è etichettato con un numero reale che ne determina il peso. In relazione a questo tipo di reti, potrebbe essere interessante chiederci qual è il cammino di peso minore o maggiore che collega due nodi, inteso come la somma dei pesi di tutti gli archi che collegano il primo nodo al secondo.</p>
+
+<div style="text-align: center"><img src="/media/images/weighnet.svg" /></div>
+
+<p><br /></p>
+
+<h2 id="grafi-particolari">Grafi particolari</h2>
+
+<h1 id="gli-alberi">Gli alberi</h1>
+
+<p>Una particolare tipologia di grafi è detta <font color="#b3d313">alberi</font>.</p>
+
+<p>Gli alberi sono grafi indiretti, privi di cicli e connessi. Di seguito è riportato un esempio di albero.</p>
+
+<div style="text-align: center"><img src="/media/images/tree1.svg" /></div>
+
+<p>Dal punto di vista topologico, un albero può essere disegnato in molti modi diversi, ovvero distribuendo i suoi nodi in maniera diversa nello spazio. A volte però, si rivela più utile rappresentarlo così come riportato dalla figura che segue.</p>
+
+<div style="text-align: center"><img src="/media/images/tree2.svg" /></div>
+
+<p>Gli alberi sono spesso rappresentati a partire dalla loro radice. La radice di un “albero informatico”, a differenza di un albero vero e proprio, è situata in cima all’albero e non a terra. Il nodo privo di nodi genitori è detto <font color="#b3d313">nodo radice</font> (<em>root node</em>). Nella figura seguente è stato colorato di blu il nodo radice N1. I nodi finali di quest’albero (ovvero i nodi che non possiedono nodi figli), sono detti <font color="#b3d313">foglie</font> (<em>leaf</em>) dell’albero.</p>
+
+<div style="text-align: center"><img src="/media/images/roottree.svg" /></div>
+
+<p>Gli alberi sono oggetti matematici ancora più semplici dei grafi, eppure godono di alcune interessanti proprietà, elencate di seguito:</p>
+
+<ul>
+  <li>poiché in un albero non esistono cicli, esiste un solo cammino tra ogni coppia di nodi;</li>
+  <li>un albero di <em>n</em> nodi, possiede sempre esattamente <em>n - 1</em> archi;</li>
+</ul>
+
+<p>Lasciamo al lettore dimostrare e convincersi di queste proprietà.</p>
+
+<h2 id="perché-la-teoria-dei-grafi-è-importante">Perché la teoria dei grafi è importante</h2>
+<p>Nella vita reale, esistono moltissimi contesti rappresentabili come una rete. Internet, intesa come l’insieme di computer connessi fra loro, è la rete per eccellenza, ma solo perché è utilizzata da un numero elevatissimo di persone in tutto il mondo. Esistono però molti altri ambiti nei quali sono presenti delle reti, anche di fondamentale importanza per l’essere umano. Il cervello è modellabile come una rete, dove i nodi sono rappresentati dai neuroni e gli archi dalle sinapsi. Ma anche le persone che incontriamo ogni giorno, in famiglia o al lavoro, formano assieme a noi una gigantesca rete umana.</p>
+
+<p>Con l’avvento delle tecnologie digitali, le reti non hanno fatto altro che aumentare in tutto il mondo. Non solo: le reti esistenti sono cresciute a dismisura, permttendoci di affermare che oggi siamo tutti interconnessi.</p>
+
+<p>L’avvento della rete internet, non ha solo collegato ciascuno di noi ad altre persone, ma ha coinvolto anche gli oggetti, dagli smartphone ai frigoriferi, che oggi fanno ormai parte di una sorta di rete globale.</p>
+
+<p>La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l’impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull’intero sistema.</p>
+
+
+  </div><a class="u-url" href="/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta" hidden></a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Matteo Troìa</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Email</li><li><a class="u-email" href="mailto:matteotroia@icloud.com">matteotroia@icloud.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li class="p-name">Twitter</li><li><a class="u-email" href="https://twitter.com/_matteotroia" target="_blank">_matteotroia</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+          <li class="p-name">Linkedin</li><li><a class="u-email" href="https://www.linkedin.com/in/m-tro%C3%ACa/" target="_blank">Matteo Troìa</a></li></ul>
+      </div>
+
+
+    </div>
+
+  </div>
+</footer>
+</body>
+
+</html>
