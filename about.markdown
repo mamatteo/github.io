@@ -24,7 +24,9 @@ Nel 2014 ho ricevuto il premio “[Giovane Talento][giovanetalentolink]” dal C
 
 Ho la passione dei viaggi, e amo raccontarli attraverso gli occhi dei miei dispositivi multimediali con i quali giro il mondo. Io ed Elena vi raccontiamo le nostre avventure sul canale YouTube “[Tre Tazze di Tè][tretazzeditelink]”.
 
-Scrivo da quando ero bambino: su un diario analogico (che tengo gelosamente privato) e su tanti “diari digitali”: [sul mio blog storico][matteotroialink], sincronizzato con il [mio profilo su Medium][Mediumlink]. Qui invece, mi diletto con un po' di cose da _nerd_.
+Scrivo da quando ero bambino: su un diario analogico (che tengo gelosamente privato) e su tanti “diari digitali”: [sul mio blog storico][matteotroialink], sincronizzato con il [mio profilo su Medium][Mediumlink].
+
+Qui invece, mi diletto con un po' di cose da _nerd_.
 
 [Mediumlink]: https://medium.com/@matteotr
 [matteotroialink]: http://www.matteotroia.it
