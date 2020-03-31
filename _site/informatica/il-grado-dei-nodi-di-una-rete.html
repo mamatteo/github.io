@@ -7,15 +7,15 @@
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Il grado dei nodi di una rete: l’importanza delle connessioni" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Una proprietà chiave dei nodi di una rete è detta &quot;grado&quot;. In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire l&#39;importanza delle connessioni tra nodi." />
-<meta property="og:description" content="Una proprietà chiave dei nodi di una rete è detta &quot;grado&quot;. In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire l&#39;importanza delle connessioni tra nodi." />
+<meta name="description" content="Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale." />
+<meta property="og:description" content="Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale." />
 <link rel="canonical" href="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete" />
 <meta property="og:url" content="http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete" />
 <meta property="og:site_name" content="Matteo Troìa" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-03-26T00:00:00+01:00" />
+<meta property="article:published_time" content="2020-03-30T00:00:00+02:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete","headline":"Il grado dei nodi di una rete: l’importanza delle connessioni","dateModified":"2020-03-26T00:00:00+01:00","datePublished":"2020-03-26T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete"},"description":"Una proprietà chiave dei nodi di una rete è detta &quot;grado&quot;. In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire l&#39;importanza delle connessioni tra nodi.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete","headline":"Il grado dei nodi di una rete: l’importanza delle connessioni","dateModified":"2020-03-30T00:00:00+02:00","datePublished":"2020-03-30T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/informatica/il-grado-dei-nodi-di-una-rete"},"description":"Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L&#39;intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Matteo Troìa" /></head>
 <body>
@@ -84,7 +84,7 @@
     <p class="post-meta">
 
       
-      26
+      30
       Marzo
         
       2020</p>
@@ -135,13 +135,20 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p class="abstract">Una proprietà chiave dei nodi di una rete è detta "grado". In questo articolo, dopo aver enunciato la definizione di grado di un nodo, verranno illustrate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire l'importanza delle connessioni tra nodi.</p>
+    <p class="abstract">Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale.</p>
+
+<p><i><font color="#f03434">Prima di cominciare</font><br />
+Se già conosci le fondamenta teoriche della teoria dei grafi, prosegui pure la lettura. Probabilmente ti imbatterai in altri concetti a te già noti, oppure ne impareri di nuovi.
+Se invece conosci poco o nulla della teoria dei grafi, ti suggerisco di cominciare dall’articolo <a href="https://mamatteo.github.io/informatica/che-cosa-e-un-grafo-e-come-si-rappresenta">“Cos’è un grafo e come rappresentarlo”</a>, che introduce i concetti propedeutici alla comprensione di questo articolo.</i></p>
+<hr />
+
+<p><br /></p>
 
 <h2 id="il-grado-di-un-nodo">Il grado di un nodo</h2>
 
 <p>Il <font color="#008cff">grado</font> (<em>degree</em>) di un nodo è il numero di archi che il nodo possiede.</p>
 
-<p>Rispetto al grafo d’esempio riportato nella figura che segue, possiamo affermare che il grado del nodo <font color="#008cff">N3</font> è pari a 4, il grado del nodo <font color="#008cff">N6</font> è pari a 3 e il grado del nodo <font color="#008cff">N4</font> è pari a 2.</p>
+<p>Nel grafo riportato in figura, il grado del nodo <font color="#008cff">N3</font> è pari a 4, il grado del nodo <font color="#008cff">N6</font> è pari a 3 e il grado del nodo <font color="#008cff">N4</font> è pari a 2.</p>
 
 <div style="text-align: center"><img src="/media/images/degree1.svg" /></div>
 
@@ -149,28 +156,22 @@
 
 <script type="math/tex; mode=display">k_{i} = \sum_{j=1}^n A_{i, j}</script>
 
-<p>dove <script type="math/tex">k_{i}</script> indica il grado del nodo <em>i</em>. Avremo per cui che <script type="math/tex">k_{3}</script> = 4, <script type="math/tex">k_{6}</script> = 3 e <script type="math/tex">k_{4}</script> = 2.</p>
+<p>dove <script type="math/tex">k_{i}</script> indica il grado del nodo <em>i</em>. Per cui, rispetto al grafo della figura precedente, abbiamo che <script type="math/tex">k_{3}</script> = 4, <script type="math/tex">k_{6}</script> = 3 e <script type="math/tex">k_{4}</script> = 2.</p>
 
-<p>Il grado è un parametro che quantifica il numero di collegamenti che ciascun nodo possiede in una determinata rete.</p>
+<p>Se chiedessimo ad un nostro amico “<em>hai dei fratelli o delle sorelle?</em>”, la sua risposta stabilirebbe il suo grado, che sarà pari a 0 nel caso in cui il nostro amico è figlio unico, 1 se ha un fratello o una sorella, 2 se ha più di un fratello o una sorella e così via.</p>
 
-<p>È come se chiedessimo ad un nostro amico “<em>hai dei fratelli o delle sorelle?</em>”. La sua risposta stabilisce implicitamente il suo grado, che sarà pari a 0 nel caso in cui il nostro amico è figlio unico, 1 se ha un fratello o una sorella, 2 se ha più di un fratello o una sorella e così via.</p>
+<p>Nei grafi indiretti come quelli che stiamo analizzando, il verso degli archi non è importante. Ogni arco, non è altro che un segmento da un <em>nodo a</em> ad un <em>nodo b</em>. Ogni vertice di questo segmento è detto <font color="#008cff">estremità</font>.</p>
 
-<p>Se continuiamo a studiare grafi indiretti, è possibile osservare un ulteriore fenomeno che a fare con il grado dei nodi.</p>
-
-<p>Ogni arco altro non è che un segmento da un <em>nodo a</em> ad un <em>nodo b</em>. Ogni vertice di questo segmento è detto <font color="#008cff">estremità</font>.</p>
-
-<p>Ciascun arco di un grafo indiretto possiede due estremità equivalenti (in altri termini: non vi è un verso stabilito da una freccia).</p>
-
-<p>In un grafo di <em>m</em> archi allora, esisteranno in totale  <em>2m</em> estremità, come è possibile constatare dalla figura che segue, dove le estremità di ciascun arco sono state evidenziate in giallo.</p>
+<p>In un grafo di <em>m</em> archi esisteranno in totale  <em>2m</em> estremità, come è possibile constatare dalla figura che segue, dove le estremità di ogni arco sono state evidenziate in giallo.</p>
 
 <div style="text-align: center"><img src="/media/images/endsedges.svg" /></div>
 <p><br />
 Da qui una prima semplice intuzione:</p>
 
-<font color="#008cff"> &gt; il numero di estremità di un grafo indiretto corrisponde alla somma dei gradi di tutti i nodi.</font>
+<font color="#008cff"> &gt; il numero di estremità di un grafo indiretto corrisponde alla somma dei gradi di tutti i nodi del grafo.</font>
 
 <p><br />
-Ricordando che <script type="math/tex">k_{i}</script> rappresenta il grado del nodo <em>i</em>-esimo, possiamo formalizzare il concetto intuitivo sopra descritto con la seguente formula:</p>
+Ricordando che <script type="math/tex">k_{i}</script> rappresenta il grado del nodo <em>i</em>-esimo, possiamo formalizzare il concetto appena descritto con la seguente formula:</p>
 
 <script type="math/tex; mode=display">2m = \sum_{i=1}^n k_{i}</script>
 
@@ -180,17 +181,17 @@ Ricordando che <script type="math/tex">k_{i}</script> rappresenta il grado del n
 
 <p>che formalizza così una seconda importante intuzione:</p>
 
-<font color="#008cff"> &gt; il numero di archi in una rete indiretta può essere espresso come somma dei gradi dei nodi, diviso 2.</font>
+<font color="#008cff"> &gt; il numero di archi in una rete indiretta può essere espresso come somma dei gradi dei nodi del grafo diviso 2.</font>
 
 <p><br />
-L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permette di evitare di contare due volte lo stesso arco</p>
+L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permette di evitare di contare due volte lo stesso arco.</p>
 
-<p><br /><br /></p>
+<p><br /></p>
 
 <h2 id="il-grado-medio-dei-nodi">Il grado medio dei nodi</h2>
 
 <h1 id="in-un-grafo-indiretto">In un grafo indiretto</h1>
-<p>A questo punto, sulla scia delle semplici formule appena descritte, è possibile calcolare il <font color="#008cff">grado medio (<i>mean degree</i>) <i>c</i></font> di un nodo in un grafo indiretto:</p>
+<p>Sulla scia delle semplici formule appena descritte è possibile calcolare il <font color="#008cff">grado medio (<i>mean degree</i>) <i>c</i></font> di un nodo in un grafo indiretto con la seguente formula:</p>
 
 <script type="math/tex; mode=display">c = \frac{1}{n} \sum_{i=1}^n k_{i}</script>
 
@@ -201,25 +202,23 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 <p>Definiamo così il grado medio dei nodi di una rete in funzione del rapporto tra le estremità del grafo (<em>2m</em>) ed il numero totali di nodi (<em>n</em>).</p>
 
 <h1 id="in-un-grafo-diretto">In un grafo diretto</h1>
-<p>Finora, abbiamo considerato esclusivamente grafi indiretti, ma è possibile misurare il grado dei nodi anche su <strong>grafi diretti</strong>, a patto di distinguere il <font color="#008cff">grado degli archi entranti</font> <script type="math/tex">k_{i}^{in}</script> dal <font color="#008cff">grado degli archi uscenti</font> <script type="math/tex">k_{i}^{out}</script>.</p>
+<p>In un grafo diretto, è importante distinguere il <font color="#008cff">grado degli archi entranti</font> <script type="math/tex">k_{i}^{in}</script> dal <font color="#008cff">grado degli archi uscenti</font> <script type="math/tex">k_{i}^{out}</script>.</p>
 
-<p>Il grado totale di un nodo appartenente ad un grafo diretto sarà pari a</p>
+<p>Il grado totale di un nodo <em>i</em> sarà data dalla somma dei suoi archi entranti più la somma dei sui archi uscenti. Per cui:</p>
 
 <script type="math/tex; mode=display">k_{tot} = k_{i}^{in} + k_{i}^{out}</script>
 
 <p>da cui</p>
 
-<script type="math/tex; mode=display">k_{tot} = \sum_{i=1}^N k_{i}^{in} + \sum_{i=1}^N k_{i}^{out}</script>
+<script type="math/tex; mode=display">k_{tot} = \sum_{i=1}^n k_{i}^{in} + \sum_{i=1}^n k_{i}^{out}</script>
 
-<p>a patto di non voler distinguere gli archi entranti da quelli uscenti.</p>
+<p>Il <font color="#008cff">numero totale di archi in una rete diretta</font> invece, è dato da:</p>
 
-<p>Il <font color="#008cff">numero totale di archi in una rete diretta</font> è dato da:</p>
+<script type="math/tex; mode=display">m = \sum_{i=1}^n k_{i}^{in} = \sum_{i=1}^n k_{i}^{out}</script>
 
-<script type="math/tex; mode=display">m = \sum_{i=1}^N k_{i}^{in} = \sum_{i=1}^N k_{i}^{out}</script>
+<p>da cui si ricava la formula del grado medio dei nodi in una rete diretta:</p>
 
-<p>Il grado medio dei nodi di una rete diretta è dato invece dalla formula seguente:</p>
-
-<script type="math/tex; mode=display">c^{in} = \frac{1}{N} \sum_{i=1}^N k_{i}^{in} = c_{out} = \frac{1}{N} \sum_{i=1}^N k_{i}^{out} \ \ | \ grado \ medio \ rete \ diretta</script>
+<script type="math/tex; mode=display">c^{in} = \frac{1}{n} \sum_{i=1}^n k_{i}^{in} = c_{out} = \frac{1}{n} \sum_{i=1}^n k_{i}^{out} \ \ | \ grado \ medio \ rete \ diretta</script>
 
 <p><br /><br /></p>
 
@@ -239,9 +238,9 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <p>dove <script type="math/tex">N_{k}</script> è il numero di nodi con grado <em>k</em>, mentre <script type="math/tex">N</script> è il numero di nodi totali .</p>
 
-<p>La <em>degree distribution</em> è un concetto molto importante nello studio delle reti. Essa ci sarà utile quando parleremo ad esempio di <em><a href="https://it.wikipedia.org/wiki/Rete_a_invarianza_di_scala">scale-free networks</a></em> e di altri concetti legati alle dinamiche di sviluppo di alcuni fenomeni su reti reali. Lo studio, ad esempio, della diffusione di un’epidemia, necessita (anche) di questo valore.</p>
+<p>La <em>degree distribution</em> è un concetto molto importante nello studio delle reti. Essa ci sarà utile quando parleremo ad esempio di <em><a href="https://it.wikipedia.org/wiki/Rete_a_invarianza_di_scala">scale-free networks</a></em> e di altri concetti legati alle dinamiche di sviluppo di alcuni fenomeni su reti reali. Lo studio, ad esempio, della diffusione di un’epidemia, necessita anche di questo valore.</p>
 
-<p><br /><br /></p>
+<p><br /></p>
 
 <h2 id="studiare-il-grado-dei-nodi-su-semplici-reti-reali">Studiare il grado dei nodi su semplici reti reali</h2>
 <p>Ora che abbiamo descritto formalmente il concetto di <em>grado</em> di un nodo, proveremo a visualizzare dei semplici casi reali tramite i quali prendere confidenza con i concetti sopra esposti.</p>
@@ -254,9 +253,11 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <div style="text-align: center"><img src="/media/images/socialgraph.svg" /></div>
 
-<p>Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all’importanza del nodo considerato. In altre parole: più amici possiede un individuo su Facebook, più quell’individuo è importante, a patto di essere d’accordo sul concetto di “importanza”.</p>
+<p>Nella rete dei nostri amici di Facebook, la cosa più semplice da affermare è che il grado di ciascun nodo è direttamente proporzionale all’importanza del nodo considerato. In altre parole: più amici possiede un individuo su Facebook, più quell’individuo è importante (sul social network). Dovremmo poi essere concordi sul concetto di “importanza”, ma questa è un’altra questione.</p>
 
-<p>Da un altro punto di vista, potremmo affermare che più il nostro numero di amici su Facebook è alto (e quindi il nostro grado), più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti (immaginando di avere migliaia e migliaia di amici).</p>
+<p>Da un altro punto di vista, potremmo affermare che più il nostro numero di amici su Facebook è alto (e quindi il nostro grado), più faremo fatica a tenere monitorate le bachece di tutti i nostri contatti.</p>
+
+<p>Le interpretazioni che possiamo dare al grado di un nodo, come vedete, sono diverse.</p>
 
 <h1 id="la-metropolitana-di-londra">La metropolitana di Londra</h1>
 
@@ -264,9 +265,9 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <div style="text-align: center"><img src="/media/images/metroLondon1.svg" /></div>
 
-<p>In questo secondo caso, più il grado di un nodo è alto, più saremo in grado, da quel nodo, di raggiungere posti diversi. D’altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.</p>
+<p>In questo secondo caso, più il grado di un nodo è alto, più saremo capaci, da quel nodo, di raggiungere posti diversi. D’altra parte, le stazioni più importanti di una rete metropolitana corrispondono alle stazioni da cui è possibile raggiungere un elevato numero di nuove destinazioni.</p>
 
-<p>In una rete metropolitana, le fermate che puntiamo a raggiungere hanno sempre due caratteristiche (una esplicita e una forse inconscia):</p>
+<p>In una rete metropolitana le fermate siamo soliti a raggiungere hanno sempre due caratteristiche (una esplicita e una forse inconscia):</p>
 
 <ul>
   <li>
@@ -279,17 +280,18 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <p>Naturalmente, se partendo dalla fermata X di una rete metropolitana dobbiamo raggiungere la fermata Y, la prima cosa in assoluto più importante da verificare, è che esista un cammino tra X e Y. Nel caso di uno spostamento in metropolitana, ci auspichiamo, solitamente, che questo cammino sia anche il più breve.</p>
 
-<p>Nella figura che segue sono riportati i collegamenti disponibili dalla stazione di <em>Oxford Circus</em>, sulla sinistra, e di <em>Liverpool Street</em>, sulla destra.</p>
+<p>Nella figura che segue sono riportati i collegamenti disponibili dalla stazione di <em>Oxford Circus</em>, sulla sinistra, e di <em>Liverpool Street</em>, sulla destra, due grosse stazioni metropolitane della capitale inglese.</p>
 
 <div style="text-align: center"><img src="/media/images/metroLondon2.svg" /></div>
 
-<h1 id="una-rete-scolastica">Una rete scolastica</h1>
+<p><br /></p>
+<h2 id="la-rete-di-una-scuola">La rete di una scuola</h2>
 
 <p>Consideriamo infine quest’ultimo esempio di <em>network</em>.</p>
 
 <p>Nella figura che segue è riportato un estratto di una possibile rete di persone che lavorano in una scuola. I diversi nodi della rete sono collegati da archi che rappresentano la relazione <em>“lavora con”</em>.</p>
 
-<p>Questa rete è fatta da 18 nodi. Ciascun nodo rappresenta le generiche persone <font color="#008cff">P1</font>, <font color="#008cff">P2</font>, <font color="#008cff">P3</font>, …, <font color="#008cff">P18</font>. Queste 18 persone fanno tutte parte del personale scolastico, ma non tutte hanno lo stesso ruolo e pertanto, verosimilmente, ciascuno di loro avrà contatti con un numero diverso di altri individui.</p>
+<p>Questa rete è fatta da 18 nodi. Ciascun nodo rappresenta le generiche persone <font color="#008cff">P1</font>, <font color="#008cff">P2</font>, <font color="#008cff">P3</font>, …, <font color="#008cff">P18</font>. Queste 18 persone fanno tutte parte del personale scolastico, ma non tutte hanno lo stesso ruolo e pertanto, verosimilmente, ciascuna di loro avrà contatti con un numero diverso di altri individui.</p>
 
 <p>Analizziamo un po’ di relazioni, prendendo come riferimento la rete riportata di seguito.</p>
 
@@ -303,7 +305,7 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <p>Il nodo <font color="#008cff">P3</font> infine, è evidentemente la persona che ha contatti con il maggior numero di individui.</p>
 
-<p>Potremmo immaginare che il nodo <font color="#008cff">P13</font> sia il dirigente scolastico della scuola, <font color="#008cff">P12</font> il vice preside e <font color="#008cff">P11</font> il responsabile della segreteria.</p>
+<p>Potremmo a questo punto immaginare che il nodo <font color="#008cff">P13</font> sia il dirigente scolastico della scuola, <font color="#008cff">P12</font> il vice preside e <font color="#008cff">P11</font> il responsabile della segreteria.</p>
 
 <p>Cominciamo allora a distinguere dei <em>cluster</em> (dei raggruppamenti):</p>
 
@@ -315,38 +317,122 @@ L’utilizzo del fattore <script type="math/tex">\frac{1}{2}</script> ci permett
 
 <div style="text-align: center"><img src="/media/images/schoolcluster.svg" /></div>
 
+<p>Si noti che il membro della segreteria <font color="#99cc00">P1</font> è l’unico che nella rete in figura ha un contatto con l’insegnante <font color="#008cff">P3</font>.</p>
+
 <p>A questo punto come ci torna utile il concetto di grado dei nodi?</p>
 
-<p>Il prossimo paragrafo ci aiuterà a condurre un’analisi un po’ più complessa delle precedenti, che si servirà dei <em>cluster</em> appena identificati e di una componente non banale nell’analisi delle reti: il tempo.</p>
+<p>Il prossimo paragrafo ci aiuterà a condurre un’analisi un po’ più complessa delle precedenti, che si servirà dei <em>cluster</em> appena identificati e del concetto di cammino.</p>
 
-<p>Di seguito vedremo come il grado di un nodo e il tempo che passa, giocano un ruolo fondamentale nella dinamica di reti come quella in esame.</p>
+<p>Di seguito vedremo come il grado di un nodo e i cammini tra i vari nodi della rete, giocano un ruolo fondamenale nella dinamica di reti come questa.</p>
 
-<h1 id="linfluenza-a-scuola">L’influenza a scuola</h1>
-<p>Ora, immaginiamo che il nodo P13 si ammali di influenza. Quante persone potrà contagiare, rispetto alla sua rete di colleghi di lavoro? La risposta va cercata nel grado di quel nodo. Poiché P13 ha grado uno, esso potrà contagiare al più una persona.</p>
+<p><br /></p>
+<h3 id="linfluenza-a-scuola">L’influenza a scuola</h3>
+<h4 id="ovvero-di-come-il-grado-di-un-singolo-nodo-ha-effetti-sullintero-sistema"><em>Ovvero di come il grado di un singolo nodo ha effetti sull’intero sistema</em></h4>
+<hr />
+
+<p><br />
+Immaginiamo che il nodo <font color="#ff0066">P13 si ammali di influenza</font>. Quante persone potrà contagiare questo nodo rispetto alla sua posizione nella rete? Il grado del nodo P13 ci fornisce la risposta a questa domanda. Poiché P13 possiede grado 1, esso potrà contagiare al più una persona. In altre parole: se P13 ha l’influenza, è probabile che la contragga anche P12, lavorando a stretto contatto con il nodo ammalato.</p>
 
 <div style="text-align: center"><img src="/media/images/spread1.svg" /></div>
 
-<p>Quante persone potrà invece contagiare il nodo P4, se si ammalasse di influenza? Contiamo gli archi di P4: &lt;P4, P11&gt;, &lt;P4, P2&gt;, &lt;P4, P1&gt;. Il grado di P4 è pari a 3 e dunque saranno 3 le persone che P4 potrebbe potenzialmente contagiare.</p>
+<p>Quante persone potrà invece contagiare invce il nodo <font color="#ff0066">P4</font>, se fosse lui ad ammalarsi di influenza?</p>
+
+<p>Contiamo gli archi di P4: &lt;P4, P11&gt;, &lt;P4, P1&gt;, &lt;P4, P2&gt;.</p>
+
+<p>Il grado di P4 è pari a 3 e dunque saranno 3 le persone che P4 potrebbe potenzialmente contagiare.</p>
 
 <div style="text-align: center"><img src="/media/images/spread2.svg" /></div>
 
-<p>Infine, se si ammala di influenza il nodo P3, quante persone potrà potenzialmente contagiare nella sua rete di contatti con i colleghi? Il grado di P3 ammonta a 12. Sono dodici infatti, le persone che P3 potrebbe contagiare, recandosi al lavoro con l’influenza.</p>
+<p>Infine, immaginiamo che si ammali di influenza il nodo <font color="#ff0066">P3</font>, l’insegnante della scuola.</p>
+
+<p>Il grado di P3 ammonta a 13.</p>
 
 <div style="text-align: center"><img src="/media/images/highdegree.svg" /></div>
 
-<p>Negli esempi riportati fino a qui, abbiamo focalizzato esclusivamente delle fotografie delle reti prese in esame. Spesso però le reti devono modellare dei contesti in evoluzione, dinamici.</p>
+<p>Il dirigente scolastico che ha contatti sempre e solo con il suo vice, avrà una “forza di contagio” pari a 1. Viceversa, l’insegnante che entra in classe accerchiato da una dozzina di alunni, avrà una “forza di contagio” pari a 12.</p>
 
-<p>La rete analizzata poco fa potrebbe essere studiata anche in relazione alla componente temporale <em>t</em>.</p>
+<p>In questo senso quindi, il grado di un nodo è fondamentale per capire la diffusione di un fenomeno (che sia l’influenza o qualsiasi altra cosa). In particolare, possiamo affermare che più un nodo possiede un grado elevato, più quel nodo avrà un ruolo centrale (di <em>hub</em>) all’interno della rete studiata.</p>
 
-<p>Nell’esempio che segue, notiamo che al tempo <em>t0</em> il nodo P13 ha l’influenza (il colore rosso indica la prorpietà “avere l’influenza”).</p>
+<p>In conclusione, questi esempi ci dovrebbero aiutare a comprendere che vi sono casi in cui il grado dei nodi di una rete è sinonimo di prestigio, di notorietà (si pensi alla rete degli amici su Facebook). Altre volte il grado di un nodo è sinonimo di efficienza, di raggiungibilità (si pensi alla rete della metropolitana di Londra). In altri casi ancora, il grado di un nodo è sinonimo di pericolo, di problema (si pensi in quest’ultimo caso alla rete scolastica dove alcuni nodi si ammalano di influenza e si rifletta sul come gli effetti di un’influenza cambiano sul sistema a seconda del/dei grado/i del/dei nodo/i ammalato/i).</p>
+
+<p><br /></p>
+<h3 id="il-numero-di-relazioni-è-importante-ma-non-è-tutto">Il numero di relazioni è importante, ma non è tutto</h3>
+<h4 id="il-grado-di-un-nodo-è-fondamentale-ma-non-è-lunica-cosa-a-cui-prestare-attenzione"><em>Il grado di un nodo è fondamentale, ma non è l’unica cosa a cui prestare attenzione</em></h4>
+<hr />
+
+<p><br />
+Nel paragrafo precedente abbiamo stabilito che il grado di un nodo rappresenta la misura con cui un eventuale nodo ammalato può contagiare altri nodi della rete.</p>
+
+<p>In generale, <font color="#008cff">il grado di un nodo quantifica le relazioni che quel nodo possiede all'interno della rete</font>.</p>
+
+<p>Saremmo tentati di concludere, a questo punto, che una volta studiato il grado dei nodi di una rete, il nostro lavoro si possa considerare concluso.</p>
+
+<p>Quindi individuato un utente su Facebook con 5000 amici, dovremmo ritenere questo utente importante, e ininfluenti tutti coloro con un numero di amici minore di 5000.</p>
+
+<p>Oppure individuata la fermata metropolitana con il maggior numero di destinazioni, dovremmo rinunciare a salire in qualsiasi altra fermata.</p>
+
+<p>Infine, potremmo pensare che eliminare il nodo con grado maggiore in una rete di persone, sia sufficiente a debellare la diffusione di un’epidemia contagiosa.</p>
+
+<p>Così non è, in nessuno dei tre casi sopracitati e per diverse questioni. Alcune sono ovvie e sono certo che il lettore ne è perfettamente a conoscenza. Altre sono meno ovvie. Tra queste meno ovvie ve ne sono alcune semplici e altre più complesse.</p>
+
+<p>Cominciamo da quelle più semplici (alcune di quelle complicate verranno affrontate in articoli successivi a questo).</p>
+
+<p><br /></p>
+<h3 id="dagli-effetti-locali-agli-effetti-globali">Dagli effetti locali agli effetti globali</h3>
+<h4 id="ovvero-di-come-anche-nodi-con-grado-basso-posso-scatenare-effetti-su-larga-scala"><em>Ovvero di come anche nodi con grado basso posso scatenare effetti su larga scala</em></h4>
+<hr />
+
+<p><br /></p>
+
+<p>Un dottore specializzato in “grado dei nodi di una rete” viene chiamato a scuola per una diagnosi su un caso di influenza. L’appuntamento è fissato per le ore <script type="math/tex">t_{0}</script>.</p>
+
+<ul>
+  <li><em>Buongiorno, sono il medico, sono qui per l’influenza;</em></li>
+  <li><em>Benvenuto dottore, guardi, la situazione è questa…</em> (si veda la figura sotto)</li>
+  <li><em>Benissimo. Noto che il vostro dirigente scolastico è influenzato…</em></li>
+  <li><em>Eh sì dottore, questa mattina è arrivato a scuola con un grosso raffreddore…</em></li>
+  <li><em>Con chi lavora il vostro dirigente? Ha dei collaboratori?</em></li>
+  <li><em>Guardi, solamente uno, il vicepreside, che lavora nella scrivania a fianco alla sua.</em></li>
+  <li><em>Ho capito. Ecco la mia diagnosi: la situazione è sotto controllo e non è grave. Non vi preoccupate perché nel caso peggiore anche il vostro vicepreside si farà qualche giorno a casa. Sicuramente i vostri alunni e il resto del personale scolastico sono al sicuro.</em></li>
+</ul>
 
 <div style="text-align: center"><img src="/media/images/timein.svg" /></div>
 
-<p>Al tempo <em>t8</em> invece, le persone influenzate sono molto di più. Questo perché tra il nodo p13 e il nodo p3 (i due estremi considerati), vi è almeno un cammino che li collega, rendendo possibile la trasmissione del virus influenzale.</p>
+<p>Il dialogo tra il dottore e un misterioso componente del personale scolastico è volutamente estremizzato, ma vorrebbe far cogliere al lettore la “prospettiva locale” con cui il dottore immaginario ha formulato la sua diagnosi.</p>
 
-<p>Si noti l’arco tratteggiato che collega P1 a P3. Quell’arco giocherà un ruolo cruciale nella diffusione dell’influenza. Sapreste dire il perché?</p>
+<p>Misurare il grado di un nodo è un’<font color="#008cff">operazione locale</font>, poiché la visibilità è limitata esclusivamente al nodo in esame e ai suoi nodi immediatamente vicini (nodi adiacenti).</p>
+
+<p>Questo, in alcuni casi, rappresenta un grosso limite di questa proprietà.</p>
+
+<p>Consideriamo ancora una volta la rete scolastica su cui tanto stiamo ragionando.</p>
+
+<p>Immaginando di richiamare il dottore immaginario al tempo <script type="math/tex">t_{8}</script> anziché al tempo <script type="math/tex">t_{0}</script>, il numero di nodi ammalati sarebbe molto più grande del caso precedente. Questo avviene perché P13 potrebbe aver contagiato P12 (e solo P12), ma P12 a sua volta potrebbe aver contagiato P11 (e solo P11). P11 a sua volta potrebbe aver contagiato P4, che per la prima volta è in grado di contagiare due nodi contemporaneamente (P2 e P1).</p>
+
+<p>Al tempo <script type="math/tex">t_{5}</script> la situazione non solo sarebbe molto più grave di quella evidenziata al tempo <script type="math/tex">t_{0}</script>, ma sarebbbe anche pronta a scatenare un contagio di massa, rendendo l’intera rete scolastica potenzialmente ammalata di influenza.</p>
+
+<p>A tal proposito, prestiamo attenzione all’arco tratteggiato che collega P1 a P3. Quell’arco giocherà un ruolo cruciale nella diffusione dell’influenza. Sapreste dire il perché?</p>
 
 <div style="text-align: center"><img src="/media/images/timeout.svg" /></div>
+
+<p>Se non vi siete persi durante questo scritto, la risposta all’ultima domanda dovrebbe essere abbastanza semplice.</p>
+
+<p>Con questo ultimo esempio si è voluto mostrare come l’esistenza di un solo arco tra due nodi confinati ad un’estremità della rete (l’arco che collega P13 a P12), può avere effetti importanti sull’intero sistema, in virtù dei cammini che esistono tra i nodi di una rete.</p>
+
+<p>Per questo dobbiamo ricordarci che ogni azione che svolgiamo nel nostro piccolo, genera, in misura più o meno singificativa e dopo un certo periodo di tempo, un effetto sull’intero sistema.</p>
+
+<h2 id="in-conclusione">In conclusione</h2>
+<ul>
+  <li>Il grado di un nodo corrisponde al numero di archi di quel nodo.</li>
+  <li>Il numero di archi di un nodo rappresenta il numero di relazioni che quel nodo possiede con altri nodi.</li>
+  <li>Le relazioni misurate dal grado di un nodo sono “relazioni di prossimità”: coinvolgono il nodo esaminato e i nodi immediatamente vicini.</li>
+  <li>Il “grado di un nodo” è un proprietà locale delle reti.</li>
+  <li>Più il grado di un nodo è alto, più quel nodo è importante (dove “importante” può voler dire tante cose: influente, forte, strategico, efficiente, resiliente, pericoloso, etc.)</li>
+  <li>Anche i nodi con poche relazioni possono generare degli effetti sul sistema;</li>
+  <li>Quando si vogliono studiare gli effetti sulla rete dei nodi con poche relazioni, occorre concentrarsi sui cammini che collegano nodi distanti tra loro più che sul grado di ogni nodo.</li>
+  <li>A volte, è bene adottare una “prospettiva globale” a supporto e completamento della “prospettiva locale.”</li>
+  <li>La velocità con cui i nodi con poche relazioni possono generare degli effetti sul sistema è direttamente proporzionale alla distanza che questi nodi hanno con i nodi <em>hub</em> della rete.</li>
+  <li>Le connessioni sono importanti: sia in riferimento alla quantità di relazioni che ciascun nodo possiede, sia in riferimento ai cammini che da quel nodo, relazione dopo relazione, è possibile percorrere.</li>
+</ul>
 
 
   </div><a class="u-url" href="/informatica/il-grado-dei-nodi-di-una-rete" hidden></a>
