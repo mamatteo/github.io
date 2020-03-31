@@ -213,6 +213,12 @@ L'avvento della rete internet, non ha solo collegato ciascuno di noi ad altre pe
 
 La teoria dei grafi è quella branca della matematica che si occupa di studiare queste reti, e pertanto, risulta importante avere degli strumenti rigorosi per analizzare e misurare l'impatto che queste reti hanno tanto su singoli nodi che la compongono, quanto sull'intero sistema.
 
+<hr>
+Prosegui la lettura con l'articolo successivo:
+[Il grado dei nodi di una rete: l'importanza delle connessioni][mamatteonetsci2]
+<hr>
+
+[mamatteonetsci2]: https://mamatteo.github.io/informatica/il-grado-dei-nodi-di-una-rete
 [mincutlink]: https://en.wikipedia.org/wiki/Minimum_cut
 [pathmin]: https://it.wikipedia.org/wiki/Cammino_minimo
 [spplink]: https://en.wikipedia.org/wiki/Shortest_path_problem
