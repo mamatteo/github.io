@@ -216,6 +216,7 @@ La teoria dei grafi è quella branca della matematica che si occupa di studiare 
 <hr>
 <br>
 Prosegui la lettura con l'articolo successivo:
+<br>
 [Il grado dei nodi di una rete: l'importanza delle connessioni][mamatteonetsci2]
 <hr>
 
