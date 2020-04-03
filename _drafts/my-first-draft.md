@@ -12,7 +12,8 @@ Scrivere in LaTeX
 3. se $$a, b \in \mathbb{N}$$ tali che $$a\neq b$$ allora $$S(a)\neq S(b)$$
 4. non esiste alcun $$a \in \mathbb{N}$$ tale che $$0 = S(a)$$
 5. se $$A\subseteq \mathbb{N}$$ tale che $$0\in A$$ e $$(a\in A \Rightarrow S(a) \in A)$$ allora $$A =
-   \mathbb{N}$$ (*assioma di induzione*)
+   \mathbb{N}$
+   $ (*assioma di induzione*)
 
 $$ f(x) = \int_x^{x+1} \ln(t) {\rm d}t $$
 
