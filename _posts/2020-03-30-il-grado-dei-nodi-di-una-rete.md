@@ -5,15 +5,7 @@ date:   2020-03-30
 categories: informatica
 permalink: /:categories/:title
 ---
-
 <p class="abstract">Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale.</p>
-
-<i><font color="#f03434">Prima di cominciare</font><br>
-Se già conosci le fondamenta teoriche della teoria dei grafi, prosegui pure la lettura. Probabilmente ti imbatterai in altri concetti a te già noti, oppure ne impareri di nuovi.
-Se invece conosci poco o nulla della teoria dei grafi, ti suggerisco di cominciare dall'articolo ["Cos'è un grafo e come rappresentarlo"][mamatteonetsci1], che introduce i concetti propedeutici alla comprensione di questo articolo.</i>
-<hr>
-
-<br>
 
 Il grado di un nodo
 -----------------------

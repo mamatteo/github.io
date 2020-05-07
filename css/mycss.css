@@ -2,10 +2,21 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 18px/1.5 Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 18px/1.5 'Quicksand', sans-serif, Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
-.abstract {color: #535c68; font-weight: bold; font-family: 'Muli'}
+.abstract {color: #585757; font-weight: regular; font-family: 'Quicksand', sans-serif}
 
+/** colore blu #0049B0 */
+
+.grayparagraph {
+background: #f9f9f9;
+padding: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+}
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -30,11 +41,11 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 /** Links */
-a { color: #2a7ae2; text-decoration: none; }
+a { color: #0049B0; text-decoration: none; }
 
-a:visited { color: #458; }
+a:visited { color: #0049B0; }
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover { color: #3278db; text-decoration: none; }
 
 .social-media-list a:hover { text-decoration: none; }
 
@@ -139,7 +150,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta {font-size: 16px; font-style: regular; color: #828282;}
 
-.post-link { display: block; font-size: 24px; font-weight: bold;}
+/** Impostazioni grafiche dei titoli dei post in homepage */
+.post-link { display: block; font-size: 24px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #0049B0;}
 
 /** Posts */
 .post-header { margin-bottom: 30px; }

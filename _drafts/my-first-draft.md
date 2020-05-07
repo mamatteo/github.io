@@ -40,6 +40,16 @@ Highlights del testo
 
 `funzione1`
 
+<span style="background-color: #fee287">Marked text</span>
+<span style="background-color: #7df0c1">Marked text</span>
+<span style="background-color: #f26471">Marked text</span>
+
+<p class="grayparagraph">
+<font color="#0049B0">Prima di cominciare</font><br>
+Se già conosci le fondamenta teoriche della teoria dei grafi, prosegui pure la lettura. Probabilmente ti imbatterai in altri concetti a te già noti, oppure ne impareri di nuovi.
+Se invece conosci poco o nulla della teoria dei grafi, può esserti utile cominciare dall'articolo "Cos'è un grafo e come rappresentarlo", che introduce i concetti propedeutici alla comprensione di questo articolo.</p>
+
+
 
 Link esterni
 ==============
