@@ -40,7 +40,7 @@ I temi ricorrenti di queste pagine sono dunque tre: **i dati, l'intelligena arti
 
 Il libro si apre con un capitolo dedicato alla storia dell'intelligenza artificiale, dove in maniera sintetica vengono toccate le principali tappe dello sviluppo di questa disciplina, nata come oggetto di ricerca accademica agli inizi degli anni '60, per diventare, dopo una serie di arresti piuttosto netti (i famosi "inverni dell'intelligenza artificiale"), **un'area dell'informatica pronta ad entrare a pieno regime nelle nostre case e nelle nostre vite.**
 
-Dopo questa parte più storica ed introduttiva si passa a ragionare sul tema degli algoritmi, di come questi si sono evoluti negli anni e di come, oggi, determinano l'approccio con cui un azienda può muoversi con successo all'interno del proprio mercato di riferimento.
+Dopo questa parte più storica ed introduttiva si passa a ragionare sul tema degli algoritmi, di come questi si sono evoluti negli anni e di come, oggi, determinano l'approccio con cui un'azienda può muoversi con successo all'interno del proprio mercato di riferimento.
 
 **Interessante in questo senso il discrimine tra la _gut-driven-organization_ (azienda guidata dalle sensazioni), rispetto alla _data-driven-organization_ (azienda guidata dai dati).**
 
