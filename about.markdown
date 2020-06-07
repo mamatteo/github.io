@@ -16,6 +16,10 @@ Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasform
 
 Da novembre 2016 a marzo 2018 ho lavorato come _Data Analyst_ nella [Commissione Parlamentare d’Inchiesta sulla Digitalizzazione e l’Innovazione della Pubblica Amministrazione][commissionedigitalelink], presso la Camera dei Deputati. Mi sono occupato di analizzare le gare d’appalto degli ultimi dieci anni di vita della pubblica amministrazione italiana. Il mio referente tecnico-politico è stato l’On. Prof. Paolo Coppola, Presidente di questa Commissione e Professore associato di Informatica all'Università degli Studi di Udine.
 
+Durante questi anni sono stato coivolto in alcune attività di docenza presso il [Centro di Competenza per la Pubblica Amministrazione][ComPALink] del Friuli Venezia Giulia, come titolare di una serie di percorsi formativi rivolti a dipendenti pubblici su tematiche inerenti agli _open data_.
+
+Nel mese di luglio 2018 ho avuto il piacere e l'onore di tenere una lezione intitolata "Big Data, la rivoluzione della conoscenza", presso l'Università "Cà Foscari" di Venezia, presso il corso di _data management_ tenuto dal prof. Gianluigi Cogo. 
+
 Formazione
 ---------------------------
 Credo nella formazione continua, finalizzata a migliorare le mie competenze in riferimento al lavoro che faccio ma anche a stimolarmi e a tenermi attivo ed aggiornato.
@@ -55,3 +59,4 @@ Qui invece, mi diletto con un po' di cose da _nerd_.
 [tretazzeditelink]: https://www.youtube.com/channel/UCukRWZLKAVGU8wesojESTzg
 [docsitalialink]: https://docs.italia.it/che-cos-e-docs-italia/
 [Capgemini]: https://www.capgemini.com/it-it/
+[ComPALink]: https://compa.fvg.it/
