@@ -10,7 +10,7 @@ Esperienze professionali
 ---------------------------
 Da marzo 2020 lavoro come _Data Engineer_ nell'unit "Insights & Data" di [Capgemini][Capgemini], società leader mondiale nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni. Mi occupo di _big data_ e _business intelligence_ con compiti di estrazione, trasformazione e caricamento (ETL) dei dati da e verso database distribuiti.
 
-In precedenza ho maturato un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della Pubblica Amministrazione italiana.
+In precedenza ho maturato un’esperienza nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione italiana, in particolar modo nella pubblica amministrazione centrale.
 
 Da gennaio a dicembre 2019 ho lavorato come consulente nel [Team per la Trasformazione Digitale][teamdigitalelink], presso la Presidenza del Consiglio dei Ministri. Mi sono occupato di _content design_, di architettura dell’informazione, di _tech writing_ e della piattaforma nazionale [DocsItalia][docsitalialink]. Ho lavorato a progetti _open source_ e _open data_, occupandomi di semantica del dato e contribuendo alla costruzione di alcune ontologie per la Pubblica Amministrazione italiana.
 
