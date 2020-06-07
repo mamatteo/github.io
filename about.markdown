@@ -8,7 +8,7 @@ Mi chiamo Matteo, e sono un informatico.
 
 Esperienze professionali
 ---------------------------
-Da marzo 2020 lavoro come _Data Engineer_ nell'unit "Insights & Data" di [Capgemini][Capgemini], società leader mondiale nei servizi di consulenza e tecnologia. Mi occupo di _big data_ e _business intelligence_ con compiti di estrazione, trasformazione e caricamento dei dati (ETL) da e verso database distribuiti.
+Da marzo 2020 lavoro come _Data Engineer_ nell'unit "Insights & Data" di [Capgemini][Capgemini], società leader mondiale nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni. Mi occupo di _big data_ e _business intelligence_ con compiti di estrazione, trasformazione e caricamento dei dati (ETL) da e verso database distribuiti.
 
 In precedenza ho maturato un’esperienza triennale nel mondo dell’innovazione e della digitalizzazione della Pubblica Amministrazione italiana.
 
