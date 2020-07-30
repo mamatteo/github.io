@@ -8,7 +8,7 @@ Mi chiamo Matteo, e sono un informatico.
 
 Esperienze professionali
 ---------------------------
-Da marzo 2020 lavoro come _Data Engineer_ nella _global practice_ "Insights & Data" di [Capgemini][Capgemini], società multinazionale e multiculturale leader nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni, presente in [40 diversi paesi del mondo][CapgeminiOffice], con oltre 270.000 dipendenti.
+Da marzo 2020 lavoro come _Data Engineer_ nella _global practice_ "Insights & Data" di [Capgemini][Capgemini], società multinazionale leader nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni, presente in [40 diversi paesi del mondo][CapgeminiOffice], con oltre 270.000 dipendenti.
 
 Mi occupo di _Big Data_ e _Business Intelligence_. Il mio lavoro riguarda l'estrazione e la trasformazione di grandi quantità di dati ai fini di renderli fruibili da strumenti di _data visualization_, così da trasformare i dati grezzi in _actionable insights_, tramite le quali l'azienda prende decisioni strategiche per il proprio _business_.
 
