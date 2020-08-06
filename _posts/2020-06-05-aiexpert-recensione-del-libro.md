@@ -9,6 +9,7 @@ permalink: /:categories/:title
 <p class="abstract">Una recensione del libro "AI Expert - Architetti del futuro", di Alessandro Giaume e Stefano Gatti</p>
 
 
+<div style="text-align: center"><img src="/media/images/aiexpert.jpg" /></div>
 
 Il libro giusto al momento giusto
 -----------------------
