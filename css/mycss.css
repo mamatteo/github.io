@@ -153,7 +153,7 @@ table td { border: 1px solid #e8e8e8; }
 .post-meta {font-size: 16px; font-style: regular; color: #828282;}
 
 /** Impostazioni grafiche dei titoli dei post in homepage */
-.post-link { display: block; font-size: 24px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #0049B0;}
+.post-link { display: block; font-size: 24px; font-weight: bold; font-family: 'Lyon Text OSF Web', 'Quicksand', sans-serif; color: #0049B0;}
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
