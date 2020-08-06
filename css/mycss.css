@@ -2,10 +2,10 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 18px/1.5 "Lyon Text OSF Web Regular", 'Quicksand', sans-serif, Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 18px/1.5 'Antic Slab', 'Quicksand', sans-serif, Source Serif Pro, 'Muli', Lora, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Definzione del div abstract */
-.abstract {color: #585757; font-weight: regular; font-family: "Lyon Text OSF Web Regular", 'Quicksand', sans-serif}
+.abstract {color: #585757; font-weight: regular; font-family: 'Antic Slab', 'Quicksand', sans-serif}
 
 /** colore blu #0049B0 */
 
@@ -20,8 +20,6 @@ padding: 10px;
 border-radius: 10px;
 }
 
-@import url(//db.onlinewebfonts.com/c/f516503a27e45e97846067c3834cb354?family=Lyon+Text+OSF+Web+Regular);
-@font-face {font-family: "Lyon Text OSF Web Regular"; src: url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.eot"); src: url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.woff") format("woff"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.svg#Lyon Text OSF Web Regular") format("svg"); }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
