@@ -21,6 +21,7 @@ border-radius: 10px;
 }
 
 @import url(//db.onlinewebfonts.com/c/f516503a27e45e97846067c3834cb354?family=Lyon+Text+OSF+Web+Regular);
+@font-face {font-family: "Lyon Text OSF Web Regular"; src: url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.eot"); src: url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.woff") format("woff"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f516503a27e45e97846067c3834cb354.svg#Lyon Text OSF Web Regular") format("svg"); }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
