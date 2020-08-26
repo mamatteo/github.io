@@ -7,7 +7,7 @@ permalink: /letture/
 - [AI Expert, Architetti del Futuro - Alessandro Giaume e Stefano Gatti][aiexpertlink] <br>
 È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, tant’è che ne ho anche scritto una lunga recensione, che trovate qui. Ritengo sia una lettura obbligatoria per i ragazzi e le ragazze dei vostri corsi. E inoltre gli autori sono due istituzioni nell’ambito dati.
 
-- Big Data @l lavoro - Thomas Davenport
+- Big Data @l lavoro - Thomas Davenport <br>
 Aiuta come il precedente a mettere ordine e guida il lettore attraverso numerosi esempi concreti. Consigliato soprattutto per chi non ha un background scientifico/tecnico.
 
 - Big Data Analytics, il manuale del Data Scientist - Alessandro Rezzani
