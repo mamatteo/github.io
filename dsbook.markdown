@@ -14,7 +14,7 @@ Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consi
 Aiuta come il precedente a mettere ordine e guida il lettore attraverso numerosi esempi concreti. Consigliato soprattutto per chi non ha un background scientifico/tecnico.
 
 - [Big Data Analytics, il manuale del Data Scientist - Alessandro Rezzani][bigdataanalyticslink] <br>
-Rezzani è un super esperto. Il focus sono i big data e il libro presenta tecniche, tecnologie e architetture legate alla gestione di grandi quantità di dati. Tra tutti i libri in elenco questo + quello che reporto di seguito sono i libri più tecnici.
+Rezzani è un super esperto. Il focus sono i big data e il libro presenta tecniche, tecnologie e architetture legate alla gestione di grandi quantità di dati. Tra tutti i libri in elenco questo e quello che reporto di seguito sono i libri più tecnici.
 
 - R for Data Science - Garret Grolemund e Hadley Wickham <br>
 Il miglior manuale tecnico per cominciare a programmare in R.
