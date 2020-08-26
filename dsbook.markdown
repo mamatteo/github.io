@@ -4,7 +4,7 @@ title: Data Science Books
 permalink: /letture/
 ---
 
-- AI Expert, Architetti del Futuro - Alessandro Giaume e Stefano Gatti <br>
+- [AI Expert, Architetti del Futuro - Alessandro Giaume e Stefano Gatti][[aiexpertlink] <br>
 È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, tant’è che ne ho anche scritto una lunga recensione, che trovate qui. Ritengo sia una lettura obbligatoria per i ragazzi e le ragazze dei vostri corsi. E inoltre gli autori sono due istituzioni nell’ambito dati.
 
 - Big Data @l lavoro - Thomas Davenport
@@ -39,3 +39,5 @@ Questo libro come quello che vi elenco di seguito aiutano a riflettere su import
 
 - Il segnale e il rumore - Nate Silver
 Molto simile come filosofia al precedente. Non può mancare nella libreria di un vero data expert!
+
+[aiexpertlink]: https://www.francoangeli.it/Ricerca/scheda_libro.aspx?Id=25635
