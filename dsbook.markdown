@@ -39,5 +39,3 @@ Questo libro come quello che vi elenco di seguito aiutano a riflettere su import
 
 - Il segnale e il rumore - Nate Silver
 Molto simile come filosofia al precedente. Non può mancare nella libreria di un vero data expert!
-
-[aiexpertlink]: https://www.francoangeli.it/Ricerca/scheda_libro.aspx?Id=25635
