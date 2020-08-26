@@ -4,6 +4,8 @@ title: Data Science Books
 permalink: /letture/
 ---
 
+Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consigliare!
+
 - [AI Expert, Architetti del Futuro - Alessandro Giaume e Stefano Gatti][aiexpertlink] <br>
 È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, tant’è che ne ho anche scritto [una recensione][recensioneaiexpert].
 
