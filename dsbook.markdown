@@ -5,9 +5,9 @@ permalink: /letture/
 ---
 
 - [AI Expert, Architetti del Futuro - Alessandro Giaume e Stefano Gatti][aiexpertlink] <br>
-È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, tant’è che ne ho anche scritto una lunga recensione, che ho scritto [qui][recensioneaiexpert].
+È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, tant’è che ne ho anche scritto [una recensione][recensioneaiexpert].
 
-- Big Data @l lavoro - Thomas Davenport <br>
+- [Big Data @l lavoro - Thomas Davenport][bigdataallavorolink] <br>
 Aiuta come il precedente a mettere ordine e guida il lettore attraverso numerosi esempi concreti. Consigliato soprattutto per chi non ha un background scientifico/tecnico.
 
 - Big Data Analytics, il manuale del Data Scientist - Alessandro Rezzani <br>
@@ -42,3 +42,4 @@ Molto simile come filosofia al precedente. Non può mancare nella libreria di un
 
 [aiexpertlink]: https://www.francoangeli.it/Ricerca/scheda_libro.aspx?Id=25635
 [recensioneaiexpert]: https://mamatteo.github.io/informatica/aiexpert-recensione-del-libro
+[bigdataallavorolink]: https://www.amazon.it/data-lavoro-Sfatare-scoprire-opportunit%C3%A0/dp/8891710458/ref=sr_1_fkmr0_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=big+data+@al+lavoro&qid=1594640368&sr=8-1-fkmr0
