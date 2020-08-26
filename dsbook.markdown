@@ -12,7 +12,7 @@ Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consi
 - [Big Data @l lavoro - Thomas Davenport][bigdataallavorolink] <br>
 Aiuta come il precedente a mettere ordine e guida il lettore attraverso numerosi esempi concreti. Consigliato soprattutto per chi non ha un background scientifico/tecnico.
 
-- Big Data Analytics, il manuale del Data Scientist - Alessandro Rezzani <br>
+- [Big Data Analytics, il manuale del Data Scientist - Alessandro Rezzani][bigdataanalyticslink] <br>
 Rezzani è un super esperto. Il focus sono i big data e il libro presenta tecniche, tecnologie e architetture legate alla gestione di grandi quantità di dati. Tra tutti i libri in elenco questo + quello che reporto di seguito sono i libri più tecnici.
 
 - R for Data Science - Garret Grolemund e Hadley Wickham <br>
@@ -45,3 +45,4 @@ Molto simile come filosofia al precedente. Non può mancare nella libreria di un
 [aiexpertlink]: https://www.francoangeli.it/Ricerca/scheda_libro.aspx?Id=25635
 [recensioneaiexpert]: https://mamatteo.github.io/informatica/aiexpert-recensione-del-libro
 [bigdataallavorolink]: https://www.amazon.it/data-lavoro-Sfatare-scoprire-opportunit%C3%A0/dp/8891710458/ref=sr_1_fkmr0_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=big+data+@al+lavoro&qid=1594640368&sr=8-1-fkmr0
+[bigdataanalyticslink]: https://www.amazon.it/Big-Data-Analytics-manuale-scientist-ebook/dp/B073B866RS/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=big+data+analytics&qid=1594640480&sr=8-2
