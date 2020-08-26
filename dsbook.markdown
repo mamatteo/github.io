@@ -2,6 +2,7 @@
 layout: mypage
 title: Data Science Books
 permalink: /letture/
+order: 1
 ---
 
 Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consigliare!
