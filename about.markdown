@@ -20,7 +20,7 @@ Da novembre 2016 a marzo 2018 ho lavorato come _Data Analyst_ nella [Commissione
 
 Durante questi anni sono stato coivolto in alcune attività di docenza presso il [Centro di Competenza per la Pubblica Amministrazione][ComPALink] del Friuli Venezia Giulia, in qualità di docente di una serie di percorsi formativi rivolti a dipendenti pubblici su tematiche legate agli _open data_.
 
-Nel mese di luglio 2018 ho avuto il piacere e l'onore di tenere una lezione intitolata _"Big Data, la rivoluzione della conoscenza"_, presso l'Università "Cà Foscari" di Venezia, presso il corso di _Data Management_ tenuto dal Prof. Gianluigi Cogo.
+Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzione della conoscenza"_, presso l'Università "Cà Foscari" di Venezia, all'interno del corso di _Data Management_ tenuto dal Prof. Gianluigi Cogo.
 
 Formazione
 ---------------------------
