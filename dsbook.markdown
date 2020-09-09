@@ -25,7 +25,7 @@ Questo è un saggio molto originale, poiché aiuta a guardare il mondo dei dati 
 - [Big Data - _Marco Delmastro e Antonio Nicita_][bigdatadalmastrolink] <br>
 In queste pagine ci si interroga sui rapporti che i dati hanno con la giurisprudenza e in particolar modo con i legami con questioni come la privacy, la nostra reputazione, il controllo dei dati da parte delle grandi società IT, etc.. Nicita e Delmastro sono economisti e, tra le altre cose, hanno entrambi ricoperto ruoli di alto livello presso l’Autorità per le garanzie nella comunicazioni (AGCOM).
 
-- [Democrazia e potere dei dati - Antonello Soro][democraziaepoterelink] <br>
+- [Democrazia e potere dei dati - _Antonello Soro_][democraziaepoterelink] <br>
 Un buon data scientist deve porsi delle domande che vadano oltre le sue mansioni prettamente tecniche e operative. Un’area dove è necessario porsi delle domande è senz’altro quella del rapporto tra “potere dei dati” e democrazia. Questo libro è un validissimo punto di partenza.
 
 - [La società calcolabile e i big data - _Domenico Talia_][lasocietacalcolabilelink] <br>
