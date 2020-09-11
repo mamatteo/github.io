@@ -1,12 +1,12 @@
 ---
 layout: mypage
 exclude: true
-title: Data science
-permalink: /datascience/
+title: Network Science
+permalink: /networkscience/
 order: 1
 ---
 
-<p>Appunti sulla <i>data science</i> e tutto ciò riguarda il mondo dei dati
+<p>Appunti sulla <i>network science</i>
 </p>
 
 <br>
@@ -16,7 +16,7 @@ order: 1
 <br>
 <article class="post-content">
   <ul class="post-list">
-    {% for post in site.categories.datascience %}
+    {% for post in site.categories.networkscience %}
     <li><span>{{ post.date |  date: "%d/%-m/%Y" }}</span>
     <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{post.title }}</a></h2>
       <!--tags: <span class="post_meta">{% for tag in post.tags %}<a href="/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}<br>-->
