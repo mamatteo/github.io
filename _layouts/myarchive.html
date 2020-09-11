@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
         {% if month != nmonth %}
@@ -13,4 +12,4 @@ layout: default
     <time>{{ post.date | date: "%e %B %Y" }}</time>
 {% endfor %}
 
-  <link href="{{site.baseurl}}/css/mycss.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/mycss.css" rel="stylesheet">
