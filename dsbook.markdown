@@ -23,7 +23,7 @@ Questo libro fornisce numerosi esempi concreti e aiuta a contestualizzare le que
 - [**Big Data Analytics, il manuale del Data Scientist** - _Alessandro Rezzani_][bigdataanalyticslink] <br>
 Il focus del libro è la big data analytics, per cui vengono presentate tecniche, tecnologie e architetture legate alla gestione di grandi quantità di dati. È un manuale tecnico e non un saggio, tuttavia è scorrevole e alle questioni più complesse ci si arriva in maniera incrementale.
 
-- [**R for Data Science**** - _Garret Grolemund e Hadley Wickham_][rfordatasciencelink] <br>
+- [**R for Data Science** - _Garret Grolemund e Hadley Wickham_][rfordatasciencelink] <br>
 Uno dei migliori manuali tecnici per cominciare a programmare in R. Queto testo è utilizzato anche in ambito accademico. Per una lettura efficace il lettore deve munirsi anche di computer dove poter testare il codice illustrato in queste pagine.
 
 - [**Il tradimento dei numeri** - _David Hand_][iltradimentodeinumerilink] <br>
