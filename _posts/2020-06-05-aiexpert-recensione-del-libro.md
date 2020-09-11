@@ -2,7 +2,7 @@
 layout: mypost
 title:  "#AI Expert, recensione del libro"
 date:   2020-04-06
-categories: libri
+categories: recensioni
 permalink: /:categories/:title
 ---
 
