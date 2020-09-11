@@ -2,7 +2,7 @@
 layout: mypost
 title:  "Il grado dei nodi di una rete: l'importanza delle connessioni"
 date:   2020-03-26
-categories: informatica
+categories: networkscience
 permalink: /:categories/:title
 ---
 

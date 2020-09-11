@@ -7,40 +7,47 @@ order: 1
 
 Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consigliare.
 
-- [AI Expert, Architetti del Futuro - _Alessandro Giaume e Stefano Gatti_][aiexpertlink] <br>
+<figure class='full-width'>
+  <img src="/media/images/dsbook.jpg">
+  <figcaption><span>Photo by <a href="https://unsplash.com/@jruscello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jessica Ruscello</a> on <a href="https://unsplash.com/s/photos/books?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
+</figure>
+
+<br>
+
+- [**AI Expert, Architetti del Futuro** - _Alessandro Giaume e Stefano Gatti_][aiexpertlink] <br>
 È uno dei libri più interessanti degli ultimi mesi. A me è piaciuto moltissimo, ne ho anche scritto [una recensione][recensioneaiexpert].
 
-- [Big Data @l lavoro - _Thomas Davenport_][bigdataallavorolink] <br>
+- [**Big Data @l lavoro** - _Thomas Davenport_][bigdataallavorolink] <br>
 Questo libro fornisce numerosi esempi concreti e aiuta a contestualizzare le questioni più importanti legate ai big data. Consigliato soprattutto per chi non ha un background scientifico/tecnico.
 
-- [Big Data Analytics, il manuale del Data Scientist - _Alessandro Rezzani_][bigdataanalyticslink] <br>
+- [**Big Data Analytics, il manuale del Data Scientist** - _Alessandro Rezzani_][bigdataanalyticslink] <br>
 Il focus del libro è la big data analytics, per cui vengono presentate tecniche, tecnologie e architetture legate alla gestione di grandi quantità di dati. È un manuale tecnico e non un saggio, tuttavia è scorrevole e alle questioni più complesse ci si arriva in maniera incrementale.
 
-- [R for Data Science - _Garret Grolemund e Hadley Wickham_][rfordatasciencelink] <br>
+- [**R for Data Science**** - _Garret Grolemund e Hadley Wickham_][rfordatasciencelink] <br>
 Uno dei migliori manuali tecnici per cominciare a programmare in R. Queto testo è utilizzato anche in ambito accademico. Per una lettura efficace il lettore deve munirsi anche di computer dove poter testare il codice illustrato in queste pagine.
 
-- [Il tradimento dei numeri - _David Hand_][iltradimentodeinumerilink] <br>
+- [**Il tradimento dei numeri** - _David Hand_][iltradimentodeinumerilink] <br>
 Questo è un saggio molto originale, poiché aiuta a guardare il mondo dei dati da una prospettiva diversa dalle solite. L’autore propone una riflessione molto interessante su quelli che definisce “dark data”, ovvero i dati che _non_ possediamo, i dati che ancora non abbiamo.
 
-- [Big Data - _Marco Delmastro e Antonio Nicita_][bigdatadalmastrolink] <br>
+- [**Big Data** - _Marco Delmastro e Antonio Nicita_][bigdatadalmastrolink] <br>
 In queste pagine ci si interroga sui rapporti che i dati hanno con la giurisprudenza e in particolar modo con i legami con questioni come la privacy, la nostra reputazione, il controllo dei dati da parte delle grandi società IT, etc.. Nicita e Delmastro sono economisti e, tra le altre cose, hanno entrambi ricoperto ruoli di alto livello presso l’Autorità per le garanzie nella comunicazioni (AGCOM).
 
-- [Democrazia e potere dei dati - _Antonello Soro_][democraziaepoterelink] <br>
+- [**Democrazia e potere dei dati** - _Antonello Soro_][democraziaepoterelink] <br>
 Un buon data scientist deve porsi delle domande che vadano oltre le sue mansioni prettamente tecniche e operative. Un’area dove è necessario porsi delle domande è senz’altro quella del rapporto tra “potere dei dati” e democrazia. Questo libro è un validissimo punto di partenza.
 
-- [La società calcolabile e i big data - _Domenico Talia_][lasocietacalcolabilelink] <br>
+- [**La società calcolabile e i big data** - _Domenico Talia_][lasocietacalcolabilelink] <br>
 Il sottotitolo di questo è “algoritmi e persone nel mondo digitale”. Molto bello, leggero, stimolante. Lettura da sotto l’ombrellone.
 
-- [The art of statistics: learning from data - _David Spiegelhalter_][theartofstatisticslink] <br>
+- [**The art of statistics: learning from data** - _David Spiegelhalter_][theartofstatisticslink] <br>
 Libro recente, uscito a febbraio 2020. Aiuta a porsi le giuste domande e a “farsi amica” la statistica. Molto consigliato.
 
-- [Artificial Intelligence: a guide for thinking humans - _Melanie Mitchell_][aiaguideforlink] <br>
+- [**Artificial Intelligence: a guide for thinking humans** - _Melanie Mitchell_][aiaguideforlink] <br>
 Questo libro aiuta a capire quali sono le implicazioni dell’intelligenza artificiale (e quindi in maniera indiretta dell’utilizzo intensivo dei dati), nella vita di tutti i giorni. [Melanie Mitchell][mitchellwikilink] è una ricercatrice molto attiva nell’ambito dell’artificial intelligens
 
-- [The book of why: the new science of cause and effect - _Juda Pearl e Dana Mackenzie_][thebookofwhylink] <br>
+- [**The book of why: the new science of cause and effect** - _Juda Pearl e Dana Mackenzie_][thebookofwhylink] <br>
 Moltissime delle cose che ci capitano ogni giorno sono subordinate ad un rapporto di "causa - effetto" talvolta a noi sconosciuto. Comprendere a fondo il concetto di causalità rispetto al concetto di correlazione, ad esempio, è davvero importante per saper interpretare correttamente dei dati. Il libro poi affronta moltre altre questioni e aiuta il lettore a ragionare su questioni chiave. Ritengo questa lettura molto importante per un _data scientist_.
 
-- [Il segnale e il rumore - _Nate Silver_][ilsegnalelink] <br>
+- [**Il segnale e il rumore** - _Nate Silver_][ilsegnalelink] <br>
 Un libro molto importante. Non può mancare nella libreria di un vero _data expert_!
 
 [aiexpertlink]: https://www.francoangeli.it/Ricerca/scheda_libro.aspx?Id=25635

@@ -30,11 +30,13 @@ Ritengo che il percorso accademico che ho fatto mi abbia fornito fondamenta soli
 
 Per questo frequento spesso piattaforme come [Coursera][CourseraLink] e [DataCamp][DataCampLink], grazie a cui posso continuare a dedicare parte del mio tempo alla formazione. Attraverso queste piattaforme ho potuto seguire i seguenti corsi (e ottenere le relative certificazioni):
 
-- **Managing Big Data in Clusters and Cloud Storage** (Coursera) - *in corso*
-- **AI for Everyone** (Coursera) - Giu 2020
-- **Analyzing Big Data with SQL** (Coursera) - Giu 2020
+- **Managing Big Data in Clusters and Cloud Storage** (Cloudera) - *in corso*
+- **Agile with Atlassian Jira** (Atlassian) - Set 2020
+- **AI for Everyone** (deeplearning.ai) - Giu 2020
+- **Analyzing Big Data with SQL** (Cloudera) - Giu 2020
 - **Introduction to Python** (DataCamp) - Dic 2019
 - **Introduction to R** (DataCamp) - Mag 2019
+
 
 Oltre allo studio e al lavoro
 ---------------------------
