@@ -16,7 +16,7 @@ layout: default
     <hr>
     <br>
 
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
 
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -29,10 +29,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-
-
         {{ post.excerpt }}
-
         {% if post.excerpt != post.content %}
     <a href="{{ site.baseurl }}{{ post.url }}"><i>Leggi l'articolo</i></a>
 {% endif %}

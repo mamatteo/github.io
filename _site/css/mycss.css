@@ -177,7 +177,7 @@ figcaption {
 .post-meta {font-size: 12px; font-style: regular; color: #828282;}
 
 /** Impostazioni grafiche dei titoli dei post in homepage */
-.post-link { display: block; font-size: 24px; font-weight: bold; font-family: 'Merriweather', 'Lyon Text OSF Web', 'Quicksand', sans-serif; color: #0049B0;}
+.post-link { display: block; font-size: 24px; font-weight: bold; font-family: 'Merriweather', 'Lyon Text OSF Web', 'Quicksand', sans-serif; color: #0049B0; height: 27px;}
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
