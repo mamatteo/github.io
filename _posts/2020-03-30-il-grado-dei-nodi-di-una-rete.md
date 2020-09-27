@@ -5,7 +5,9 @@ date:   2020-03-30
 categories: networkscience
 permalink: /:categories/:title
 ---
+<div id="your_col">
 <p class="abstract">Il grado di un nodo è una proprietà fondamentale della teoria delle reti. In questo articolo, dopo aver enunciato alcune definizioni formali, veranno presentate diverse situazioni in cui questo concetto gioca un ruolo importante. L'intento finale è quello di capire in che modo le conessioni tra nodi giocano un ruolo importante sia a livello locale, sia a livello globale.</p>
+</div>
 
 Il grado di un nodo
 -----------------------
