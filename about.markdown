@@ -28,7 +28,7 @@ Formazione
 ---------------------------
 **Ho frequentato la [Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
 
-A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”. La tesi è stata pubblicata all'interno della [Collana Scientifica dell'Autorità Nazionale Anticorruzione][collanascientificaAnac] come "_working paper_", un testo pronto ad essere discusso recependo le osservazioni di altri studiosi e in cui già sono state accolte ed integrate una serie di modifiche suggerite dal confronto avvenuto con i componenti del Comitato scientifico della Collana ANAC.
+A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”. La tesi è stata pubblicata all'interno della [Collana Scientifica dell'Autorità Nazionale Anticorruzione][collanascientificaAnac] come "_working paper_".
 
 Ritengo che il percorso accademico che ho fatto mi abbia fornito fondamenta solide sul quale costruire il mio futuro professionale. Tuttavia, il mondo della tecnologia e dell'informatica nel quale opero, richiede un aggiornamento ed un miglioramento continuo delle p\roprie _skill_.
 
@@ -41,7 +41,6 @@ Per questo frequento spesso piattaforme come [Coursera][CourseraLink] e [DataCam
 - **Managing Big Data in Clusters and Cloud Storage** (Cloudera) - *in corso*
 - **Analyzing Big Data with SQL** (Cloudera) - Giu 2020
 - **AI for Everyone** (deeplearning.ai) - Giu 2020
-
 
 <font color="#0049B0">Data Science</font>
 - **Introduction to Python** (DataCamp) - Dic 2019
