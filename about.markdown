@@ -26,7 +26,7 @@ Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzi
 
 Formazione
 ---------------------------
-**Ho frequentato la [Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
+Ho frequentato la **[Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
 
 A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”. La tesi è stata pubblicata all'interno della [Collana Scientifica dell'Autorità Nazionale Anticorruzione][collanascientificaAnac] come "_working paper_".
 
