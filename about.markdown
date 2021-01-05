@@ -24,9 +24,9 @@ Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzi
 
 Formazione
 ---------------------------
-**Attualmente sono uno studente della [Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali.
+**Ho frequentato la [Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
 
-A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”.
+A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”. La tesi è stata pubblicata all'interno della [Collana Scientifica dell'Autorità Nazionale Anticorruzione][[collanascientificaAnac] come "_working paper_", un testo pronto ad essere discusso recependo le osservazioni di altri studiosi e in cui già sono state accolte ed integrate una serie di modifiche suggerite dal confronto avvenuto con i componenti del Comitato scientifico della Collana ANAC.
 
 Ritengo che il percorso accademico che ho fatto mi abbia fornito fondamenta solide sul quale costruire il mio futuro professionale. Tuttavia, il mondo della tecnologia e dell'informatica nel quale opero, richiede un aggiornamento ed un miglioramento continuo delle p\roprie _skill_.
 
@@ -63,6 +63,7 @@ Nel 2014 **ho ricevuto il premio “[Giovane Talento][giovanetalentolink]” dal
 
 **Scrivo da quando ero bambino**: su un diario analogico (che tengo gelosamente privato) e su alcuni “diari digitali”: [il mio blog storico][matteotroialink], sincronizzato (talvolta con un po' di latenza) con il [mio profilo Medium][Mediumlink] e qui, su queste pagine, dove però mi diletto con un po' di cose da _nerd_.
 
+[collanascientificaAnac]: http://www.anticorruzione.it/portal/public/classic/Attivitadocumentazione/Pubblicazioni/Collanascientifica
 [fsds]: https://www.fullstackdata.school/
 [Mediumlink]: https://medium.com/@matteotr
 [matteotroialink]: http://www.matteotroia.it
