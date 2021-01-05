@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 Mi chiamo Matteo, e sono un informatico.
+<br>
 
 Esperienze professionali
 ---------------------------
@@ -21,6 +22,7 @@ Da novembre 2016 a marzo 2018 **ho lavorato come _Data Analyst_ nella [Commissio
 Durante questi anni sono stato coivolto in alcune attività di docenza presso il [Centro di Competenza per la Pubblica Amministrazione][ComPALink] del Friuli Venezia Giulia, in qualità di docente di una serie di percorsi formativi rivolti a dipendenti pubblici su tematiche legate agli _open data_.
 
 Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzione della conoscenza"_, presso l'Università "Cà Foscari" di Venezia, all'interno del corso di _Data Management_ tenuto dal Prof. Gianluigi Cogo.
+<br>
 
 Formazione
 ---------------------------
@@ -47,7 +49,7 @@ Per questo frequento spesso piattaforme come [Coursera][CourseraLink] e [DataCam
 
 <font color="#0049B0">Agile development</font>
 - **Agile with Atlassian Jira** (Atlassian) - Set 2020
-
+<br>
 
 Oltre allo studio e al lavoro
 ---------------------------
