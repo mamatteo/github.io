@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-27T14:54:41+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">#AI Expert, recensione del libro</title><link href="http://localhost:4000/recensioni/aiexpert-recensione-del-libro" rel="alternate" type="text/html" title="#AI Expert, recensione del libro" /><published>2020-04-06T00:00:00+02:00</published><updated>2020-04-06T00:00:00+02:00</updated><id>http://localhost:4000/recensioni/aiexpert-recensione-del-libro</id><content type="html" xml:base="http://localhost:4000/recensioni/aiexpert-recensione-del-libro">&lt;div id=&quot;your_col&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T17:08:45+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matteo Troìa</title><subtitle></subtitle><entry><title type="html">La percolazione delle reti</title><link href="http://localhost:4000/informatica/componenti-robustezza-e-percolazione-delle-reti" rel="alternate" type="text/html" title="La percolazione delle reti" /><published>2020-09-09T00:00:00+02:00</published><updated>2020-09-09T00:00:00+02:00</updated><id>http://localhost:4000/informatica/componenti-robustezza-e-percolazione-delle-reti</id><content type="html" xml:base="http://localhost:4000/informatica/componenti-robustezza-e-percolazione-delle-reti">&lt;p class=&quot;abstract&quot;&gt;Inserire abstract&lt;/p&gt;
+
+&lt;h2 id=&quot;dalla-struttura-di-una-rete-al-comportamento-che-essa-rappresenta&quot;&gt;Dalla struttura di una rete al comportamento che essa rappresenta&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www-personal.umich.edu/~mejn/&quot;&gt;M. Newman&lt;/a&gt; sostiene che l’obbiettivo finale nello studio delle reti è quello di comprendere meglio il comportamento che la rete rappresenta. Ad esempio infatti, studiamo la rete internet per comprendere meglio come e dove si sposta il traffico di rete. Studiamo le reti metaboliche per provare a migliorare le nostre conoscenze sui complessi processi chimici che avvengono nelle cellule.&lt;/p&gt;
+
+&lt;p&gt;Negli articoli precedenti, abbiamo esplorato alcuni concetti &lt;em&gt;strutturali&lt;/em&gt; delle reti. Essi rappresentano solo il primo passo dell’analisi che ci prefiggiamo di fare.&lt;/p&gt;
+
+&lt;p&gt;Il nostro obbiettivo sarà ora capire come, a partire da alcune considerazioni strutturali delle reti, possiamo risalire al comportamento dell’intero sistema in esame.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-percolazione&quot;&gt;La percolazione&lt;/h2&gt;
+&lt;p&gt;Il processo che verrà illustrato in questo post prende il nome di &lt;em&gt;percolazione&lt;/em&gt;. La percolazione rappresenta uno dei processi su reti più semplici da studiare, e si configura come un ottimo modello di robustezza di una rete nel caso in cui alcune componenti di quest’ultima si guastino.&lt;/p&gt;
+
+&lt;p&gt;Immaginiamo di eliminare da una rete una frazione dei suoi vertici e di conseguenza gli archi ad essi collegati. Questo processo è detto &lt;font color=&quot;#f7246a&quot;&gt;percolazione&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nella figura che segue alla rete (a) sono stati rimossi una serie di vertici (b). L’eliminazione dei vertici ha eliminato di conseguenza gli archi ad essi collegati.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/perc01.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Un esempio reale del fenomeno della percolazione riguarda la vaccinazione degli individui contro una malattia contagiosa. Le malattie contagiose prosperano nelle reti molto connesse. Il vaccino in questo senso rappresenta simbolicamente la rimozione di un nodo dalla rete; in questa maniera alla malattia viene impedito di progredire lungo quel cammino.&lt;/p&gt;
+
+&lt;p&gt;Guardiamo la figura (a) che segue. Immaginiamo che il nodo N6 sia vaccinato e che, allo stesso tempo, il nodo N1 contagia il nodo N4 e il nodo N4 contagia il nodo N3.&lt;/p&gt;
+
+&lt;p&gt;L’effetto del vaccino sul nodo N6 equivale alla rimozione di quel nodo dalla rete. Di conseguenza senza il nodo N6 non esiste l’arco (N3, N6) e il contagio si interrompe. A tal proposito si noti come per solo fatto di aver “rimosso” il nodo N6 dalla rete, anche tutti i nodi ad esso collegati sono automaticamente protetti dalla malattia (b).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/perc02.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;La possibilità di vaccinare una ristretta cerchia di nodi significativi di una rete, talvolta permette di evitare la diffusione della malattia a grandi comunità della rete. Questo concetto è noto come &lt;em&gt;knock-on effect&lt;/em&gt; (effetto a catena).&lt;/p&gt;
+
+&lt;p&gt;È facile constatare che se per una rete di individui coinvolti in una malattia, la rimozione (tramite la vaccinazione) di uno o più nodi garantisce un beneficio ai nodi coinvolti in quella rete, non si può dire lo stesso, ad esempio, per una rete ferroviaria.&lt;/p&gt;
+
+&lt;p&gt;La “rimozione” di una o più stazioni coinvolte in una tratta arreca un danno per i treni che quella tratta la devono percorrere. Ciò che si ottiene sono una serie a cascata di ritardi e rallentamenti che certo non fanno felici i passeggeri.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La teoria della percolazione si preoccupa di capire come gli effetti a catena dovuti alla rimozione o alla rottura di alcuni nodi, influenzano il comportamento della rete.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In determinati contesti, ad essere rimossi non sono i nodi, ma gli archi. Si pensi ad esempio ad una rete internet dove a rompersi non è uno o più router ma uno o più cavi di connessione. Dalla fisica ereditiamo due modi diversi di riferirci alla percolazione a seconda dell soggetto che viene rimosso: parleremo di &lt;font color=&quot;#f7246a&quot;&gt;site percolation&lt;/font&gt; se sono stati rimossi dei nodi, mentre parleremo di &lt;font color=&quot;#f7246a&quot;&gt;bond percolation&lt;/font&gt; se sono stati rimossi degli archi.&lt;/p&gt;
+
+&lt;p&gt;In questo articolo, ci riferiremo in particolar modo alla &lt;em&gt;site percolation&lt;/em&gt;, ovvero alla rimozione di vertici. La &lt;em&gt;bond percolation&lt;/em&gt; (rimozione di archi), avrà un ruolo determinante nello studio della diffusione delle malattie. Di questo ce ne occuperemo più avanti.&lt;/p&gt;
+
+&lt;p&gt;Consideriamo una rete in uci rimuoviamo in maniera casuale (a &lt;em&gt;random&lt;/em&gt;) alcuni dei suoi vertici. È bene constatare che in molti reti reali, &lt;em&gt;rimuovere&lt;/em&gt; un vertice non significa necessariamente eliminarlo fisicamente dalla rete: basta infatti che questo si guasti ed è come se fosse stato fisicamente rimosso.&lt;/p&gt;
+
+&lt;h2 id=&quot;parametrizziamo-la-percolzione-con-la-probabilità-phi&quot;&gt;Parametrizziamo la percolzione con la probabilità &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;&lt;/h2&gt;
+&lt;p&gt;Indichiamo con &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; la probabilità che un vertice sia presente e funzionante all’interno di una rete. Nel gergo della teoria della percolazione si usa definire occupati i vertici di una rete e &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; è detta “probabilità di occupazione”.&lt;/p&gt;
+
+&lt;p&gt;Quindi, &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; = 1 indica che tutti i vertici di una determinata rete sono occupati, ovvero che non è stato rimosso alcun vertice. Viceversa &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; = 0 indica che nessun vertice è occupato: concluderemo in questo caso che tutti i vertici sono stati rimossi.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/media/images/perc03.svg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Dalle quattro figure riportate qui sopra è facile vedere come si riduce la probabilità &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; man mano che la rete perde nodi. Rispetto alle quattro immagini riportate, due meritano una particolare attenzione. Nella figura &lt;em&gt;b&lt;/em&gt; si può osservare come la rimozione dei vertici N1, N2 e N9, non ha alcun effetto sul resto della rete. In altre parole: i nodi funzionanti continuano a poter dialogare fra loro nonsotante abbiano perso la connessione con i tre nodi guasti.&lt;/p&gt;
+
+&lt;p&gt;La figura &lt;em&gt;c&lt;/em&gt; illustra invece un caso più grave. La rimozione dalla rete dei nodi N1, N2, N4, N6, N7 e N9 causa una disconessione della rete stessa. In particolare, il nodo N6, guastandosi, scollega il nodo N3 dal resto della rete e impedisce a quest’ultimo di dialogare con i nodi N5 e N8. Anche questi ultimi, inizialmente connessi in via indiretta, si trovano così senza più cammini che li possano mettere in connessione.&lt;/p&gt;
+
+&lt;p&gt;Questo semplice esempio ci mette in guardia da un fatto molto importante: &lt;strong&gt;esitono percolazioni più gravi di altre, dove per “più gravi” intendiamo dire che esistono delle rimozioni di vertici che hanno delle dirette conseguenze sui vertici ancora funzionanti di una rete.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Inserire abstract</summary></entry><entry><title type="html">#AI Expert, recensione del libro</title><link href="http://localhost:4000/recensioni/aiexpert-recensione-del-libro" rel="alternate" type="text/html" title="#AI Expert, recensione del libro" /><published>2020-04-06T00:00:00+02:00</published><updated>2020-04-06T00:00:00+02:00</updated><id>http://localhost:4000/recensioni/aiexpert-recensione-del-libro</id><content type="html" xml:base="http://localhost:4000/recensioni/aiexpert-recensione-del-libro">&lt;div id=&quot;your_col&quot;&gt;
 &lt;p class=&quot;abstract&quot;&gt; Una recensione del libro &quot;AI Expert - Architetti del futuro&quot;, di Alessandro Giaume e Stefano Gatti, con un elenco delle cose che più mi sono piaciute.&lt;/p&gt;
 &lt;/div&gt;
 
