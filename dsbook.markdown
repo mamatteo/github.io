@@ -14,7 +14,7 @@ Alcuni libri che ho letto sul mondo della _data science_ e che mi sento di consi
 
 <br>
 
-- [**Factfulness** - _Hans Rosling_][factfulnesslink] <br>
+- [NEW: **Factfulness** - _Hans Rosling_][factfulnesslink] <br>
 In sintesi prova a convincerci che il mondo non sta andando a rotoli come probabilmente ciascuno di noi pensa. Nel dettaglio prova ad affrontare dieci grandi "istinti" che condizionano in negativo il nostro modo di relazionarci alle cose che accadono attorno a noi. È un libro interessante perché ci apre nuovi orizzonti, ci insegna molte cose nuove, documentando minuziosamente tutto ciò che viene scritto. Lo ha letto anche Bill Gates... forse questo potrebbe essere un incentivo affinché lo legga anche tu!
 
 - [**AI Expert, Architetti del Futuro** - _Alessandro Giaume e Stefano Gatti_][aiexpertlink] <br>
