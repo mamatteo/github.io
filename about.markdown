@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Mi chiamo Matteo, e sono un informatico.
+Mi chiamo Matteo, e sono un informatico, appassionato di dati.
 <br>
 
 Esperienze professionali
 ---------------------------
-Da marzo 2020 **lavoro come _Data Engineer_ nella _global practice_ "Insights & Data" di [Capgemini][Capgemini], società multinazionale leader nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni**, presente in [40 diversi paesi del mondo][CapgeminiOffice], con oltre 270.000 dipendenti.
+Da marzo 2020 **lavoro come _Data Engineer_ nella _global practice_ "Insights & Data" di [Capgemini][Capgemini], società multinazionale leader nei servizi di consulenza, tecnologia e trasformazione digitale di imprese e pubbliche amministrazoni**.
 
-Mi occupo di _Big Data_ e _Business Intelligence_. Il mio lavoro riguarda l'estrazione e la trasformazione di grandi quantità di dati ai fini di renderli fruibili da strumenti di _data visualization_, così da trasformare i dati grezzi in _actionable insights_, tramite le quali l'azienda prende decisioni strategiche per il proprio _business_.
+Mi occupo di _Big Data_ e _Business Intelligence_, tramite un lavoro di _data preparation_ che opera su diverse sorgenti dati, al fine di renderle fruibili da strumenti di _data visualization_ e reportistica. Lavoro con il framework Hadoop, e con alcuni prodotti del suo ecosistema (Hive/Impala).
 
 In precedenza ho maturato un’esperienza nel mondo dell’innovazione e della digitalizzazione della pubblica amministrazione italiana.
 
