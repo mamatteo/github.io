@@ -26,11 +26,14 @@ Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzi
 
 Formazione
 ---------------------------
+**[Corso Big Data - Capgemini]** (6 ore)
+Principi di funzionamento di Hadoop (HDFS, MR v1.0/v2.0, YARN, Zookeeper, Spark), Ecosistema applicativo dei Big Data (Hive, HCatalog, Tez, Impala, HBase, Oozie, Sqoop, Kafka, Kerberos, Sentry, Ranger), Ottimizzazione performance (ORC, Parquet, Avro), Hadoop Cluster Configuration & Mon- itoring, Datalake e Streaming.
+
 Ho frequentato la **[Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
 
 A marzo 2020 ho ottenuto la **Laurea Magistrale in Informatica presso l'[Università degli Studi di Udine][informaticauniudlink]**, discutendo una tesi intitolata “_Data analysis e costruzione di indicatori di rischio corruzione per la Banca Dati Nazionale dei Contratti Pubblici_”. La tesi è stata pubblicata all'interno della [Collana Scientifica dell'Autorità Nazionale Anticorruzione][collanascientificaAnac] come "_working paper_".
 
-Ritengo che il percorso accademico che ho fatto mi abbia fornito fondamenta solide sul quale costruire il mio futuro professionale. Tuttavia, il mondo della tecnologia e dell'informatica nel quale opero, richiede un aggiornamento ed un miglioramento continuo delle p\roprie _skill_.
+Ritengo che il percorso accademico che ho fatto mi abbia fornito fondamenta solide sul quale costruire il mio futuro professionale. Tuttavia, il mondo della tecnologia e dell'informatica nel quale opero, richiede un aggiornamento ed un miglioramento continuo delle proprie _skill_.
 
 Per questo frequento spesso piattaforme come [Coursera][CourseraLink] e [DataCamp][DataCampLink], grazie a cui posso continuare a dedicare parte del mio tempo alla formazione. Attraverso queste piattaforme ho potuto seguire i seguenti corsi (e ottenere le relative certificazioni):
 
