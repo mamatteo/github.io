@@ -45,7 +45,7 @@ Il sottotitolo di questo è “algoritmi e persone nel mondo digitale”. Molto 
 Libro recente, uscito a febbraio 2020. Aiuta a porsi le giuste domande e a “farsi amica” la statistica. Molto consigliato.
 
 - [**Artificial Intelligence: a guide for thinking humans** - _Melanie Mitchell_][aiaguideforlink] <br>
-Questo libro aiuta a capire quali sono le implicazioni dell’intelligenza artificiale (e quindi in maniera indiretta dell’utilizzo intensivo dei dati), nella vita di tutti i giorni. [Melanie Mitchell][mitchellwikilink] è una ricercatrice molto attiva nell’ambito dell’artificial intelligens
+Questo libro aiuta a capire quali sono le implicazioni dell’intelligenza artificiale (e quindi in maniera indiretta dell’utilizzo intensivo dei dati), nella vita di tutti i giorni. [Melanie Mitchell][mitchellwikilink] è una ricercatrice molto attiva nell’ambito dell’artificial intelligence.
 
 - [**The book of why: the new science of cause and effect** - _Juda Pearl e Dana Mackenzie_][thebookofwhylink] <br>
 Moltissime delle cose che ci capitano ogni giorno sono subordinate ad un rapporto di "causa - effetto" talvolta a noi sconosciuto. Comprendere a fondo il concetto di causalità rispetto al concetto di correlazione, ad esempio, è davvero importante per saper interpretare correttamente dei dati. Il libro poi affronta moltre altre questioni e aiuta il lettore a ragionare su questioni chiave. Ritengo questa lettura molto importante per un _data scientist_.
