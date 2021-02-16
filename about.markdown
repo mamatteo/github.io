@@ -26,8 +26,7 @@ Nel mese di luglio 2018 ho tenuto una lezione intitolata _"Big Data, la rivoluzi
 
 Formazione
 ---------------------------
-**[Corso Big Data - Capgemini]** (6 ore)
-Principi di funzionamento di Hadoop (HDFS, MR v1.0/v2.0, YARN, Zookeeper, Spark), Ecosistema applicativo dei Big Data (Hive, HCatalog, Tez, Impala, HBase, Oozie, Sqoop, Kafka, Kerberos, Sentry, Ranger), Ottimizzazione performance (ORC, Parquet, Avro), Hadoop Cluster Configuration & Monitoring, Datalake e Streaming.
+Nel mese di febbraio 2021, ho frequentato un corso sui **Big Data e l'ecosistema Hadoop** organizzato da Capgemini. Di seguito gli argomenti affrontati. Principi di funzionamento di Hadoop (HDFS, MR v1.0/v2.0, YARN, Zookeeper, Spark), Ecosistema applicativo dei Big Data (Hive, HCatalog, Tez, Impala, HBase, Oozie, Sqoop, Kafka, Kerberos, Sentry, Ranger), Ottimizzazione performance (ORC, Parquet, Avro), Hadoop Cluster Configuration & Monitoring, Datalake e Streaming.
 
 Ho frequentato la **[Full Stack Data School][fsds]**, la palestra italiana di _data science_ e _data engineering_ italiana, organizzata e gestita da professionisti di importanti aziende nazionali e internazionali. Questo percorso di formazione ha avuto la durata di 9 settimane, ed è stato condotto da importanti docenti e manager italiani.
 
