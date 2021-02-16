@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Mi chiamo Matteo, e sono un informatico, appassionato di dati.
+Mi chiamo Matteo. Sono un informatico appassionato di dati.
 <br>
 
 Esperienze professionali
